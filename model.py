@@ -2,18 +2,21 @@ from pyomo.environ import *
 infinity = float('inf')
 model = AbstractModel(name='OR2 project')
 
-
+#parameters
+M = 999999999
+epsilon = 1e-9
+model.max_cost_without_priority = 80
 
 #Sets
 model.Ships = Set()
 model.Berths = Set()
 
-#Parameters
-model.berthSize= Param(model.Berths,within=NonNegativeIntegers)
+#Model parameters
+model.berthNumberOfAnchs = Param(model.Berths,within=NonNegativeIntegers)
 model.sheepLength = Param(model.Ships, within=NonNegativeReals,default=infinity)
 model.berthMaxCapacityIncrease = Param(model.Berths, within=NonNegativeReals)
-model.berthLag= Param(model.Berths, within=NonNegativeReals)
-model.berthCapacity = Param(model.Berths, within=NonNegativeReals)
+model.berthLag = Param(model.Berths, within=NonNegativeReals)
+model.berthCapacity = Param(model.Berths, within=NonNegativeIntegers)
 model.berthLength = Param(model.Berths,within=NonNegativeReals)
 model.shipArrivalTime = Param(model.Ships, model.Berths, within=NonNegativeReals)
 model.unloadShipInAnchTime = Param(model.Ships,model.Berths,within=NonNegativeReals)
@@ -25,19 +28,95 @@ model.shipPriority= Param(model.Ships, within= NonNegativeReals)
 #Variables
 model.berthCapIncrease = Var(model.Berths, within=NonNegativeIntegers)
 model.shipWaitingTime = Var(model.Ships, within=NonNegativeReals)
+model.shipWaitingTime_parts = Var([1,2,3],model.Ships,within=NonNegativeReals)
+model.shipWaitingTime_binary_helpers = Var([1,2],model.Ships,within=Binary)
 model.shipCostOfWaiting = Var(Model.Ships,within=NonNegativeReals)
 model.shipAssignment = Var(model.Ships,model.Berths,within=Binary)
 
 #Constraints
 #1-each ship is assigned to one berth
-def ship_assignment_rule1(model,i):
+def ship_assignment_rule_top(model,i):
     return sum(model.shipAssignment[i,j] for j in model.Berths) <= 1
-def ship_assignment_rule2(model,i):
+def ship_assignment_rule_bottom(model,i):
     return sum(model.shipAssignment[i,j] for j in model.Berths) >= 1
-model.ship_assignment_limit1 = Constraint(model.Ships,rule=ship_assignment_rule1)
-model.ship_assignment_limit2 = Constraint(model.Ships,rule=ship_assignment_rule2)
+model.ship_assignment_limit_top = Constraint(model.Ships,rule=ship_assignment_rule_top)
+model.ship_assignment_limit_bottom = Constraint(model.Ships,rule=ship_assignment_rule_bottom)
 
-#2-
+#2-rules for cost of waiting
+def cost_sum_rule_bottom(model,i):
+    return model.shipCostOfWaiting[i] >= 25*model.shipWaitingTime_parts[1,i]+\
+                                         10*model.shipWaitingTime_parts[2,i]+\
+                                         5*model.shipWaitingTime_parts[3,i]
+model.cost_sum_limit_bottom = Constraint(model.Ships,rule=cost_sum_rule_bottom)
+
+def cost_sum_rule_top(model,i):
+    return model.shipCostOfWaiting[i] <= 25*model.shipWaitingTime_parts[1,i]+\
+                                         10*model.shipWaitingTime_parts[2,i]+\
+                                         5*model.shipWaitingTime_parts[3,i]
+model.cost_sum_limit_top = Constraint(model.Ships,rule=cost_sum_rule_top)
+
+def waiting_sum_rule_bottom(model,i):
+    return model.shipWaitingTime[i] >= model.shipWaitingTime_parts[1,i]+\
+                                       model.shipWaitingTime_parts[2,i]+\
+                                       model.shipWaitingTime_parts[3,i]
+model.waiting_sum_limit_bottom = Constraint(model.Ships,rule=waiting_sum_rule_bottom)
+
+def waiting_sum_rule_top(model,i):
+    return model.shipWaitingTime[i] <= model.shipWaitingTime_parts[1,i]+\
+                                       model.shipWaitingTime_parts[2,i]+\
+                                       model.shipWaitingTime_parts[3,i]
+model.waiting_sum_limit_top = Constraint(model.Ships,rule=waiting_sum_rule_top)
+
+def cost_part1_bottom(model,i):
+    return 10*model.shipWaitingTime_binary_helpers[1,i] <= model.shipWaitingTime_parts[1,i]
+model.cost_part1_bottom_limit = Constraint(model.Ships,rule=cost_part1_bottom)
+
+def cost_part1_top(model,i):
+    return 10 >= model.shipWaitingTime_parts[1,i]
+model.cost_part1_top_limit = Constraint(model.Ships,rule=cost_part1_top)
+
+def cost_part2_bottom(model,i):
+    return 30*model.shipWaitingTime_binary_helpers[2,i] <= model.shipWaitingTime_parts[2,i]
+model.cost_part2_bottom_limit = Constraint(model.Ships,rule=cost_part2_bottom)
+
+def cost_part2_top(model,i):
+    return 30*model.shipWaitingTime_binary_helpers[1,i] >= model.shipWaitingTime_parts[2,i]
+model.cost_part2_top_limit = Constraint(model.Ships,rule=cost_part2_top)
+
+def cost_part3_top(model,i):
+    return 30*model.shipWaitingTime_binary_helpers[2,i] >= model.shipWaitingTime_parts[3,i]
+model.cost_part3_top_limit = Constraint(model.Ships,rule=cost_part3_top)
+
+def max_cost_rule(model,i):
+    return model.shipWaitingTime[i] <= (1-model.shipPriority[i])*model.max_cost_without_priority
+model.max_cost_limit = Constraint(model.Ships,rule=max_cost_rule)
+
+
+#3-maximum increase
+def cap_increase_rule(model,j):
+    return model.berthCapIncrease[j] <= model.berthMaxCapacityIncrease[j]
+model.cap_increase_limit = Constraint(model.Berths, rule=cap_increase_rule)
+
+#4-berth limit of unloaded containers
+def berth_unload_rule(model, j):
+    return sum(model.shipAssignment[i,j]*model.shipCargoSize[i] for i in model.Ships) <= \
+           model.berthCapacity[j]+model.berthCapIncrease[j]
+model.berth_unload_limit = Constraint(model.Berths,rule=berth_unload_rule)
+
+#5-max berth anchs
+def max_anch_rule(model,j):
+    return sum(model.shipAssignment[i,j] for i in model.Ships) <= model.berthNumberOfAnchs[j]
+model.max_anch_limit = Constraint(model.Berths, rule=max_anch_rule)
+
+def min_anch_rule(model):
+    return sum(model.shipAssignment[i,3] for i in model.Ships) >= model.berthNumberOfAnchs[3]
+model.min_anch_limit = Constraint(rule=min_anch_rule)
+
+#6-length of ship and berth
+def length_of_berth_rule(model,i,j):
+    return model.shipAssignment[i,j]*model.shipLength[i] <= model.berthLength[j]
+model.length_of_berth_limit = Constraint(model.Ships,model.Berths,rule=length_of_berth_rule)
+
 
 #Objective-Cost
 def cost_rule(model):
