@@ -32,6 +32,7 @@ model.shipWaitingTime_parts = Var([1,2,3],model.Ships,within=NonNegativeReals)
 model.shipWaitingTime_binary_helpers = Var([1,2],model.Ships,within=Binary)
 model.shipCostOfWaiting = Var(Model.Ships,within=NonNegativeReals)
 model.shipAssignment = Var(model.Ships,model.Berths,within=Binary)
+model.shipUnloadStart = Var(model.Ships, within= NonNegativeReals)
 
 #Constraints
 #1-each ship is assigned to one berth
