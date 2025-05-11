@@ -30,7 +30,7 @@ model.berthCapIncrease = Var(model.Berths, within=NonNegativeIntegers)
 model.shipWaitingTime = Var(model.Ships, within=NonNegativeReals)
 model.shipWaitingTime_parts = Var([1,2,3],model.Ships,within=NonNegativeReals)
 model.shipWaitingTime_binary_helpers = Var([1,2],model.Ships,within=Binary)
-model.shipCostOfWaiting = Var(Model.Ships,within=NonNegativeReals)
+model.shipCostOfWaiting = Var(model.Ships,within=NonNegativeReals)
 model.shipAssignment = Var(model.Ships,model.Berths,within=Binary)
 model.shipUnloadStart = Var(model.Ships, within= NonNegativeReals)
 
@@ -117,6 +117,25 @@ model.min_anch_limit = Constraint(rule=min_anch_rule)
 def length_of_berth_rule(model,i,j):
     return model.shipAssignment[i,j]*model.shipLength[i] <= model.berthLength[j]
 model.length_of_berth_limit = Constraint(model.Ships,model.Berths,rule=length_of_berth_rule)
+
+# 7- Si>=Ei
+
+def unload_after_arrival_rule(model,i):
+    return model.shipUnloadStart[i] >= model.shipArrivalTime[i]
+model.unload_after_arrival_rule = Constraint(model.Ships, rule=unload_after_arrival_rule)
+ 
+#8- Wi = Si-Ei
+
+def wait_time_bottom_rule(model,i):
+    return model.shipWaitingTime[i] >= model.shipUnloadStart[i]-model.shipArrivalTime[i]
+
+model.wait_time_bottom_limit = Constraint(model.Ships, rule = wait_time_bottom_rule)
+
+
+def wait_time_top_rule(model,i):
+    return model.shipWaitingTime[i] <= model.shipUnloadStart[i]-model.shipArrivalTime[i]
+
+model.wait_time_top_limit = Constraint(model.Ships, rule = wait_time_top_rule)
 
 
 #Objective-Cost
