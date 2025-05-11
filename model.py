@@ -5,7 +5,7 @@ model = AbstractModel(name='OR2 project')
 #parameters
 M = 999999999
 epsilon = 1e-9
-model.max_cost_without_priority = 80
+model.max_cost_waiting_priority = 80
 
 #Sets
 model.Ships = Set()
@@ -18,10 +18,10 @@ model.berthMaxCapacityIncrease = Param(model.Berths, within=NonNegativeReals)
 model.berthLag = Param(model.Berths, within=NonNegativeReals)
 model.berthCapacity = Param(model.Berths, within=NonNegativeIntegers)
 model.berthLength = Param(model.Berths,within=NonNegativeReals)
-model.shipArrivalTime = Param(model.Ships, model.Berths, within=NonNegativeReals)
+model.shipArrivalTime = Param(model.Ships, within=NonNegativeReals)
 model.unloadShipInAnchTime = Param(model.Ships,model.Berths,within=NonNegativeReals)
 model.berthIncreaseCapCost = Param(model.Berths,within=NonNegativeReals)
-model.shipCargoSize = Param(model.Ships,within= NonNegativeReals)
+model.shipCargoSize = Param(model.Ships,within= NonNegativeIntegers)
 model.shipPriority= Param(model.Ships, within= NonNegativeReals)
 #model.shipLayoverCost = Param(model.Ships, model.Berths, within=NonNegativeReals)
 
@@ -87,9 +87,9 @@ def cost_part3_top(model,i):
     return 30*model.shipWaitingTime_binary_helpers[2,i] >= model.shipWaitingTime_parts[3,i]
 model.cost_part3_top_limit = Constraint(model.Ships,rule=cost_part3_top)
 
-def max_cost_rule(model,i):
-    return model.shipWaitingTime[i] <= (1-model.shipPriority[i])*model.max_cost_without_priority
-model.max_cost_limit = Constraint(model.Ships,rule=max_cost_rule)
+def max_waiting_rule(model,i):
+    return model.shipWaitingTime[i] <= (1-model.shipPriority[i])*model.max_waiting_without_priority
+model.max_waiting_limit = Constraint(model.Ships,rule=max_waiting_rule)
 
 
 #3-maximum increase
