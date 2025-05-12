@@ -3,7 +3,7 @@ infinity = float('inf')
 model = AbstractModel(name='OR2 project')
 
 #parameters
-M = 999999999
+model.M = 999999999
 epsilon = 1e-9
 model.max_cost_waiting_priority = 80
 
@@ -33,8 +33,47 @@ model.shipWaitingTime_binary_helpers = Var([1,2],model.Ships,within=Binary)
 model.shipCostOfWaiting = Var(model.Ships,within=NonNegativeReals)
 model.shipAssignment = Var(model.Ships,model.Berths,within=Binary)
 model.shipUnloadStart = Var(model.Ships, within= NonNegativeReals)
+model.shipiUnloadBeforekInBerth = Var(model.Ships,model.Ships,model.Berths,within=Binary)
+
 
 #Constraints
+#0- sequencing constraints.
+def sequencing_rule1(model, i, k, j):
+    if i == k:
+        return Constraint.Skip
+    return model.shipUnloadStart[k] >= model.shipUnloadStart[i] + model.unloadShipInAnchTime[i, j] +\
+           model.setup - model.M * (1 - model.shipiUnloadBeforekInBerth[i, k, j])
+model.Sequencing1 = Constraint(model.Ships, model.Ships, model.Berths, rule=sequencing_rule1)
+
+def sequencing_rule2(model, i, k, j):
+    if i == k:
+        return Constraint.Skip
+    return model.shipUnloadStart[i] >= model.shipUnloadStart[k] + model.unloadShipInAnchTime[k, j] +\
+           model.setup - model.M * model.shipiUnloadBeforekInBerth[i, k, j]
+model.Sequencing2 = Constraint(model.Ships, model.Ships, model.Berths, rule=sequencing_rule2)
+
+def z_activation1(model, i, k, j):
+    if i == k:
+        return Constraint.Skip
+    return model.shipiUnloadBeforekInBerth[i, k, j] <= model.x[i, j]
+model.ZActive1 = Constraint(model.Ships, model.Ships, model.Berths, rule=z_activation1)
+
+def z_activation2(model, i, k, j):
+    if i == k:
+        return Constraint.Skip
+    return model.shipiUnloadBeforekInBerth[i, k, j] <= model.x[k, j]
+model.ZActive2 = Constraint(model.Ships, model.Ships, model.Berths, rule=z_activation2)
+
+def symmetry_rule(model, i, k, j):
+    if i >= k:
+        return Constraint.Skip
+    return model.shipiUnloadBeforekInBerth[i, k, j] + model.shipiUnloadBeforekInBerth[k, i, j] <= 1
+model.ZSymmetry = Constraint(model.Ships, model.Ships, model.Berths, rule=symmetry_rule)
+
+#0-.1: ordering with priority
+
+
+
 #1-each ship is assigned to one berth
 def ship_assignment_rule_top(model,i):
     return sum(model.shipAssignment[i,j] for j in model.Berths) <= 1
