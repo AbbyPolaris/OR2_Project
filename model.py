@@ -13,7 +13,7 @@ model.Berths = Set()
 
 #Model parameters
 model.berthNumberOfAnchs = Param(model.Berths,within=NonNegativeIntegers)
-model.sheepLength = Param(model.Ships, within=NonNegativeReals,default=infinity)
+model.shipLength = Param(model.Ships, within=NonNegativeReals,default=infinity)
 model.berthMaxCapacityIncrease = Param(model.Berths, within=NonNegativeReals)
 model.berthLag = Param(model.Berths, within=NonNegativeReals)
 model.berthCapacity = Param(model.Berths, within=NonNegativeIntegers)
@@ -23,6 +23,7 @@ model.unloadShipInAnchTime = Param(model.Ships,model.Berths,within=NonNegativeRe
 model.berthIncreaseCapCost = Param(model.Berths,within=NonNegativeReals)
 model.shipCargoSize = Param(model.Ships,within= NonNegativeIntegers)
 model.shipPriority= Param(model.Ships, within= NonNegativeReals)
+model.shipPriorityMatrix = Param(model.Ships,model.Ships,within = Binary)
 #model.shipLayoverCost = Param(model.Ships, model.Berths, within=NonNegativeReals)
 
 #Variables
@@ -55,14 +56,21 @@ model.Sequencing2 = Constraint(model.Ships, model.Ships, model.Berths, rule=sequ
 def z_activation1(model, i, k, j):
     if i == k:
         return Constraint.Skip
-    return model.shipiUnloadBeforekInBerth[i, k, j] <= model.x[i, j]
+    return model.shipiUnloadBeforekInBerth[i, k, j] <= model.shipAssignment[i, j]
 model.ZActive1 = Constraint(model.Ships, model.Ships, model.Berths, rule=z_activation1)
 
 def z_activation2(model, i, k, j):
     if i == k:
         return Constraint.Skip
-    return model.shipiUnloadBeforekInBerth[i, k, j] <= model.x[k, j]
+    return model.shipiUnloadBeforekInBerth[i, k, j] <= model.shipAssignment[k, j]
 model.ZActive2 = Constraint(model.Ships, model.Ships, model.Berths, rule=z_activation2)
+
+def z_activation3(model, i, k, j):
+    if i == k:
+        return Constraint.Skip
+    return model.shipiUnloadBeforekInBerth[i, k, j] >= model.shipAssignment[k, j] + model.shipAssignment[i, j]- 1
+model.ZActive3 = Constraint(model.Ships, model.Ships, model.Berths, rule=z_activation3)
+
 
 def symmetry_rule(model, i, k, j):
     if i >= k:
@@ -71,6 +79,13 @@ def symmetry_rule(model, i, k, j):
 model.ZSymmetry = Constraint(model.Ships, model.Ships, model.Berths, rule=symmetry_rule)
 
 #0-.1: ordering with priority
+
+def priority_seq_rule(model, i, k, d):
+    if i != k:
+        return model.shipiUnloadBeforekInBerth[i, k, d] >= model.shipPriorityMatrix[i, k]
+    return Constraint.Skip
+
+model.PrioritySequencing = Constraint(model.Ships, model.Ships, model.Berths, rule=priority_seq_rule)
 
 
 
