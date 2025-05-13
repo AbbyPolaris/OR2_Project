@@ -5,7 +5,7 @@ model = AbstractModel(name='OR2 project')
 #parameters
 model.M = 999999999
 epsilon = 1e-9
-model.max_cost_waiting_priority = 80
+model.max_waiting_without_priority = 80
 
 #Sets
 model.Ships = Set()
@@ -43,14 +43,14 @@ def sequencing_rule1(model, i, k, j):
     if i == k:
         return Constraint.Skip
     return model.shipUnloadStart[k] >= model.shipUnloadStart[i] + model.unloadShipInAnchTime[i, j] +\
-           model.setup - model.M * (1 - model.shipiUnloadBeforekInBerth[i, k, j])
+           model.berthLag[j] - model.M * (1 - model.shipiUnloadBeforekInBerth[i, k, j])
 model.Sequencing1 = Constraint(model.Ships, model.Ships, model.Berths, rule=sequencing_rule1)
 
 def sequencing_rule2(model, i, k, j):
     if i == k:
         return Constraint.Skip
     return model.shipUnloadStart[i] >= model.shipUnloadStart[k] + model.unloadShipInAnchTime[k, j] +\
-           model.setup - model.M * model.shipiUnloadBeforekInBerth[i, k, j]
+           model.berthLag[j] - model.M * model.shipiUnloadBeforekInBerth[i, k, j]
 model.Sequencing2 = Constraint(model.Ships, model.Ships, model.Berths, rule=sequencing_rule2)
 
 def z_activation1(model, i, k, j):
@@ -164,7 +164,7 @@ def max_anch_rule(model,j):
 model.max_anch_limit = Constraint(model.Berths, rule=max_anch_rule)
 
 def min_anch_rule(model):
-    return sum(model.shipAssignment[i,3] for i in model.Ships) >= model.berthNumberOfAnchs[3]
+    return sum(model.shipAssignment[i,'B3'] for i in model.Ships) >= model.berthNumberOfAnchs['B3']
 model.min_anch_limit = Constraint(rule=min_anch_rule)
 
 #6-length of ship and berth
