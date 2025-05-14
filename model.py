@@ -51,7 +51,7 @@ def sequencing_rule2(model, i, k, j):
         return Constraint.Skip
     return model.shipUnloadStart[i] >= model.shipUnloadStart[k] + model.unloadShipInAnchTime[k, j] +\
            model.berthLag[j] - model.M * model.shipiUnloadBeforekInBerth[i, k, j]
-model.Sequencing2 = Constraint(model.Ships, model.Ships, model.Berths, rule=sequencing_rule2)
+#model.Sequencing2 = Constraint(model.Ships, model.Ships, model.Berths, rule=sequencing_rule2)
 
 def z_activation1(model, i, k, j):
     if i == k:
@@ -68,7 +68,8 @@ model.ZActive2 = Constraint(model.Ships, model.Ships, model.Berths, rule=z_activ
 def z_activation3(model, i, k, j):
     if i == k:
         return Constraint.Skip
-    return model.shipiUnloadBeforekInBerth[i, k, j] >= model.shipAssignment[k, j] + model.shipAssignment[i, j]- 1
+    return model.shipiUnloadBeforekInBerth[i, k, j]+model.shipiUnloadBeforekInBerth[k, i, j] >=\
+           model.shipAssignment[k, j] + model.shipAssignment[i, j] - 1
 model.ZActive3 = Constraint(model.Ships, model.Ships, model.Berths, rule=z_activation3)
 
 
@@ -82,11 +83,11 @@ model.ZSymmetry = Constraint(model.Ships, model.Ships, model.Berths, rule=symmet
 
 def priority_seq_rule(model, i, k, d):
     if i != k:
-        return model.shipiUnloadBeforekInBerth[i, k, d] >= model.shipPriorityMatrix[i, k]
+        return model.shipiUnloadBeforekInBerth[i, k, d] >= -2+model.shipPriorityMatrix[i, k]+model.shipAssignment[i,d]+\
+                                                                                             model.shipAssignment[k,d]
     return Constraint.Skip
 
 model.PrioritySequencing = Constraint(model.Ships, model.Ships, model.Berths, rule=priority_seq_rule)
-
 
 
 #1-each ship is assigned to one berth

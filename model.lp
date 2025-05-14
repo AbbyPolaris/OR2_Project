@@ -1393,1350 +1393,6 @@ c_u_Sequencing1(S8_S7_B4)_:
 +999999999 shipiUnloadBeforekInBerth(S8_S7_B4)
 <= 999999985.1217034
 
-c_u_Sequencing2(S1_S2_B1)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S2)
--999999999 shipiUnloadBeforekInBerth(S1_S2_B1)
-<= -15.42208767452046
-
-c_u_Sequencing2(S1_S2_B2)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S2)
--999999999 shipiUnloadBeforekInBerth(S1_S2_B2)
-<= -19.63345916809737
-
-c_u_Sequencing2(S1_S2_B3)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S2)
--999999999 shipiUnloadBeforekInBerth(S1_S2_B3)
-<= -19.55792689858562
-
-c_u_Sequencing2(S1_S2_B4)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S2)
--999999999 shipiUnloadBeforekInBerth(S1_S2_B4)
-<= -13.83742103292552
-
-c_u_Sequencing2(S1_S3_B1)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S3)
--999999999 shipiUnloadBeforekInBerth(S1_S3_B1)
-<= -16.64241639652046
-
-c_u_Sequencing2(S1_S3_B2)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S3)
--999999999 shipiUnloadBeforekInBerth(S1_S3_B2)
-<= -18.93420657209737
-
-c_u_Sequencing2(S1_S3_B3)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S3)
--999999999 shipiUnloadBeforekInBerth(S1_S3_B3)
-<= -18.32802488558562
-
-c_u_Sequencing2(S1_S3_B4)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S3)
--999999999 shipiUnloadBeforekInBerth(S1_S3_B4)
-<= -14.31554470392552
-
-c_u_Sequencing2(S1_S4_B1)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S4)
--999999999 shipiUnloadBeforekInBerth(S1_S4_B1)
-<= -16.272024015520458
-
-c_u_Sequencing2(S1_S4_B2)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S4)
--999999999 shipiUnloadBeforekInBerth(S1_S4_B2)
-<= -18.64148765209737
-
-c_u_Sequencing2(S1_S4_B3)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S4)
--999999999 shipiUnloadBeforekInBerth(S1_S4_B3)
-<= -18.93653588458562
-
-c_u_Sequencing2(S1_S4_B4)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S4)
--999999999 shipiUnloadBeforekInBerth(S1_S4_B4)
-<= -15.07200090792552
-
-c_u_Sequencing2(S1_S5_B1)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S1_S5_B1)
-<= -15.18805061052046
-
-c_u_Sequencing2(S1_S5_B2)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S1_S5_B2)
-<= -19.26350097809737
-
-c_u_Sequencing2(S1_S5_B3)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S1_S5_B3)
-<= -19.52963941158562
-
-c_u_Sequencing2(S1_S5_B4)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S1_S5_B4)
-<= -15.68708458892552
-
-c_u_Sequencing2(S1_S6_B1)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S1_S6_B1)
-<= -16.14874796252046
-
-c_u_Sequencing2(S1_S6_B2)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S1_S6_B2)
-<= -17.81634661609737
-
-c_u_Sequencing2(S1_S6_B3)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S1_S6_B3)
-<= -17.572923201585617
-
-c_u_Sequencing2(S1_S6_B4)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S1_S6_B4)
-<= -14.01625332192552
-
-c_u_Sequencing2(S1_S7_B1)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S1_S7_B1)
-<= -16.804098864520462
-
-c_u_Sequencing2(S1_S7_B2)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S1_S7_B2)
-<= -18.33354647409737
-
-c_u_Sequencing2(S1_S7_B3)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S1_S7_B3)
-<= -18.297104116585622
-
-c_u_Sequencing2(S1_S7_B4)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S1_S7_B4)
-<= -15.54470075692552
-
-c_u_Sequencing2(S1_S8_B1)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S1_S8_B1)
-<= -15.55082193152046
-
-c_u_Sequencing2(S1_S8_B2)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S1_S8_B2)
-<= -18.82578971809737
-
-c_u_Sequencing2(S1_S8_B3)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S1_S8_B3)
-<= -18.43687482858562
-
-c_u_Sequencing2(S1_S8_B4)_:
--1 shipUnloadStart(S1)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S1_S8_B4)
-<= -13.87829661992552
-
-c_u_Sequencing2(S2_S1_B1)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S2)
--999999999 shipiUnloadBeforekInBerth(S2_S1_B1)
-<= -16.22903938952046
-
-c_u_Sequencing2(S2_S1_B2)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S2)
--999999999 shipiUnloadBeforekInBerth(S2_S1_B2)
-<= -18.04828446309737
-
-c_u_Sequencing2(S2_S1_B3)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S2)
--999999999 shipiUnloadBeforekInBerth(S2_S1_B3)
-<= -18.60615163258562
-
-c_u_Sequencing2(S2_S1_B4)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S2)
--999999999 shipiUnloadBeforekInBerth(S2_S1_B4)
-<= -14.40385389092552
-
-c_u_Sequencing2(S2_S3_B1)_:
--1 shipUnloadStart(S2)
-+1 shipUnloadStart(S3)
--999999999 shipiUnloadBeforekInBerth(S2_S3_B1)
-<= -16.64241639652046
-
-c_u_Sequencing2(S2_S3_B2)_:
--1 shipUnloadStart(S2)
-+1 shipUnloadStart(S3)
--999999999 shipiUnloadBeforekInBerth(S2_S3_B2)
-<= -18.93420657209737
-
-c_u_Sequencing2(S2_S3_B3)_:
--1 shipUnloadStart(S2)
-+1 shipUnloadStart(S3)
--999999999 shipiUnloadBeforekInBerth(S2_S3_B3)
-<= -18.32802488558562
-
-c_u_Sequencing2(S2_S3_B4)_:
--1 shipUnloadStart(S2)
-+1 shipUnloadStart(S3)
--999999999 shipiUnloadBeforekInBerth(S2_S3_B4)
-<= -14.31554470392552
-
-c_u_Sequencing2(S2_S4_B1)_:
--1 shipUnloadStart(S2)
-+1 shipUnloadStart(S4)
--999999999 shipiUnloadBeforekInBerth(S2_S4_B1)
-<= -16.272024015520458
-
-c_u_Sequencing2(S2_S4_B2)_:
--1 shipUnloadStart(S2)
-+1 shipUnloadStart(S4)
--999999999 shipiUnloadBeforekInBerth(S2_S4_B2)
-<= -18.64148765209737
-
-c_u_Sequencing2(S2_S4_B3)_:
--1 shipUnloadStart(S2)
-+1 shipUnloadStart(S4)
--999999999 shipiUnloadBeforekInBerth(S2_S4_B3)
-<= -18.93653588458562
-
-c_u_Sequencing2(S2_S4_B4)_:
--1 shipUnloadStart(S2)
-+1 shipUnloadStart(S4)
--999999999 shipiUnloadBeforekInBerth(S2_S4_B4)
-<= -15.07200090792552
-
-c_u_Sequencing2(S2_S5_B1)_:
--1 shipUnloadStart(S2)
-+1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S2_S5_B1)
-<= -15.18805061052046
-
-c_u_Sequencing2(S2_S5_B2)_:
--1 shipUnloadStart(S2)
-+1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S2_S5_B2)
-<= -19.26350097809737
-
-c_u_Sequencing2(S2_S5_B3)_:
--1 shipUnloadStart(S2)
-+1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S2_S5_B3)
-<= -19.52963941158562
-
-c_u_Sequencing2(S2_S5_B4)_:
--1 shipUnloadStart(S2)
-+1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S2_S5_B4)
-<= -15.68708458892552
-
-c_u_Sequencing2(S2_S6_B1)_:
--1 shipUnloadStart(S2)
-+1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S2_S6_B1)
-<= -16.14874796252046
-
-c_u_Sequencing2(S2_S6_B2)_:
--1 shipUnloadStart(S2)
-+1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S2_S6_B2)
-<= -17.81634661609737
-
-c_u_Sequencing2(S2_S6_B3)_:
--1 shipUnloadStart(S2)
-+1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S2_S6_B3)
-<= -17.572923201585617
-
-c_u_Sequencing2(S2_S6_B4)_:
--1 shipUnloadStart(S2)
-+1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S2_S6_B4)
-<= -14.01625332192552
-
-c_u_Sequencing2(S2_S7_B1)_:
--1 shipUnloadStart(S2)
-+1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S2_S7_B1)
-<= -16.804098864520462
-
-c_u_Sequencing2(S2_S7_B2)_:
--1 shipUnloadStart(S2)
-+1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S2_S7_B2)
-<= -18.33354647409737
-
-c_u_Sequencing2(S2_S7_B3)_:
--1 shipUnloadStart(S2)
-+1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S2_S7_B3)
-<= -18.297104116585622
-
-c_u_Sequencing2(S2_S7_B4)_:
--1 shipUnloadStart(S2)
-+1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S2_S7_B4)
-<= -15.54470075692552
-
-c_u_Sequencing2(S2_S8_B1)_:
--1 shipUnloadStart(S2)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S2_S8_B1)
-<= -15.55082193152046
-
-c_u_Sequencing2(S2_S8_B2)_:
--1 shipUnloadStart(S2)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S2_S8_B2)
-<= -18.82578971809737
-
-c_u_Sequencing2(S2_S8_B3)_:
--1 shipUnloadStart(S2)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S2_S8_B3)
-<= -18.43687482858562
-
-c_u_Sequencing2(S2_S8_B4)_:
--1 shipUnloadStart(S2)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S2_S8_B4)
-<= -13.87829661992552
-
-c_u_Sequencing2(S3_S1_B1)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S3)
--999999999 shipiUnloadBeforekInBerth(S3_S1_B1)
-<= -16.22903938952046
-
-c_u_Sequencing2(S3_S1_B2)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S3)
--999999999 shipiUnloadBeforekInBerth(S3_S1_B2)
-<= -18.04828446309737
-
-c_u_Sequencing2(S3_S1_B3)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S3)
--999999999 shipiUnloadBeforekInBerth(S3_S1_B3)
-<= -18.60615163258562
-
-c_u_Sequencing2(S3_S1_B4)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S3)
--999999999 shipiUnloadBeforekInBerth(S3_S1_B4)
-<= -14.40385389092552
-
-c_u_Sequencing2(S3_S2_B1)_:
-+1 shipUnloadStart(S2)
--1 shipUnloadStart(S3)
--999999999 shipiUnloadBeforekInBerth(S3_S2_B1)
-<= -15.42208767452046
-
-c_u_Sequencing2(S3_S2_B2)_:
-+1 shipUnloadStart(S2)
--1 shipUnloadStart(S3)
--999999999 shipiUnloadBeforekInBerth(S3_S2_B2)
-<= -19.63345916809737
-
-c_u_Sequencing2(S3_S2_B3)_:
-+1 shipUnloadStart(S2)
--1 shipUnloadStart(S3)
--999999999 shipiUnloadBeforekInBerth(S3_S2_B3)
-<= -19.55792689858562
-
-c_u_Sequencing2(S3_S2_B4)_:
-+1 shipUnloadStart(S2)
--1 shipUnloadStart(S3)
--999999999 shipiUnloadBeforekInBerth(S3_S2_B4)
-<= -13.83742103292552
-
-c_u_Sequencing2(S3_S4_B1)_:
--1 shipUnloadStart(S3)
-+1 shipUnloadStart(S4)
--999999999 shipiUnloadBeforekInBerth(S3_S4_B1)
-<= -16.272024015520458
-
-c_u_Sequencing2(S3_S4_B2)_:
--1 shipUnloadStart(S3)
-+1 shipUnloadStart(S4)
--999999999 shipiUnloadBeforekInBerth(S3_S4_B2)
-<= -18.64148765209737
-
-c_u_Sequencing2(S3_S4_B3)_:
--1 shipUnloadStart(S3)
-+1 shipUnloadStart(S4)
--999999999 shipiUnloadBeforekInBerth(S3_S4_B3)
-<= -18.93653588458562
-
-c_u_Sequencing2(S3_S4_B4)_:
--1 shipUnloadStart(S3)
-+1 shipUnloadStart(S4)
--999999999 shipiUnloadBeforekInBerth(S3_S4_B4)
-<= -15.07200090792552
-
-c_u_Sequencing2(S3_S5_B1)_:
--1 shipUnloadStart(S3)
-+1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S3_S5_B1)
-<= -15.18805061052046
-
-c_u_Sequencing2(S3_S5_B2)_:
--1 shipUnloadStart(S3)
-+1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S3_S5_B2)
-<= -19.26350097809737
-
-c_u_Sequencing2(S3_S5_B3)_:
--1 shipUnloadStart(S3)
-+1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S3_S5_B3)
-<= -19.52963941158562
-
-c_u_Sequencing2(S3_S5_B4)_:
--1 shipUnloadStart(S3)
-+1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S3_S5_B4)
-<= -15.68708458892552
-
-c_u_Sequencing2(S3_S6_B1)_:
--1 shipUnloadStart(S3)
-+1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S3_S6_B1)
-<= -16.14874796252046
-
-c_u_Sequencing2(S3_S6_B2)_:
--1 shipUnloadStart(S3)
-+1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S3_S6_B2)
-<= -17.81634661609737
-
-c_u_Sequencing2(S3_S6_B3)_:
--1 shipUnloadStart(S3)
-+1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S3_S6_B3)
-<= -17.572923201585617
-
-c_u_Sequencing2(S3_S6_B4)_:
--1 shipUnloadStart(S3)
-+1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S3_S6_B4)
-<= -14.01625332192552
-
-c_u_Sequencing2(S3_S7_B1)_:
--1 shipUnloadStart(S3)
-+1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S3_S7_B1)
-<= -16.804098864520462
-
-c_u_Sequencing2(S3_S7_B2)_:
--1 shipUnloadStart(S3)
-+1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S3_S7_B2)
-<= -18.33354647409737
-
-c_u_Sequencing2(S3_S7_B3)_:
--1 shipUnloadStart(S3)
-+1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S3_S7_B3)
-<= -18.297104116585622
-
-c_u_Sequencing2(S3_S7_B4)_:
--1 shipUnloadStart(S3)
-+1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S3_S7_B4)
-<= -15.54470075692552
-
-c_u_Sequencing2(S3_S8_B1)_:
--1 shipUnloadStart(S3)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S3_S8_B1)
-<= -15.55082193152046
-
-c_u_Sequencing2(S3_S8_B2)_:
--1 shipUnloadStart(S3)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S3_S8_B2)
-<= -18.82578971809737
-
-c_u_Sequencing2(S3_S8_B3)_:
--1 shipUnloadStart(S3)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S3_S8_B3)
-<= -18.43687482858562
-
-c_u_Sequencing2(S3_S8_B4)_:
--1 shipUnloadStart(S3)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S3_S8_B4)
-<= -13.87829661992552
-
-c_u_Sequencing2(S4_S1_B1)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S4)
--999999999 shipiUnloadBeforekInBerth(S4_S1_B1)
-<= -16.22903938952046
-
-c_u_Sequencing2(S4_S1_B2)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S4)
--999999999 shipiUnloadBeforekInBerth(S4_S1_B2)
-<= -18.04828446309737
-
-c_u_Sequencing2(S4_S1_B3)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S4)
--999999999 shipiUnloadBeforekInBerth(S4_S1_B3)
-<= -18.60615163258562
-
-c_u_Sequencing2(S4_S1_B4)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S4)
--999999999 shipiUnloadBeforekInBerth(S4_S1_B4)
-<= -14.40385389092552
-
-c_u_Sequencing2(S4_S2_B1)_:
-+1 shipUnloadStart(S2)
--1 shipUnloadStart(S4)
--999999999 shipiUnloadBeforekInBerth(S4_S2_B1)
-<= -15.42208767452046
-
-c_u_Sequencing2(S4_S2_B2)_:
-+1 shipUnloadStart(S2)
--1 shipUnloadStart(S4)
--999999999 shipiUnloadBeforekInBerth(S4_S2_B2)
-<= -19.63345916809737
-
-c_u_Sequencing2(S4_S2_B3)_:
-+1 shipUnloadStart(S2)
--1 shipUnloadStart(S4)
--999999999 shipiUnloadBeforekInBerth(S4_S2_B3)
-<= -19.55792689858562
-
-c_u_Sequencing2(S4_S2_B4)_:
-+1 shipUnloadStart(S2)
--1 shipUnloadStart(S4)
--999999999 shipiUnloadBeforekInBerth(S4_S2_B4)
-<= -13.83742103292552
-
-c_u_Sequencing2(S4_S3_B1)_:
-+1 shipUnloadStart(S3)
--1 shipUnloadStart(S4)
--999999999 shipiUnloadBeforekInBerth(S4_S3_B1)
-<= -16.64241639652046
-
-c_u_Sequencing2(S4_S3_B2)_:
-+1 shipUnloadStart(S3)
--1 shipUnloadStart(S4)
--999999999 shipiUnloadBeforekInBerth(S4_S3_B2)
-<= -18.93420657209737
-
-c_u_Sequencing2(S4_S3_B3)_:
-+1 shipUnloadStart(S3)
--1 shipUnloadStart(S4)
--999999999 shipiUnloadBeforekInBerth(S4_S3_B3)
-<= -18.32802488558562
-
-c_u_Sequencing2(S4_S3_B4)_:
-+1 shipUnloadStart(S3)
--1 shipUnloadStart(S4)
--999999999 shipiUnloadBeforekInBerth(S4_S3_B4)
-<= -14.31554470392552
-
-c_u_Sequencing2(S4_S5_B1)_:
--1 shipUnloadStart(S4)
-+1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S4_S5_B1)
-<= -15.18805061052046
-
-c_u_Sequencing2(S4_S5_B2)_:
--1 shipUnloadStart(S4)
-+1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S4_S5_B2)
-<= -19.26350097809737
-
-c_u_Sequencing2(S4_S5_B3)_:
--1 shipUnloadStart(S4)
-+1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S4_S5_B3)
-<= -19.52963941158562
-
-c_u_Sequencing2(S4_S5_B4)_:
--1 shipUnloadStart(S4)
-+1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S4_S5_B4)
-<= -15.68708458892552
-
-c_u_Sequencing2(S4_S6_B1)_:
--1 shipUnloadStart(S4)
-+1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S4_S6_B1)
-<= -16.14874796252046
-
-c_u_Sequencing2(S4_S6_B2)_:
--1 shipUnloadStart(S4)
-+1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S4_S6_B2)
-<= -17.81634661609737
-
-c_u_Sequencing2(S4_S6_B3)_:
--1 shipUnloadStart(S4)
-+1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S4_S6_B3)
-<= -17.572923201585617
-
-c_u_Sequencing2(S4_S6_B4)_:
--1 shipUnloadStart(S4)
-+1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S4_S6_B4)
-<= -14.01625332192552
-
-c_u_Sequencing2(S4_S7_B1)_:
--1 shipUnloadStart(S4)
-+1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S4_S7_B1)
-<= -16.804098864520462
-
-c_u_Sequencing2(S4_S7_B2)_:
--1 shipUnloadStart(S4)
-+1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S4_S7_B2)
-<= -18.33354647409737
-
-c_u_Sequencing2(S4_S7_B3)_:
--1 shipUnloadStart(S4)
-+1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S4_S7_B3)
-<= -18.297104116585622
-
-c_u_Sequencing2(S4_S7_B4)_:
--1 shipUnloadStart(S4)
-+1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S4_S7_B4)
-<= -15.54470075692552
-
-c_u_Sequencing2(S4_S8_B1)_:
--1 shipUnloadStart(S4)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S4_S8_B1)
-<= -15.55082193152046
-
-c_u_Sequencing2(S4_S8_B2)_:
--1 shipUnloadStart(S4)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S4_S8_B2)
-<= -18.82578971809737
-
-c_u_Sequencing2(S4_S8_B3)_:
--1 shipUnloadStart(S4)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S4_S8_B3)
-<= -18.43687482858562
-
-c_u_Sequencing2(S4_S8_B4)_:
--1 shipUnloadStart(S4)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S4_S8_B4)
-<= -13.87829661992552
-
-c_u_Sequencing2(S5_S1_B1)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S5_S1_B1)
-<= -16.22903938952046
-
-c_u_Sequencing2(S5_S1_B2)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S5_S1_B2)
-<= -18.04828446309737
-
-c_u_Sequencing2(S5_S1_B3)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S5_S1_B3)
-<= -18.60615163258562
-
-c_u_Sequencing2(S5_S1_B4)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S5_S1_B4)
-<= -14.40385389092552
-
-c_u_Sequencing2(S5_S2_B1)_:
-+1 shipUnloadStart(S2)
--1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S5_S2_B1)
-<= -15.42208767452046
-
-c_u_Sequencing2(S5_S2_B2)_:
-+1 shipUnloadStart(S2)
--1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S5_S2_B2)
-<= -19.63345916809737
-
-c_u_Sequencing2(S5_S2_B3)_:
-+1 shipUnloadStart(S2)
--1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S5_S2_B3)
-<= -19.55792689858562
-
-c_u_Sequencing2(S5_S2_B4)_:
-+1 shipUnloadStart(S2)
--1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S5_S2_B4)
-<= -13.83742103292552
-
-c_u_Sequencing2(S5_S3_B1)_:
-+1 shipUnloadStart(S3)
--1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S5_S3_B1)
-<= -16.64241639652046
-
-c_u_Sequencing2(S5_S3_B2)_:
-+1 shipUnloadStart(S3)
--1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S5_S3_B2)
-<= -18.93420657209737
-
-c_u_Sequencing2(S5_S3_B3)_:
-+1 shipUnloadStart(S3)
--1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S5_S3_B3)
-<= -18.32802488558562
-
-c_u_Sequencing2(S5_S3_B4)_:
-+1 shipUnloadStart(S3)
--1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S5_S3_B4)
-<= -14.31554470392552
-
-c_u_Sequencing2(S5_S4_B1)_:
-+1 shipUnloadStart(S4)
--1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S5_S4_B1)
-<= -16.272024015520458
-
-c_u_Sequencing2(S5_S4_B2)_:
-+1 shipUnloadStart(S4)
--1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S5_S4_B2)
-<= -18.64148765209737
-
-c_u_Sequencing2(S5_S4_B3)_:
-+1 shipUnloadStart(S4)
--1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S5_S4_B3)
-<= -18.93653588458562
-
-c_u_Sequencing2(S5_S4_B4)_:
-+1 shipUnloadStart(S4)
--1 shipUnloadStart(S5)
--999999999 shipiUnloadBeforekInBerth(S5_S4_B4)
-<= -15.07200090792552
-
-c_u_Sequencing2(S5_S6_B1)_:
--1 shipUnloadStart(S5)
-+1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S5_S6_B1)
-<= -16.14874796252046
-
-c_u_Sequencing2(S5_S6_B2)_:
--1 shipUnloadStart(S5)
-+1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S5_S6_B2)
-<= -17.81634661609737
-
-c_u_Sequencing2(S5_S6_B3)_:
--1 shipUnloadStart(S5)
-+1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S5_S6_B3)
-<= -17.572923201585617
-
-c_u_Sequencing2(S5_S6_B4)_:
--1 shipUnloadStart(S5)
-+1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S5_S6_B4)
-<= -14.01625332192552
-
-c_u_Sequencing2(S5_S7_B1)_:
--1 shipUnloadStart(S5)
-+1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S5_S7_B1)
-<= -16.804098864520462
-
-c_u_Sequencing2(S5_S7_B2)_:
--1 shipUnloadStart(S5)
-+1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S5_S7_B2)
-<= -18.33354647409737
-
-c_u_Sequencing2(S5_S7_B3)_:
--1 shipUnloadStart(S5)
-+1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S5_S7_B3)
-<= -18.297104116585622
-
-c_u_Sequencing2(S5_S7_B4)_:
--1 shipUnloadStart(S5)
-+1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S5_S7_B4)
-<= -15.54470075692552
-
-c_u_Sequencing2(S5_S8_B1)_:
--1 shipUnloadStart(S5)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S5_S8_B1)
-<= -15.55082193152046
-
-c_u_Sequencing2(S5_S8_B2)_:
--1 shipUnloadStart(S5)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S5_S8_B2)
-<= -18.82578971809737
-
-c_u_Sequencing2(S5_S8_B3)_:
--1 shipUnloadStart(S5)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S5_S8_B3)
-<= -18.43687482858562
-
-c_u_Sequencing2(S5_S8_B4)_:
--1 shipUnloadStart(S5)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S5_S8_B4)
-<= -13.87829661992552
-
-c_u_Sequencing2(S6_S1_B1)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S6_S1_B1)
-<= -16.22903938952046
-
-c_u_Sequencing2(S6_S1_B2)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S6_S1_B2)
-<= -18.04828446309737
-
-c_u_Sequencing2(S6_S1_B3)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S6_S1_B3)
-<= -18.60615163258562
-
-c_u_Sequencing2(S6_S1_B4)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S6_S1_B4)
-<= -14.40385389092552
-
-c_u_Sequencing2(S6_S2_B1)_:
-+1 shipUnloadStart(S2)
--1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S6_S2_B1)
-<= -15.42208767452046
-
-c_u_Sequencing2(S6_S2_B2)_:
-+1 shipUnloadStart(S2)
--1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S6_S2_B2)
-<= -19.63345916809737
-
-c_u_Sequencing2(S6_S2_B3)_:
-+1 shipUnloadStart(S2)
--1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S6_S2_B3)
-<= -19.55792689858562
-
-c_u_Sequencing2(S6_S2_B4)_:
-+1 shipUnloadStart(S2)
--1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S6_S2_B4)
-<= -13.83742103292552
-
-c_u_Sequencing2(S6_S3_B1)_:
-+1 shipUnloadStart(S3)
--1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S6_S3_B1)
-<= -16.64241639652046
-
-c_u_Sequencing2(S6_S3_B2)_:
-+1 shipUnloadStart(S3)
--1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S6_S3_B2)
-<= -18.93420657209737
-
-c_u_Sequencing2(S6_S3_B3)_:
-+1 shipUnloadStart(S3)
--1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S6_S3_B3)
-<= -18.32802488558562
-
-c_u_Sequencing2(S6_S3_B4)_:
-+1 shipUnloadStart(S3)
--1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S6_S3_B4)
-<= -14.31554470392552
-
-c_u_Sequencing2(S6_S4_B1)_:
-+1 shipUnloadStart(S4)
--1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S6_S4_B1)
-<= -16.272024015520458
-
-c_u_Sequencing2(S6_S4_B2)_:
-+1 shipUnloadStart(S4)
--1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S6_S4_B2)
-<= -18.64148765209737
-
-c_u_Sequencing2(S6_S4_B3)_:
-+1 shipUnloadStart(S4)
--1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S6_S4_B3)
-<= -18.93653588458562
-
-c_u_Sequencing2(S6_S4_B4)_:
-+1 shipUnloadStart(S4)
--1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S6_S4_B4)
-<= -15.07200090792552
-
-c_u_Sequencing2(S6_S5_B1)_:
-+1 shipUnloadStart(S5)
--1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S6_S5_B1)
-<= -15.18805061052046
-
-c_u_Sequencing2(S6_S5_B2)_:
-+1 shipUnloadStart(S5)
--1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S6_S5_B2)
-<= -19.26350097809737
-
-c_u_Sequencing2(S6_S5_B3)_:
-+1 shipUnloadStart(S5)
--1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S6_S5_B3)
-<= -19.52963941158562
-
-c_u_Sequencing2(S6_S5_B4)_:
-+1 shipUnloadStart(S5)
--1 shipUnloadStart(S6)
--999999999 shipiUnloadBeforekInBerth(S6_S5_B4)
-<= -15.68708458892552
-
-c_u_Sequencing2(S6_S7_B1)_:
--1 shipUnloadStart(S6)
-+1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S6_S7_B1)
-<= -16.804098864520462
-
-c_u_Sequencing2(S6_S7_B2)_:
--1 shipUnloadStart(S6)
-+1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S6_S7_B2)
-<= -18.33354647409737
-
-c_u_Sequencing2(S6_S7_B3)_:
--1 shipUnloadStart(S6)
-+1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S6_S7_B3)
-<= -18.297104116585622
-
-c_u_Sequencing2(S6_S7_B4)_:
--1 shipUnloadStart(S6)
-+1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S6_S7_B4)
-<= -15.54470075692552
-
-c_u_Sequencing2(S6_S8_B1)_:
--1 shipUnloadStart(S6)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S6_S8_B1)
-<= -15.55082193152046
-
-c_u_Sequencing2(S6_S8_B2)_:
--1 shipUnloadStart(S6)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S6_S8_B2)
-<= -18.82578971809737
-
-c_u_Sequencing2(S6_S8_B3)_:
--1 shipUnloadStart(S6)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S6_S8_B3)
-<= -18.43687482858562
-
-c_u_Sequencing2(S6_S8_B4)_:
--1 shipUnloadStart(S6)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S6_S8_B4)
-<= -13.87829661992552
-
-c_u_Sequencing2(S7_S1_B1)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S7_S1_B1)
-<= -16.22903938952046
-
-c_u_Sequencing2(S7_S1_B2)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S7_S1_B2)
-<= -18.04828446309737
-
-c_u_Sequencing2(S7_S1_B3)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S7_S1_B3)
-<= -18.60615163258562
-
-c_u_Sequencing2(S7_S1_B4)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S7_S1_B4)
-<= -14.40385389092552
-
-c_u_Sequencing2(S7_S2_B1)_:
-+1 shipUnloadStart(S2)
--1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S7_S2_B1)
-<= -15.42208767452046
-
-c_u_Sequencing2(S7_S2_B2)_:
-+1 shipUnloadStart(S2)
--1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S7_S2_B2)
-<= -19.63345916809737
-
-c_u_Sequencing2(S7_S2_B3)_:
-+1 shipUnloadStart(S2)
--1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S7_S2_B3)
-<= -19.55792689858562
-
-c_u_Sequencing2(S7_S2_B4)_:
-+1 shipUnloadStart(S2)
--1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S7_S2_B4)
-<= -13.83742103292552
-
-c_u_Sequencing2(S7_S3_B1)_:
-+1 shipUnloadStart(S3)
--1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S7_S3_B1)
-<= -16.64241639652046
-
-c_u_Sequencing2(S7_S3_B2)_:
-+1 shipUnloadStart(S3)
--1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S7_S3_B2)
-<= -18.93420657209737
-
-c_u_Sequencing2(S7_S3_B3)_:
-+1 shipUnloadStart(S3)
--1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S7_S3_B3)
-<= -18.32802488558562
-
-c_u_Sequencing2(S7_S3_B4)_:
-+1 shipUnloadStart(S3)
--1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S7_S3_B4)
-<= -14.31554470392552
-
-c_u_Sequencing2(S7_S4_B1)_:
-+1 shipUnloadStart(S4)
--1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S7_S4_B1)
-<= -16.272024015520458
-
-c_u_Sequencing2(S7_S4_B2)_:
-+1 shipUnloadStart(S4)
--1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S7_S4_B2)
-<= -18.64148765209737
-
-c_u_Sequencing2(S7_S4_B3)_:
-+1 shipUnloadStart(S4)
--1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S7_S4_B3)
-<= -18.93653588458562
-
-c_u_Sequencing2(S7_S4_B4)_:
-+1 shipUnloadStart(S4)
--1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S7_S4_B4)
-<= -15.07200090792552
-
-c_u_Sequencing2(S7_S5_B1)_:
-+1 shipUnloadStart(S5)
--1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S7_S5_B1)
-<= -15.18805061052046
-
-c_u_Sequencing2(S7_S5_B2)_:
-+1 shipUnloadStart(S5)
--1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S7_S5_B2)
-<= -19.26350097809737
-
-c_u_Sequencing2(S7_S5_B3)_:
-+1 shipUnloadStart(S5)
--1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S7_S5_B3)
-<= -19.52963941158562
-
-c_u_Sequencing2(S7_S5_B4)_:
-+1 shipUnloadStart(S5)
--1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S7_S5_B4)
-<= -15.68708458892552
-
-c_u_Sequencing2(S7_S6_B1)_:
-+1 shipUnloadStart(S6)
--1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S7_S6_B1)
-<= -16.14874796252046
-
-c_u_Sequencing2(S7_S6_B2)_:
-+1 shipUnloadStart(S6)
--1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S7_S6_B2)
-<= -17.81634661609737
-
-c_u_Sequencing2(S7_S6_B3)_:
-+1 shipUnloadStart(S6)
--1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S7_S6_B3)
-<= -17.572923201585617
-
-c_u_Sequencing2(S7_S6_B4)_:
-+1 shipUnloadStart(S6)
--1 shipUnloadStart(S7)
--999999999 shipiUnloadBeforekInBerth(S7_S6_B4)
-<= -14.01625332192552
-
-c_u_Sequencing2(S7_S8_B1)_:
--1 shipUnloadStart(S7)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S7_S8_B1)
-<= -15.55082193152046
-
-c_u_Sequencing2(S7_S8_B2)_:
--1 shipUnloadStart(S7)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S7_S8_B2)
-<= -18.82578971809737
-
-c_u_Sequencing2(S7_S8_B3)_:
--1 shipUnloadStart(S7)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S7_S8_B3)
-<= -18.43687482858562
-
-c_u_Sequencing2(S7_S8_B4)_:
--1 shipUnloadStart(S7)
-+1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S7_S8_B4)
-<= -13.87829661992552
-
-c_u_Sequencing2(S8_S1_B1)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S1_B1)
-<= -16.22903938952046
-
-c_u_Sequencing2(S8_S1_B2)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S1_B2)
-<= -18.04828446309737
-
-c_u_Sequencing2(S8_S1_B3)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S1_B3)
-<= -18.60615163258562
-
-c_u_Sequencing2(S8_S1_B4)_:
-+1 shipUnloadStart(S1)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S1_B4)
-<= -14.40385389092552
-
-c_u_Sequencing2(S8_S2_B1)_:
-+1 shipUnloadStart(S2)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S2_B1)
-<= -15.42208767452046
-
-c_u_Sequencing2(S8_S2_B2)_:
-+1 shipUnloadStart(S2)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S2_B2)
-<= -19.63345916809737
-
-c_u_Sequencing2(S8_S2_B3)_:
-+1 shipUnloadStart(S2)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S2_B3)
-<= -19.55792689858562
-
-c_u_Sequencing2(S8_S2_B4)_:
-+1 shipUnloadStart(S2)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S2_B4)
-<= -13.83742103292552
-
-c_u_Sequencing2(S8_S3_B1)_:
-+1 shipUnloadStart(S3)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S3_B1)
-<= -16.64241639652046
-
-c_u_Sequencing2(S8_S3_B2)_:
-+1 shipUnloadStart(S3)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S3_B2)
-<= -18.93420657209737
-
-c_u_Sequencing2(S8_S3_B3)_:
-+1 shipUnloadStart(S3)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S3_B3)
-<= -18.32802488558562
-
-c_u_Sequencing2(S8_S3_B4)_:
-+1 shipUnloadStart(S3)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S3_B4)
-<= -14.31554470392552
-
-c_u_Sequencing2(S8_S4_B1)_:
-+1 shipUnloadStart(S4)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S4_B1)
-<= -16.272024015520458
-
-c_u_Sequencing2(S8_S4_B2)_:
-+1 shipUnloadStart(S4)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S4_B2)
-<= -18.64148765209737
-
-c_u_Sequencing2(S8_S4_B3)_:
-+1 shipUnloadStart(S4)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S4_B3)
-<= -18.93653588458562
-
-c_u_Sequencing2(S8_S4_B4)_:
-+1 shipUnloadStart(S4)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S4_B4)
-<= -15.07200090792552
-
-c_u_Sequencing2(S8_S5_B1)_:
-+1 shipUnloadStart(S5)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S5_B1)
-<= -15.18805061052046
-
-c_u_Sequencing2(S8_S5_B2)_:
-+1 shipUnloadStart(S5)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S5_B2)
-<= -19.26350097809737
-
-c_u_Sequencing2(S8_S5_B3)_:
-+1 shipUnloadStart(S5)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S5_B3)
-<= -19.52963941158562
-
-c_u_Sequencing2(S8_S5_B4)_:
-+1 shipUnloadStart(S5)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S5_B4)
-<= -15.68708458892552
-
-c_u_Sequencing2(S8_S6_B1)_:
-+1 shipUnloadStart(S6)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S6_B1)
-<= -16.14874796252046
-
-c_u_Sequencing2(S8_S6_B2)_:
-+1 shipUnloadStart(S6)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S6_B2)
-<= -17.81634661609737
-
-c_u_Sequencing2(S8_S6_B3)_:
-+1 shipUnloadStart(S6)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S6_B3)
-<= -17.572923201585617
-
-c_u_Sequencing2(S8_S6_B4)_:
-+1 shipUnloadStart(S6)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S6_B4)
-<= -14.01625332192552
-
-c_u_Sequencing2(S8_S7_B1)_:
-+1 shipUnloadStart(S7)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S7_B1)
-<= -16.804098864520462
-
-c_u_Sequencing2(S8_S7_B2)_:
-+1 shipUnloadStart(S7)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S7_B2)
-<= -18.33354647409737
-
-c_u_Sequencing2(S8_S7_B3)_:
-+1 shipUnloadStart(S7)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S7_B3)
-<= -18.297104116585622
-
-c_u_Sequencing2(S8_S7_B4)_:
-+1 shipUnloadStart(S7)
--1 shipUnloadStart(S8)
--999999999 shipiUnloadBeforekInBerth(S8_S7_B4)
-<= -15.54470075692552
-
 c_u_ZActive1(S1_S2_B1)_:
 -1 shipAssignment(S1_B1)
 +1 shipiUnloadBeforekInBerth(S1_S2_B1)
@@ -4981,191 +3637,223 @@ c_u_ZActive3(S1_S2_B1)_:
 +1 shipAssignment(S1_B1)
 +1 shipAssignment(S2_B1)
 -1 shipiUnloadBeforekInBerth(S1_S2_B1)
+-1 shipiUnloadBeforekInBerth(S2_S1_B1)
 <= 1
 
 c_u_ZActive3(S1_S2_B2)_:
 +1 shipAssignment(S1_B2)
 +1 shipAssignment(S2_B2)
 -1 shipiUnloadBeforekInBerth(S1_S2_B2)
+-1 shipiUnloadBeforekInBerth(S2_S1_B2)
 <= 1
 
 c_u_ZActive3(S1_S2_B3)_:
 +1 shipAssignment(S1_B3)
 +1 shipAssignment(S2_B3)
 -1 shipiUnloadBeforekInBerth(S1_S2_B3)
+-1 shipiUnloadBeforekInBerth(S2_S1_B3)
 <= 1
 
 c_u_ZActive3(S1_S2_B4)_:
 +1 shipAssignment(S1_B4)
 +1 shipAssignment(S2_B4)
 -1 shipiUnloadBeforekInBerth(S1_S2_B4)
+-1 shipiUnloadBeforekInBerth(S2_S1_B4)
 <= 1
 
 c_u_ZActive3(S1_S3_B1)_:
 +1 shipAssignment(S1_B1)
 +1 shipAssignment(S3_B1)
 -1 shipiUnloadBeforekInBerth(S1_S3_B1)
+-1 shipiUnloadBeforekInBerth(S3_S1_B1)
 <= 1
 
 c_u_ZActive3(S1_S3_B2)_:
 +1 shipAssignment(S1_B2)
 +1 shipAssignment(S3_B2)
 -1 shipiUnloadBeforekInBerth(S1_S3_B2)
+-1 shipiUnloadBeforekInBerth(S3_S1_B2)
 <= 1
 
 c_u_ZActive3(S1_S3_B3)_:
 +1 shipAssignment(S1_B3)
 +1 shipAssignment(S3_B3)
 -1 shipiUnloadBeforekInBerth(S1_S3_B3)
+-1 shipiUnloadBeforekInBerth(S3_S1_B3)
 <= 1
 
 c_u_ZActive3(S1_S3_B4)_:
 +1 shipAssignment(S1_B4)
 +1 shipAssignment(S3_B4)
 -1 shipiUnloadBeforekInBerth(S1_S3_B4)
+-1 shipiUnloadBeforekInBerth(S3_S1_B4)
 <= 1
 
 c_u_ZActive3(S1_S4_B1)_:
 +1 shipAssignment(S1_B1)
 +1 shipAssignment(S4_B1)
 -1 shipiUnloadBeforekInBerth(S1_S4_B1)
+-1 shipiUnloadBeforekInBerth(S4_S1_B1)
 <= 1
 
 c_u_ZActive3(S1_S4_B2)_:
 +1 shipAssignment(S1_B2)
 +1 shipAssignment(S4_B2)
 -1 shipiUnloadBeforekInBerth(S1_S4_B2)
+-1 shipiUnloadBeforekInBerth(S4_S1_B2)
 <= 1
 
 c_u_ZActive3(S1_S4_B3)_:
 +1 shipAssignment(S1_B3)
 +1 shipAssignment(S4_B3)
 -1 shipiUnloadBeforekInBerth(S1_S4_B3)
+-1 shipiUnloadBeforekInBerth(S4_S1_B3)
 <= 1
 
 c_u_ZActive3(S1_S4_B4)_:
 +1 shipAssignment(S1_B4)
 +1 shipAssignment(S4_B4)
 -1 shipiUnloadBeforekInBerth(S1_S4_B4)
+-1 shipiUnloadBeforekInBerth(S4_S1_B4)
 <= 1
 
 c_u_ZActive3(S1_S5_B1)_:
 +1 shipAssignment(S1_B1)
 +1 shipAssignment(S5_B1)
 -1 shipiUnloadBeforekInBerth(S1_S5_B1)
+-1 shipiUnloadBeforekInBerth(S5_S1_B1)
 <= 1
 
 c_u_ZActive3(S1_S5_B2)_:
 +1 shipAssignment(S1_B2)
 +1 shipAssignment(S5_B2)
 -1 shipiUnloadBeforekInBerth(S1_S5_B2)
+-1 shipiUnloadBeforekInBerth(S5_S1_B2)
 <= 1
 
 c_u_ZActive3(S1_S5_B3)_:
 +1 shipAssignment(S1_B3)
 +1 shipAssignment(S5_B3)
 -1 shipiUnloadBeforekInBerth(S1_S5_B3)
+-1 shipiUnloadBeforekInBerth(S5_S1_B3)
 <= 1
 
 c_u_ZActive3(S1_S5_B4)_:
 +1 shipAssignment(S1_B4)
 +1 shipAssignment(S5_B4)
 -1 shipiUnloadBeforekInBerth(S1_S5_B4)
+-1 shipiUnloadBeforekInBerth(S5_S1_B4)
 <= 1
 
 c_u_ZActive3(S1_S6_B1)_:
 +1 shipAssignment(S1_B1)
 +1 shipAssignment(S6_B1)
 -1 shipiUnloadBeforekInBerth(S1_S6_B1)
+-1 shipiUnloadBeforekInBerth(S6_S1_B1)
 <= 1
 
 c_u_ZActive3(S1_S6_B2)_:
 +1 shipAssignment(S1_B2)
 +1 shipAssignment(S6_B2)
 -1 shipiUnloadBeforekInBerth(S1_S6_B2)
+-1 shipiUnloadBeforekInBerth(S6_S1_B2)
 <= 1
 
 c_u_ZActive3(S1_S6_B3)_:
 +1 shipAssignment(S1_B3)
 +1 shipAssignment(S6_B3)
 -1 shipiUnloadBeforekInBerth(S1_S6_B3)
+-1 shipiUnloadBeforekInBerth(S6_S1_B3)
 <= 1
 
 c_u_ZActive3(S1_S6_B4)_:
 +1 shipAssignment(S1_B4)
 +1 shipAssignment(S6_B4)
 -1 shipiUnloadBeforekInBerth(S1_S6_B4)
+-1 shipiUnloadBeforekInBerth(S6_S1_B4)
 <= 1
 
 c_u_ZActive3(S1_S7_B1)_:
 +1 shipAssignment(S1_B1)
 +1 shipAssignment(S7_B1)
 -1 shipiUnloadBeforekInBerth(S1_S7_B1)
+-1 shipiUnloadBeforekInBerth(S7_S1_B1)
 <= 1
 
 c_u_ZActive3(S1_S7_B2)_:
 +1 shipAssignment(S1_B2)
 +1 shipAssignment(S7_B2)
 -1 shipiUnloadBeforekInBerth(S1_S7_B2)
+-1 shipiUnloadBeforekInBerth(S7_S1_B2)
 <= 1
 
 c_u_ZActive3(S1_S7_B3)_:
 +1 shipAssignment(S1_B3)
 +1 shipAssignment(S7_B3)
 -1 shipiUnloadBeforekInBerth(S1_S7_B3)
+-1 shipiUnloadBeforekInBerth(S7_S1_B3)
 <= 1
 
 c_u_ZActive3(S1_S7_B4)_:
 +1 shipAssignment(S1_B4)
 +1 shipAssignment(S7_B4)
 -1 shipiUnloadBeforekInBerth(S1_S7_B4)
+-1 shipiUnloadBeforekInBerth(S7_S1_B4)
 <= 1
 
 c_u_ZActive3(S1_S8_B1)_:
 +1 shipAssignment(S1_B1)
 +1 shipAssignment(S8_B1)
 -1 shipiUnloadBeforekInBerth(S1_S8_B1)
+-1 shipiUnloadBeforekInBerth(S8_S1_B1)
 <= 1
 
 c_u_ZActive3(S1_S8_B2)_:
 +1 shipAssignment(S1_B2)
 +1 shipAssignment(S8_B2)
 -1 shipiUnloadBeforekInBerth(S1_S8_B2)
+-1 shipiUnloadBeforekInBerth(S8_S1_B2)
 <= 1
 
 c_u_ZActive3(S1_S8_B3)_:
 +1 shipAssignment(S1_B3)
 +1 shipAssignment(S8_B3)
 -1 shipiUnloadBeforekInBerth(S1_S8_B3)
+-1 shipiUnloadBeforekInBerth(S8_S1_B3)
 <= 1
 
 c_u_ZActive3(S1_S8_B4)_:
 +1 shipAssignment(S1_B4)
 +1 shipAssignment(S8_B4)
 -1 shipiUnloadBeforekInBerth(S1_S8_B4)
+-1 shipiUnloadBeforekInBerth(S8_S1_B4)
 <= 1
 
 c_u_ZActive3(S2_S1_B1)_:
 +1 shipAssignment(S1_B1)
 +1 shipAssignment(S2_B1)
+-1 shipiUnloadBeforekInBerth(S1_S2_B1)
 -1 shipiUnloadBeforekInBerth(S2_S1_B1)
 <= 1
 
 c_u_ZActive3(S2_S1_B2)_:
 +1 shipAssignment(S1_B2)
 +1 shipAssignment(S2_B2)
+-1 shipiUnloadBeforekInBerth(S1_S2_B2)
 -1 shipiUnloadBeforekInBerth(S2_S1_B2)
 <= 1
 
 c_u_ZActive3(S2_S1_B3)_:
 +1 shipAssignment(S1_B3)
 +1 shipAssignment(S2_B3)
+-1 shipiUnloadBeforekInBerth(S1_S2_B3)
 -1 shipiUnloadBeforekInBerth(S2_S1_B3)
 <= 1
 
 c_u_ZActive3(S2_S1_B4)_:
 +1 shipAssignment(S1_B4)
 +1 shipAssignment(S2_B4)
+-1 shipiUnloadBeforekInBerth(S1_S2_B4)
 -1 shipiUnloadBeforekInBerth(S2_S1_B4)
 <= 1
 
@@ -5173,191 +3861,223 @@ c_u_ZActive3(S2_S3_B1)_:
 +1 shipAssignment(S2_B1)
 +1 shipAssignment(S3_B1)
 -1 shipiUnloadBeforekInBerth(S2_S3_B1)
+-1 shipiUnloadBeforekInBerth(S3_S2_B1)
 <= 1
 
 c_u_ZActive3(S2_S3_B2)_:
 +1 shipAssignment(S2_B2)
 +1 shipAssignment(S3_B2)
 -1 shipiUnloadBeforekInBerth(S2_S3_B2)
+-1 shipiUnloadBeforekInBerth(S3_S2_B2)
 <= 1
 
 c_u_ZActive3(S2_S3_B3)_:
 +1 shipAssignment(S2_B3)
 +1 shipAssignment(S3_B3)
 -1 shipiUnloadBeforekInBerth(S2_S3_B3)
+-1 shipiUnloadBeforekInBerth(S3_S2_B3)
 <= 1
 
 c_u_ZActive3(S2_S3_B4)_:
 +1 shipAssignment(S2_B4)
 +1 shipAssignment(S3_B4)
 -1 shipiUnloadBeforekInBerth(S2_S3_B4)
+-1 shipiUnloadBeforekInBerth(S3_S2_B4)
 <= 1
 
 c_u_ZActive3(S2_S4_B1)_:
 +1 shipAssignment(S2_B1)
 +1 shipAssignment(S4_B1)
 -1 shipiUnloadBeforekInBerth(S2_S4_B1)
+-1 shipiUnloadBeforekInBerth(S4_S2_B1)
 <= 1
 
 c_u_ZActive3(S2_S4_B2)_:
 +1 shipAssignment(S2_B2)
 +1 shipAssignment(S4_B2)
 -1 shipiUnloadBeforekInBerth(S2_S4_B2)
+-1 shipiUnloadBeforekInBerth(S4_S2_B2)
 <= 1
 
 c_u_ZActive3(S2_S4_B3)_:
 +1 shipAssignment(S2_B3)
 +1 shipAssignment(S4_B3)
 -1 shipiUnloadBeforekInBerth(S2_S4_B3)
+-1 shipiUnloadBeforekInBerth(S4_S2_B3)
 <= 1
 
 c_u_ZActive3(S2_S4_B4)_:
 +1 shipAssignment(S2_B4)
 +1 shipAssignment(S4_B4)
 -1 shipiUnloadBeforekInBerth(S2_S4_B4)
+-1 shipiUnloadBeforekInBerth(S4_S2_B4)
 <= 1
 
 c_u_ZActive3(S2_S5_B1)_:
 +1 shipAssignment(S2_B1)
 +1 shipAssignment(S5_B1)
 -1 shipiUnloadBeforekInBerth(S2_S5_B1)
+-1 shipiUnloadBeforekInBerth(S5_S2_B1)
 <= 1
 
 c_u_ZActive3(S2_S5_B2)_:
 +1 shipAssignment(S2_B2)
 +1 shipAssignment(S5_B2)
 -1 shipiUnloadBeforekInBerth(S2_S5_B2)
+-1 shipiUnloadBeforekInBerth(S5_S2_B2)
 <= 1
 
 c_u_ZActive3(S2_S5_B3)_:
 +1 shipAssignment(S2_B3)
 +1 shipAssignment(S5_B3)
 -1 shipiUnloadBeforekInBerth(S2_S5_B3)
+-1 shipiUnloadBeforekInBerth(S5_S2_B3)
 <= 1
 
 c_u_ZActive3(S2_S5_B4)_:
 +1 shipAssignment(S2_B4)
 +1 shipAssignment(S5_B4)
 -1 shipiUnloadBeforekInBerth(S2_S5_B4)
+-1 shipiUnloadBeforekInBerth(S5_S2_B4)
 <= 1
 
 c_u_ZActive3(S2_S6_B1)_:
 +1 shipAssignment(S2_B1)
 +1 shipAssignment(S6_B1)
 -1 shipiUnloadBeforekInBerth(S2_S6_B1)
+-1 shipiUnloadBeforekInBerth(S6_S2_B1)
 <= 1
 
 c_u_ZActive3(S2_S6_B2)_:
 +1 shipAssignment(S2_B2)
 +1 shipAssignment(S6_B2)
 -1 shipiUnloadBeforekInBerth(S2_S6_B2)
+-1 shipiUnloadBeforekInBerth(S6_S2_B2)
 <= 1
 
 c_u_ZActive3(S2_S6_B3)_:
 +1 shipAssignment(S2_B3)
 +1 shipAssignment(S6_B3)
 -1 shipiUnloadBeforekInBerth(S2_S6_B3)
+-1 shipiUnloadBeforekInBerth(S6_S2_B3)
 <= 1
 
 c_u_ZActive3(S2_S6_B4)_:
 +1 shipAssignment(S2_B4)
 +1 shipAssignment(S6_B4)
 -1 shipiUnloadBeforekInBerth(S2_S6_B4)
+-1 shipiUnloadBeforekInBerth(S6_S2_B4)
 <= 1
 
 c_u_ZActive3(S2_S7_B1)_:
 +1 shipAssignment(S2_B1)
 +1 shipAssignment(S7_B1)
 -1 shipiUnloadBeforekInBerth(S2_S7_B1)
+-1 shipiUnloadBeforekInBerth(S7_S2_B1)
 <= 1
 
 c_u_ZActive3(S2_S7_B2)_:
 +1 shipAssignment(S2_B2)
 +1 shipAssignment(S7_B2)
 -1 shipiUnloadBeforekInBerth(S2_S7_B2)
+-1 shipiUnloadBeforekInBerth(S7_S2_B2)
 <= 1
 
 c_u_ZActive3(S2_S7_B3)_:
 +1 shipAssignment(S2_B3)
 +1 shipAssignment(S7_B3)
 -1 shipiUnloadBeforekInBerth(S2_S7_B3)
+-1 shipiUnloadBeforekInBerth(S7_S2_B3)
 <= 1
 
 c_u_ZActive3(S2_S7_B4)_:
 +1 shipAssignment(S2_B4)
 +1 shipAssignment(S7_B4)
 -1 shipiUnloadBeforekInBerth(S2_S7_B4)
+-1 shipiUnloadBeforekInBerth(S7_S2_B4)
 <= 1
 
 c_u_ZActive3(S2_S8_B1)_:
 +1 shipAssignment(S2_B1)
 +1 shipAssignment(S8_B1)
 -1 shipiUnloadBeforekInBerth(S2_S8_B1)
+-1 shipiUnloadBeforekInBerth(S8_S2_B1)
 <= 1
 
 c_u_ZActive3(S2_S8_B2)_:
 +1 shipAssignment(S2_B2)
 +1 shipAssignment(S8_B2)
 -1 shipiUnloadBeforekInBerth(S2_S8_B2)
+-1 shipiUnloadBeforekInBerth(S8_S2_B2)
 <= 1
 
 c_u_ZActive3(S2_S8_B3)_:
 +1 shipAssignment(S2_B3)
 +1 shipAssignment(S8_B3)
 -1 shipiUnloadBeforekInBerth(S2_S8_B3)
+-1 shipiUnloadBeforekInBerth(S8_S2_B3)
 <= 1
 
 c_u_ZActive3(S2_S8_B4)_:
 +1 shipAssignment(S2_B4)
 +1 shipAssignment(S8_B4)
 -1 shipiUnloadBeforekInBerth(S2_S8_B4)
+-1 shipiUnloadBeforekInBerth(S8_S2_B4)
 <= 1
 
 c_u_ZActive3(S3_S1_B1)_:
 +1 shipAssignment(S1_B1)
 +1 shipAssignment(S3_B1)
+-1 shipiUnloadBeforekInBerth(S1_S3_B1)
 -1 shipiUnloadBeforekInBerth(S3_S1_B1)
 <= 1
 
 c_u_ZActive3(S3_S1_B2)_:
 +1 shipAssignment(S1_B2)
 +1 shipAssignment(S3_B2)
+-1 shipiUnloadBeforekInBerth(S1_S3_B2)
 -1 shipiUnloadBeforekInBerth(S3_S1_B2)
 <= 1
 
 c_u_ZActive3(S3_S1_B3)_:
 +1 shipAssignment(S1_B3)
 +1 shipAssignment(S3_B3)
+-1 shipiUnloadBeforekInBerth(S1_S3_B3)
 -1 shipiUnloadBeforekInBerth(S3_S1_B3)
 <= 1
 
 c_u_ZActive3(S3_S1_B4)_:
 +1 shipAssignment(S1_B4)
 +1 shipAssignment(S3_B4)
+-1 shipiUnloadBeforekInBerth(S1_S3_B4)
 -1 shipiUnloadBeforekInBerth(S3_S1_B4)
 <= 1
 
 c_u_ZActive3(S3_S2_B1)_:
 +1 shipAssignment(S2_B1)
 +1 shipAssignment(S3_B1)
+-1 shipiUnloadBeforekInBerth(S2_S3_B1)
 -1 shipiUnloadBeforekInBerth(S3_S2_B1)
 <= 1
 
 c_u_ZActive3(S3_S2_B2)_:
 +1 shipAssignment(S2_B2)
 +1 shipAssignment(S3_B2)
+-1 shipiUnloadBeforekInBerth(S2_S3_B2)
 -1 shipiUnloadBeforekInBerth(S3_S2_B2)
 <= 1
 
 c_u_ZActive3(S3_S2_B3)_:
 +1 shipAssignment(S2_B3)
 +1 shipAssignment(S3_B3)
+-1 shipiUnloadBeforekInBerth(S2_S3_B3)
 -1 shipiUnloadBeforekInBerth(S3_S2_B3)
 <= 1
 
 c_u_ZActive3(S3_S2_B4)_:
 +1 shipAssignment(S2_B4)
 +1 shipAssignment(S3_B4)
+-1 shipiUnloadBeforekInBerth(S2_S3_B4)
 -1 shipiUnloadBeforekInBerth(S3_S2_B4)
 <= 1
 
@@ -5365,191 +4085,223 @@ c_u_ZActive3(S3_S4_B1)_:
 +1 shipAssignment(S3_B1)
 +1 shipAssignment(S4_B1)
 -1 shipiUnloadBeforekInBerth(S3_S4_B1)
+-1 shipiUnloadBeforekInBerth(S4_S3_B1)
 <= 1
 
 c_u_ZActive3(S3_S4_B2)_:
 +1 shipAssignment(S3_B2)
 +1 shipAssignment(S4_B2)
 -1 shipiUnloadBeforekInBerth(S3_S4_B2)
+-1 shipiUnloadBeforekInBerth(S4_S3_B2)
 <= 1
 
 c_u_ZActive3(S3_S4_B3)_:
 +1 shipAssignment(S3_B3)
 +1 shipAssignment(S4_B3)
 -1 shipiUnloadBeforekInBerth(S3_S4_B3)
+-1 shipiUnloadBeforekInBerth(S4_S3_B3)
 <= 1
 
 c_u_ZActive3(S3_S4_B4)_:
 +1 shipAssignment(S3_B4)
 +1 shipAssignment(S4_B4)
 -1 shipiUnloadBeforekInBerth(S3_S4_B4)
+-1 shipiUnloadBeforekInBerth(S4_S3_B4)
 <= 1
 
 c_u_ZActive3(S3_S5_B1)_:
 +1 shipAssignment(S3_B1)
 +1 shipAssignment(S5_B1)
 -1 shipiUnloadBeforekInBerth(S3_S5_B1)
+-1 shipiUnloadBeforekInBerth(S5_S3_B1)
 <= 1
 
 c_u_ZActive3(S3_S5_B2)_:
 +1 shipAssignment(S3_B2)
 +1 shipAssignment(S5_B2)
 -1 shipiUnloadBeforekInBerth(S3_S5_B2)
+-1 shipiUnloadBeforekInBerth(S5_S3_B2)
 <= 1
 
 c_u_ZActive3(S3_S5_B3)_:
 +1 shipAssignment(S3_B3)
 +1 shipAssignment(S5_B3)
 -1 shipiUnloadBeforekInBerth(S3_S5_B3)
+-1 shipiUnloadBeforekInBerth(S5_S3_B3)
 <= 1
 
 c_u_ZActive3(S3_S5_B4)_:
 +1 shipAssignment(S3_B4)
 +1 shipAssignment(S5_B4)
 -1 shipiUnloadBeforekInBerth(S3_S5_B4)
+-1 shipiUnloadBeforekInBerth(S5_S3_B4)
 <= 1
 
 c_u_ZActive3(S3_S6_B1)_:
 +1 shipAssignment(S3_B1)
 +1 shipAssignment(S6_B1)
 -1 shipiUnloadBeforekInBerth(S3_S6_B1)
+-1 shipiUnloadBeforekInBerth(S6_S3_B1)
 <= 1
 
 c_u_ZActive3(S3_S6_B2)_:
 +1 shipAssignment(S3_B2)
 +1 shipAssignment(S6_B2)
 -1 shipiUnloadBeforekInBerth(S3_S6_B2)
+-1 shipiUnloadBeforekInBerth(S6_S3_B2)
 <= 1
 
 c_u_ZActive3(S3_S6_B3)_:
 +1 shipAssignment(S3_B3)
 +1 shipAssignment(S6_B3)
 -1 shipiUnloadBeforekInBerth(S3_S6_B3)
+-1 shipiUnloadBeforekInBerth(S6_S3_B3)
 <= 1
 
 c_u_ZActive3(S3_S6_B4)_:
 +1 shipAssignment(S3_B4)
 +1 shipAssignment(S6_B4)
 -1 shipiUnloadBeforekInBerth(S3_S6_B4)
+-1 shipiUnloadBeforekInBerth(S6_S3_B4)
 <= 1
 
 c_u_ZActive3(S3_S7_B1)_:
 +1 shipAssignment(S3_B1)
 +1 shipAssignment(S7_B1)
 -1 shipiUnloadBeforekInBerth(S3_S7_B1)
+-1 shipiUnloadBeforekInBerth(S7_S3_B1)
 <= 1
 
 c_u_ZActive3(S3_S7_B2)_:
 +1 shipAssignment(S3_B2)
 +1 shipAssignment(S7_B2)
 -1 shipiUnloadBeforekInBerth(S3_S7_B2)
+-1 shipiUnloadBeforekInBerth(S7_S3_B2)
 <= 1
 
 c_u_ZActive3(S3_S7_B3)_:
 +1 shipAssignment(S3_B3)
 +1 shipAssignment(S7_B3)
 -1 shipiUnloadBeforekInBerth(S3_S7_B3)
+-1 shipiUnloadBeforekInBerth(S7_S3_B3)
 <= 1
 
 c_u_ZActive3(S3_S7_B4)_:
 +1 shipAssignment(S3_B4)
 +1 shipAssignment(S7_B4)
 -1 shipiUnloadBeforekInBerth(S3_S7_B4)
+-1 shipiUnloadBeforekInBerth(S7_S3_B4)
 <= 1
 
 c_u_ZActive3(S3_S8_B1)_:
 +1 shipAssignment(S3_B1)
 +1 shipAssignment(S8_B1)
 -1 shipiUnloadBeforekInBerth(S3_S8_B1)
+-1 shipiUnloadBeforekInBerth(S8_S3_B1)
 <= 1
 
 c_u_ZActive3(S3_S8_B2)_:
 +1 shipAssignment(S3_B2)
 +1 shipAssignment(S8_B2)
 -1 shipiUnloadBeforekInBerth(S3_S8_B2)
+-1 shipiUnloadBeforekInBerth(S8_S3_B2)
 <= 1
 
 c_u_ZActive3(S3_S8_B3)_:
 +1 shipAssignment(S3_B3)
 +1 shipAssignment(S8_B3)
 -1 shipiUnloadBeforekInBerth(S3_S8_B3)
+-1 shipiUnloadBeforekInBerth(S8_S3_B3)
 <= 1
 
 c_u_ZActive3(S3_S8_B4)_:
 +1 shipAssignment(S3_B4)
 +1 shipAssignment(S8_B4)
 -1 shipiUnloadBeforekInBerth(S3_S8_B4)
+-1 shipiUnloadBeforekInBerth(S8_S3_B4)
 <= 1
 
 c_u_ZActive3(S4_S1_B1)_:
 +1 shipAssignment(S1_B1)
 +1 shipAssignment(S4_B1)
+-1 shipiUnloadBeforekInBerth(S1_S4_B1)
 -1 shipiUnloadBeforekInBerth(S4_S1_B1)
 <= 1
 
 c_u_ZActive3(S4_S1_B2)_:
 +1 shipAssignment(S1_B2)
 +1 shipAssignment(S4_B2)
+-1 shipiUnloadBeforekInBerth(S1_S4_B2)
 -1 shipiUnloadBeforekInBerth(S4_S1_B2)
 <= 1
 
 c_u_ZActive3(S4_S1_B3)_:
 +1 shipAssignment(S1_B3)
 +1 shipAssignment(S4_B3)
+-1 shipiUnloadBeforekInBerth(S1_S4_B3)
 -1 shipiUnloadBeforekInBerth(S4_S1_B3)
 <= 1
 
 c_u_ZActive3(S4_S1_B4)_:
 +1 shipAssignment(S1_B4)
 +1 shipAssignment(S4_B4)
+-1 shipiUnloadBeforekInBerth(S1_S4_B4)
 -1 shipiUnloadBeforekInBerth(S4_S1_B4)
 <= 1
 
 c_u_ZActive3(S4_S2_B1)_:
 +1 shipAssignment(S2_B1)
 +1 shipAssignment(S4_B1)
+-1 shipiUnloadBeforekInBerth(S2_S4_B1)
 -1 shipiUnloadBeforekInBerth(S4_S2_B1)
 <= 1
 
 c_u_ZActive3(S4_S2_B2)_:
 +1 shipAssignment(S2_B2)
 +1 shipAssignment(S4_B2)
+-1 shipiUnloadBeforekInBerth(S2_S4_B2)
 -1 shipiUnloadBeforekInBerth(S4_S2_B2)
 <= 1
 
 c_u_ZActive3(S4_S2_B3)_:
 +1 shipAssignment(S2_B3)
 +1 shipAssignment(S4_B3)
+-1 shipiUnloadBeforekInBerth(S2_S4_B3)
 -1 shipiUnloadBeforekInBerth(S4_S2_B3)
 <= 1
 
 c_u_ZActive3(S4_S2_B4)_:
 +1 shipAssignment(S2_B4)
 +1 shipAssignment(S4_B4)
+-1 shipiUnloadBeforekInBerth(S2_S4_B4)
 -1 shipiUnloadBeforekInBerth(S4_S2_B4)
 <= 1
 
 c_u_ZActive3(S4_S3_B1)_:
 +1 shipAssignment(S3_B1)
 +1 shipAssignment(S4_B1)
+-1 shipiUnloadBeforekInBerth(S3_S4_B1)
 -1 shipiUnloadBeforekInBerth(S4_S3_B1)
 <= 1
 
 c_u_ZActive3(S4_S3_B2)_:
 +1 shipAssignment(S3_B2)
 +1 shipAssignment(S4_B2)
+-1 shipiUnloadBeforekInBerth(S3_S4_B2)
 -1 shipiUnloadBeforekInBerth(S4_S3_B2)
 <= 1
 
 c_u_ZActive3(S4_S3_B3)_:
 +1 shipAssignment(S3_B3)
 +1 shipAssignment(S4_B3)
+-1 shipiUnloadBeforekInBerth(S3_S4_B3)
 -1 shipiUnloadBeforekInBerth(S4_S3_B3)
 <= 1
 
 c_u_ZActive3(S4_S3_B4)_:
 +1 shipAssignment(S3_B4)
 +1 shipAssignment(S4_B4)
+-1 shipiUnloadBeforekInBerth(S3_S4_B4)
 -1 shipiUnloadBeforekInBerth(S4_S3_B4)
 <= 1
 
@@ -5557,191 +4309,223 @@ c_u_ZActive3(S4_S5_B1)_:
 +1 shipAssignment(S4_B1)
 +1 shipAssignment(S5_B1)
 -1 shipiUnloadBeforekInBerth(S4_S5_B1)
+-1 shipiUnloadBeforekInBerth(S5_S4_B1)
 <= 1
 
 c_u_ZActive3(S4_S5_B2)_:
 +1 shipAssignment(S4_B2)
 +1 shipAssignment(S5_B2)
 -1 shipiUnloadBeforekInBerth(S4_S5_B2)
+-1 shipiUnloadBeforekInBerth(S5_S4_B2)
 <= 1
 
 c_u_ZActive3(S4_S5_B3)_:
 +1 shipAssignment(S4_B3)
 +1 shipAssignment(S5_B3)
 -1 shipiUnloadBeforekInBerth(S4_S5_B3)
+-1 shipiUnloadBeforekInBerth(S5_S4_B3)
 <= 1
 
 c_u_ZActive3(S4_S5_B4)_:
 +1 shipAssignment(S4_B4)
 +1 shipAssignment(S5_B4)
 -1 shipiUnloadBeforekInBerth(S4_S5_B4)
+-1 shipiUnloadBeforekInBerth(S5_S4_B4)
 <= 1
 
 c_u_ZActive3(S4_S6_B1)_:
 +1 shipAssignment(S4_B1)
 +1 shipAssignment(S6_B1)
 -1 shipiUnloadBeforekInBerth(S4_S6_B1)
+-1 shipiUnloadBeforekInBerth(S6_S4_B1)
 <= 1
 
 c_u_ZActive3(S4_S6_B2)_:
 +1 shipAssignment(S4_B2)
 +1 shipAssignment(S6_B2)
 -1 shipiUnloadBeforekInBerth(S4_S6_B2)
+-1 shipiUnloadBeforekInBerth(S6_S4_B2)
 <= 1
 
 c_u_ZActive3(S4_S6_B3)_:
 +1 shipAssignment(S4_B3)
 +1 shipAssignment(S6_B3)
 -1 shipiUnloadBeforekInBerth(S4_S6_B3)
+-1 shipiUnloadBeforekInBerth(S6_S4_B3)
 <= 1
 
 c_u_ZActive3(S4_S6_B4)_:
 +1 shipAssignment(S4_B4)
 +1 shipAssignment(S6_B4)
 -1 shipiUnloadBeforekInBerth(S4_S6_B4)
+-1 shipiUnloadBeforekInBerth(S6_S4_B4)
 <= 1
 
 c_u_ZActive3(S4_S7_B1)_:
 +1 shipAssignment(S4_B1)
 +1 shipAssignment(S7_B1)
 -1 shipiUnloadBeforekInBerth(S4_S7_B1)
+-1 shipiUnloadBeforekInBerth(S7_S4_B1)
 <= 1
 
 c_u_ZActive3(S4_S7_B2)_:
 +1 shipAssignment(S4_B2)
 +1 shipAssignment(S7_B2)
 -1 shipiUnloadBeforekInBerth(S4_S7_B2)
+-1 shipiUnloadBeforekInBerth(S7_S4_B2)
 <= 1
 
 c_u_ZActive3(S4_S7_B3)_:
 +1 shipAssignment(S4_B3)
 +1 shipAssignment(S7_B3)
 -1 shipiUnloadBeforekInBerth(S4_S7_B3)
+-1 shipiUnloadBeforekInBerth(S7_S4_B3)
 <= 1
 
 c_u_ZActive3(S4_S7_B4)_:
 +1 shipAssignment(S4_B4)
 +1 shipAssignment(S7_B4)
 -1 shipiUnloadBeforekInBerth(S4_S7_B4)
+-1 shipiUnloadBeforekInBerth(S7_S4_B4)
 <= 1
 
 c_u_ZActive3(S4_S8_B1)_:
 +1 shipAssignment(S4_B1)
 +1 shipAssignment(S8_B1)
 -1 shipiUnloadBeforekInBerth(S4_S8_B1)
+-1 shipiUnloadBeforekInBerth(S8_S4_B1)
 <= 1
 
 c_u_ZActive3(S4_S8_B2)_:
 +1 shipAssignment(S4_B2)
 +1 shipAssignment(S8_B2)
 -1 shipiUnloadBeforekInBerth(S4_S8_B2)
+-1 shipiUnloadBeforekInBerth(S8_S4_B2)
 <= 1
 
 c_u_ZActive3(S4_S8_B3)_:
 +1 shipAssignment(S4_B3)
 +1 shipAssignment(S8_B3)
 -1 shipiUnloadBeforekInBerth(S4_S8_B3)
+-1 shipiUnloadBeforekInBerth(S8_S4_B3)
 <= 1
 
 c_u_ZActive3(S4_S8_B4)_:
 +1 shipAssignment(S4_B4)
 +1 shipAssignment(S8_B4)
 -1 shipiUnloadBeforekInBerth(S4_S8_B4)
+-1 shipiUnloadBeforekInBerth(S8_S4_B4)
 <= 1
 
 c_u_ZActive3(S5_S1_B1)_:
 +1 shipAssignment(S1_B1)
 +1 shipAssignment(S5_B1)
+-1 shipiUnloadBeforekInBerth(S1_S5_B1)
 -1 shipiUnloadBeforekInBerth(S5_S1_B1)
 <= 1
 
 c_u_ZActive3(S5_S1_B2)_:
 +1 shipAssignment(S1_B2)
 +1 shipAssignment(S5_B2)
+-1 shipiUnloadBeforekInBerth(S1_S5_B2)
 -1 shipiUnloadBeforekInBerth(S5_S1_B2)
 <= 1
 
 c_u_ZActive3(S5_S1_B3)_:
 +1 shipAssignment(S1_B3)
 +1 shipAssignment(S5_B3)
+-1 shipiUnloadBeforekInBerth(S1_S5_B3)
 -1 shipiUnloadBeforekInBerth(S5_S1_B3)
 <= 1
 
 c_u_ZActive3(S5_S1_B4)_:
 +1 shipAssignment(S1_B4)
 +1 shipAssignment(S5_B4)
+-1 shipiUnloadBeforekInBerth(S1_S5_B4)
 -1 shipiUnloadBeforekInBerth(S5_S1_B4)
 <= 1
 
 c_u_ZActive3(S5_S2_B1)_:
 +1 shipAssignment(S2_B1)
 +1 shipAssignment(S5_B1)
+-1 shipiUnloadBeforekInBerth(S2_S5_B1)
 -1 shipiUnloadBeforekInBerth(S5_S2_B1)
 <= 1
 
 c_u_ZActive3(S5_S2_B2)_:
 +1 shipAssignment(S2_B2)
 +1 shipAssignment(S5_B2)
+-1 shipiUnloadBeforekInBerth(S2_S5_B2)
 -1 shipiUnloadBeforekInBerth(S5_S2_B2)
 <= 1
 
 c_u_ZActive3(S5_S2_B3)_:
 +1 shipAssignment(S2_B3)
 +1 shipAssignment(S5_B3)
+-1 shipiUnloadBeforekInBerth(S2_S5_B3)
 -1 shipiUnloadBeforekInBerth(S5_S2_B3)
 <= 1
 
 c_u_ZActive3(S5_S2_B4)_:
 +1 shipAssignment(S2_B4)
 +1 shipAssignment(S5_B4)
+-1 shipiUnloadBeforekInBerth(S2_S5_B4)
 -1 shipiUnloadBeforekInBerth(S5_S2_B4)
 <= 1
 
 c_u_ZActive3(S5_S3_B1)_:
 +1 shipAssignment(S3_B1)
 +1 shipAssignment(S5_B1)
+-1 shipiUnloadBeforekInBerth(S3_S5_B1)
 -1 shipiUnloadBeforekInBerth(S5_S3_B1)
 <= 1
 
 c_u_ZActive3(S5_S3_B2)_:
 +1 shipAssignment(S3_B2)
 +1 shipAssignment(S5_B2)
+-1 shipiUnloadBeforekInBerth(S3_S5_B2)
 -1 shipiUnloadBeforekInBerth(S5_S3_B2)
 <= 1
 
 c_u_ZActive3(S5_S3_B3)_:
 +1 shipAssignment(S3_B3)
 +1 shipAssignment(S5_B3)
+-1 shipiUnloadBeforekInBerth(S3_S5_B3)
 -1 shipiUnloadBeforekInBerth(S5_S3_B3)
 <= 1
 
 c_u_ZActive3(S5_S3_B4)_:
 +1 shipAssignment(S3_B4)
 +1 shipAssignment(S5_B4)
+-1 shipiUnloadBeforekInBerth(S3_S5_B4)
 -1 shipiUnloadBeforekInBerth(S5_S3_B4)
 <= 1
 
 c_u_ZActive3(S5_S4_B1)_:
 +1 shipAssignment(S4_B1)
 +1 shipAssignment(S5_B1)
+-1 shipiUnloadBeforekInBerth(S4_S5_B1)
 -1 shipiUnloadBeforekInBerth(S5_S4_B1)
 <= 1
 
 c_u_ZActive3(S5_S4_B2)_:
 +1 shipAssignment(S4_B2)
 +1 shipAssignment(S5_B2)
+-1 shipiUnloadBeforekInBerth(S4_S5_B2)
 -1 shipiUnloadBeforekInBerth(S5_S4_B2)
 <= 1
 
 c_u_ZActive3(S5_S4_B3)_:
 +1 shipAssignment(S4_B3)
 +1 shipAssignment(S5_B3)
+-1 shipiUnloadBeforekInBerth(S4_S5_B3)
 -1 shipiUnloadBeforekInBerth(S5_S4_B3)
 <= 1
 
 c_u_ZActive3(S5_S4_B4)_:
 +1 shipAssignment(S4_B4)
 +1 shipAssignment(S5_B4)
+-1 shipiUnloadBeforekInBerth(S4_S5_B4)
 -1 shipiUnloadBeforekInBerth(S5_S4_B4)
 <= 1
 
@@ -5749,191 +4533,223 @@ c_u_ZActive3(S5_S6_B1)_:
 +1 shipAssignment(S5_B1)
 +1 shipAssignment(S6_B1)
 -1 shipiUnloadBeforekInBerth(S5_S6_B1)
+-1 shipiUnloadBeforekInBerth(S6_S5_B1)
 <= 1
 
 c_u_ZActive3(S5_S6_B2)_:
 +1 shipAssignment(S5_B2)
 +1 shipAssignment(S6_B2)
 -1 shipiUnloadBeforekInBerth(S5_S6_B2)
+-1 shipiUnloadBeforekInBerth(S6_S5_B2)
 <= 1
 
 c_u_ZActive3(S5_S6_B3)_:
 +1 shipAssignment(S5_B3)
 +1 shipAssignment(S6_B3)
 -1 shipiUnloadBeforekInBerth(S5_S6_B3)
+-1 shipiUnloadBeforekInBerth(S6_S5_B3)
 <= 1
 
 c_u_ZActive3(S5_S6_B4)_:
 +1 shipAssignment(S5_B4)
 +1 shipAssignment(S6_B4)
 -1 shipiUnloadBeforekInBerth(S5_S6_B4)
+-1 shipiUnloadBeforekInBerth(S6_S5_B4)
 <= 1
 
 c_u_ZActive3(S5_S7_B1)_:
 +1 shipAssignment(S5_B1)
 +1 shipAssignment(S7_B1)
 -1 shipiUnloadBeforekInBerth(S5_S7_B1)
+-1 shipiUnloadBeforekInBerth(S7_S5_B1)
 <= 1
 
 c_u_ZActive3(S5_S7_B2)_:
 +1 shipAssignment(S5_B2)
 +1 shipAssignment(S7_B2)
 -1 shipiUnloadBeforekInBerth(S5_S7_B2)
+-1 shipiUnloadBeforekInBerth(S7_S5_B2)
 <= 1
 
 c_u_ZActive3(S5_S7_B3)_:
 +1 shipAssignment(S5_B3)
 +1 shipAssignment(S7_B3)
 -1 shipiUnloadBeforekInBerth(S5_S7_B3)
+-1 shipiUnloadBeforekInBerth(S7_S5_B3)
 <= 1
 
 c_u_ZActive3(S5_S7_B4)_:
 +1 shipAssignment(S5_B4)
 +1 shipAssignment(S7_B4)
 -1 shipiUnloadBeforekInBerth(S5_S7_B4)
+-1 shipiUnloadBeforekInBerth(S7_S5_B4)
 <= 1
 
 c_u_ZActive3(S5_S8_B1)_:
 +1 shipAssignment(S5_B1)
 +1 shipAssignment(S8_B1)
 -1 shipiUnloadBeforekInBerth(S5_S8_B1)
+-1 shipiUnloadBeforekInBerth(S8_S5_B1)
 <= 1
 
 c_u_ZActive3(S5_S8_B2)_:
 +1 shipAssignment(S5_B2)
 +1 shipAssignment(S8_B2)
 -1 shipiUnloadBeforekInBerth(S5_S8_B2)
+-1 shipiUnloadBeforekInBerth(S8_S5_B2)
 <= 1
 
 c_u_ZActive3(S5_S8_B3)_:
 +1 shipAssignment(S5_B3)
 +1 shipAssignment(S8_B3)
 -1 shipiUnloadBeforekInBerth(S5_S8_B3)
+-1 shipiUnloadBeforekInBerth(S8_S5_B3)
 <= 1
 
 c_u_ZActive3(S5_S8_B4)_:
 +1 shipAssignment(S5_B4)
 +1 shipAssignment(S8_B4)
 -1 shipiUnloadBeforekInBerth(S5_S8_B4)
+-1 shipiUnloadBeforekInBerth(S8_S5_B4)
 <= 1
 
 c_u_ZActive3(S6_S1_B1)_:
 +1 shipAssignment(S1_B1)
 +1 shipAssignment(S6_B1)
+-1 shipiUnloadBeforekInBerth(S1_S6_B1)
 -1 shipiUnloadBeforekInBerth(S6_S1_B1)
 <= 1
 
 c_u_ZActive3(S6_S1_B2)_:
 +1 shipAssignment(S1_B2)
 +1 shipAssignment(S6_B2)
+-1 shipiUnloadBeforekInBerth(S1_S6_B2)
 -1 shipiUnloadBeforekInBerth(S6_S1_B2)
 <= 1
 
 c_u_ZActive3(S6_S1_B3)_:
 +1 shipAssignment(S1_B3)
 +1 shipAssignment(S6_B3)
+-1 shipiUnloadBeforekInBerth(S1_S6_B3)
 -1 shipiUnloadBeforekInBerth(S6_S1_B3)
 <= 1
 
 c_u_ZActive3(S6_S1_B4)_:
 +1 shipAssignment(S1_B4)
 +1 shipAssignment(S6_B4)
+-1 shipiUnloadBeforekInBerth(S1_S6_B4)
 -1 shipiUnloadBeforekInBerth(S6_S1_B4)
 <= 1
 
 c_u_ZActive3(S6_S2_B1)_:
 +1 shipAssignment(S2_B1)
 +1 shipAssignment(S6_B1)
+-1 shipiUnloadBeforekInBerth(S2_S6_B1)
 -1 shipiUnloadBeforekInBerth(S6_S2_B1)
 <= 1
 
 c_u_ZActive3(S6_S2_B2)_:
 +1 shipAssignment(S2_B2)
 +1 shipAssignment(S6_B2)
+-1 shipiUnloadBeforekInBerth(S2_S6_B2)
 -1 shipiUnloadBeforekInBerth(S6_S2_B2)
 <= 1
 
 c_u_ZActive3(S6_S2_B3)_:
 +1 shipAssignment(S2_B3)
 +1 shipAssignment(S6_B3)
+-1 shipiUnloadBeforekInBerth(S2_S6_B3)
 -1 shipiUnloadBeforekInBerth(S6_S2_B3)
 <= 1
 
 c_u_ZActive3(S6_S2_B4)_:
 +1 shipAssignment(S2_B4)
 +1 shipAssignment(S6_B4)
+-1 shipiUnloadBeforekInBerth(S2_S6_B4)
 -1 shipiUnloadBeforekInBerth(S6_S2_B4)
 <= 1
 
 c_u_ZActive3(S6_S3_B1)_:
 +1 shipAssignment(S3_B1)
 +1 shipAssignment(S6_B1)
+-1 shipiUnloadBeforekInBerth(S3_S6_B1)
 -1 shipiUnloadBeforekInBerth(S6_S3_B1)
 <= 1
 
 c_u_ZActive3(S6_S3_B2)_:
 +1 shipAssignment(S3_B2)
 +1 shipAssignment(S6_B2)
+-1 shipiUnloadBeforekInBerth(S3_S6_B2)
 -1 shipiUnloadBeforekInBerth(S6_S3_B2)
 <= 1
 
 c_u_ZActive3(S6_S3_B3)_:
 +1 shipAssignment(S3_B3)
 +1 shipAssignment(S6_B3)
+-1 shipiUnloadBeforekInBerth(S3_S6_B3)
 -1 shipiUnloadBeforekInBerth(S6_S3_B3)
 <= 1
 
 c_u_ZActive3(S6_S3_B4)_:
 +1 shipAssignment(S3_B4)
 +1 shipAssignment(S6_B4)
+-1 shipiUnloadBeforekInBerth(S3_S6_B4)
 -1 shipiUnloadBeforekInBerth(S6_S3_B4)
 <= 1
 
 c_u_ZActive3(S6_S4_B1)_:
 +1 shipAssignment(S4_B1)
 +1 shipAssignment(S6_B1)
+-1 shipiUnloadBeforekInBerth(S4_S6_B1)
 -1 shipiUnloadBeforekInBerth(S6_S4_B1)
 <= 1
 
 c_u_ZActive3(S6_S4_B2)_:
 +1 shipAssignment(S4_B2)
 +1 shipAssignment(S6_B2)
+-1 shipiUnloadBeforekInBerth(S4_S6_B2)
 -1 shipiUnloadBeforekInBerth(S6_S4_B2)
 <= 1
 
 c_u_ZActive3(S6_S4_B3)_:
 +1 shipAssignment(S4_B3)
 +1 shipAssignment(S6_B3)
+-1 shipiUnloadBeforekInBerth(S4_S6_B3)
 -1 shipiUnloadBeforekInBerth(S6_S4_B3)
 <= 1
 
 c_u_ZActive3(S6_S4_B4)_:
 +1 shipAssignment(S4_B4)
 +1 shipAssignment(S6_B4)
+-1 shipiUnloadBeforekInBerth(S4_S6_B4)
 -1 shipiUnloadBeforekInBerth(S6_S4_B4)
 <= 1
 
 c_u_ZActive3(S6_S5_B1)_:
 +1 shipAssignment(S5_B1)
 +1 shipAssignment(S6_B1)
+-1 shipiUnloadBeforekInBerth(S5_S6_B1)
 -1 shipiUnloadBeforekInBerth(S6_S5_B1)
 <= 1
 
 c_u_ZActive3(S6_S5_B2)_:
 +1 shipAssignment(S5_B2)
 +1 shipAssignment(S6_B2)
+-1 shipiUnloadBeforekInBerth(S5_S6_B2)
 -1 shipiUnloadBeforekInBerth(S6_S5_B2)
 <= 1
 
 c_u_ZActive3(S6_S5_B3)_:
 +1 shipAssignment(S5_B3)
 +1 shipAssignment(S6_B3)
+-1 shipiUnloadBeforekInBerth(S5_S6_B3)
 -1 shipiUnloadBeforekInBerth(S6_S5_B3)
 <= 1
 
 c_u_ZActive3(S6_S5_B4)_:
 +1 shipAssignment(S5_B4)
 +1 shipAssignment(S6_B4)
+-1 shipiUnloadBeforekInBerth(S5_S6_B4)
 -1 shipiUnloadBeforekInBerth(S6_S5_B4)
 <= 1
 
@@ -5941,191 +4757,223 @@ c_u_ZActive3(S6_S7_B1)_:
 +1 shipAssignment(S6_B1)
 +1 shipAssignment(S7_B1)
 -1 shipiUnloadBeforekInBerth(S6_S7_B1)
+-1 shipiUnloadBeforekInBerth(S7_S6_B1)
 <= 1
 
 c_u_ZActive3(S6_S7_B2)_:
 +1 shipAssignment(S6_B2)
 +1 shipAssignment(S7_B2)
 -1 shipiUnloadBeforekInBerth(S6_S7_B2)
+-1 shipiUnloadBeforekInBerth(S7_S6_B2)
 <= 1
 
 c_u_ZActive3(S6_S7_B3)_:
 +1 shipAssignment(S6_B3)
 +1 shipAssignment(S7_B3)
 -1 shipiUnloadBeforekInBerth(S6_S7_B3)
+-1 shipiUnloadBeforekInBerth(S7_S6_B3)
 <= 1
 
 c_u_ZActive3(S6_S7_B4)_:
 +1 shipAssignment(S6_B4)
 +1 shipAssignment(S7_B4)
 -1 shipiUnloadBeforekInBerth(S6_S7_B4)
+-1 shipiUnloadBeforekInBerth(S7_S6_B4)
 <= 1
 
 c_u_ZActive3(S6_S8_B1)_:
 +1 shipAssignment(S6_B1)
 +1 shipAssignment(S8_B1)
 -1 shipiUnloadBeforekInBerth(S6_S8_B1)
+-1 shipiUnloadBeforekInBerth(S8_S6_B1)
 <= 1
 
 c_u_ZActive3(S6_S8_B2)_:
 +1 shipAssignment(S6_B2)
 +1 shipAssignment(S8_B2)
 -1 shipiUnloadBeforekInBerth(S6_S8_B2)
+-1 shipiUnloadBeforekInBerth(S8_S6_B2)
 <= 1
 
 c_u_ZActive3(S6_S8_B3)_:
 +1 shipAssignment(S6_B3)
 +1 shipAssignment(S8_B3)
 -1 shipiUnloadBeforekInBerth(S6_S8_B3)
+-1 shipiUnloadBeforekInBerth(S8_S6_B3)
 <= 1
 
 c_u_ZActive3(S6_S8_B4)_:
 +1 shipAssignment(S6_B4)
 +1 shipAssignment(S8_B4)
 -1 shipiUnloadBeforekInBerth(S6_S8_B4)
+-1 shipiUnloadBeforekInBerth(S8_S6_B4)
 <= 1
 
 c_u_ZActive3(S7_S1_B1)_:
 +1 shipAssignment(S1_B1)
 +1 shipAssignment(S7_B1)
+-1 shipiUnloadBeforekInBerth(S1_S7_B1)
 -1 shipiUnloadBeforekInBerth(S7_S1_B1)
 <= 1
 
 c_u_ZActive3(S7_S1_B2)_:
 +1 shipAssignment(S1_B2)
 +1 shipAssignment(S7_B2)
+-1 shipiUnloadBeforekInBerth(S1_S7_B2)
 -1 shipiUnloadBeforekInBerth(S7_S1_B2)
 <= 1
 
 c_u_ZActive3(S7_S1_B3)_:
 +1 shipAssignment(S1_B3)
 +1 shipAssignment(S7_B3)
+-1 shipiUnloadBeforekInBerth(S1_S7_B3)
 -1 shipiUnloadBeforekInBerth(S7_S1_B3)
 <= 1
 
 c_u_ZActive3(S7_S1_B4)_:
 +1 shipAssignment(S1_B4)
 +1 shipAssignment(S7_B4)
+-1 shipiUnloadBeforekInBerth(S1_S7_B4)
 -1 shipiUnloadBeforekInBerth(S7_S1_B4)
 <= 1
 
 c_u_ZActive3(S7_S2_B1)_:
 +1 shipAssignment(S2_B1)
 +1 shipAssignment(S7_B1)
+-1 shipiUnloadBeforekInBerth(S2_S7_B1)
 -1 shipiUnloadBeforekInBerth(S7_S2_B1)
 <= 1
 
 c_u_ZActive3(S7_S2_B2)_:
 +1 shipAssignment(S2_B2)
 +1 shipAssignment(S7_B2)
+-1 shipiUnloadBeforekInBerth(S2_S7_B2)
 -1 shipiUnloadBeforekInBerth(S7_S2_B2)
 <= 1
 
 c_u_ZActive3(S7_S2_B3)_:
 +1 shipAssignment(S2_B3)
 +1 shipAssignment(S7_B3)
+-1 shipiUnloadBeforekInBerth(S2_S7_B3)
 -1 shipiUnloadBeforekInBerth(S7_S2_B3)
 <= 1
 
 c_u_ZActive3(S7_S2_B4)_:
 +1 shipAssignment(S2_B4)
 +1 shipAssignment(S7_B4)
+-1 shipiUnloadBeforekInBerth(S2_S7_B4)
 -1 shipiUnloadBeforekInBerth(S7_S2_B4)
 <= 1
 
 c_u_ZActive3(S7_S3_B1)_:
 +1 shipAssignment(S3_B1)
 +1 shipAssignment(S7_B1)
+-1 shipiUnloadBeforekInBerth(S3_S7_B1)
 -1 shipiUnloadBeforekInBerth(S7_S3_B1)
 <= 1
 
 c_u_ZActive3(S7_S3_B2)_:
 +1 shipAssignment(S3_B2)
 +1 shipAssignment(S7_B2)
+-1 shipiUnloadBeforekInBerth(S3_S7_B2)
 -1 shipiUnloadBeforekInBerth(S7_S3_B2)
 <= 1
 
 c_u_ZActive3(S7_S3_B3)_:
 +1 shipAssignment(S3_B3)
 +1 shipAssignment(S7_B3)
+-1 shipiUnloadBeforekInBerth(S3_S7_B3)
 -1 shipiUnloadBeforekInBerth(S7_S3_B3)
 <= 1
 
 c_u_ZActive3(S7_S3_B4)_:
 +1 shipAssignment(S3_B4)
 +1 shipAssignment(S7_B4)
+-1 shipiUnloadBeforekInBerth(S3_S7_B4)
 -1 shipiUnloadBeforekInBerth(S7_S3_B4)
 <= 1
 
 c_u_ZActive3(S7_S4_B1)_:
 +1 shipAssignment(S4_B1)
 +1 shipAssignment(S7_B1)
+-1 shipiUnloadBeforekInBerth(S4_S7_B1)
 -1 shipiUnloadBeforekInBerth(S7_S4_B1)
 <= 1
 
 c_u_ZActive3(S7_S4_B2)_:
 +1 shipAssignment(S4_B2)
 +1 shipAssignment(S7_B2)
+-1 shipiUnloadBeforekInBerth(S4_S7_B2)
 -1 shipiUnloadBeforekInBerth(S7_S4_B2)
 <= 1
 
 c_u_ZActive3(S7_S4_B3)_:
 +1 shipAssignment(S4_B3)
 +1 shipAssignment(S7_B3)
+-1 shipiUnloadBeforekInBerth(S4_S7_B3)
 -1 shipiUnloadBeforekInBerth(S7_S4_B3)
 <= 1
 
 c_u_ZActive3(S7_S4_B4)_:
 +1 shipAssignment(S4_B4)
 +1 shipAssignment(S7_B4)
+-1 shipiUnloadBeforekInBerth(S4_S7_B4)
 -1 shipiUnloadBeforekInBerth(S7_S4_B4)
 <= 1
 
 c_u_ZActive3(S7_S5_B1)_:
 +1 shipAssignment(S5_B1)
 +1 shipAssignment(S7_B1)
+-1 shipiUnloadBeforekInBerth(S5_S7_B1)
 -1 shipiUnloadBeforekInBerth(S7_S5_B1)
 <= 1
 
 c_u_ZActive3(S7_S5_B2)_:
 +1 shipAssignment(S5_B2)
 +1 shipAssignment(S7_B2)
+-1 shipiUnloadBeforekInBerth(S5_S7_B2)
 -1 shipiUnloadBeforekInBerth(S7_S5_B2)
 <= 1
 
 c_u_ZActive3(S7_S5_B3)_:
 +1 shipAssignment(S5_B3)
 +1 shipAssignment(S7_B3)
+-1 shipiUnloadBeforekInBerth(S5_S7_B3)
 -1 shipiUnloadBeforekInBerth(S7_S5_B3)
 <= 1
 
 c_u_ZActive3(S7_S5_B4)_:
 +1 shipAssignment(S5_B4)
 +1 shipAssignment(S7_B4)
+-1 shipiUnloadBeforekInBerth(S5_S7_B4)
 -1 shipiUnloadBeforekInBerth(S7_S5_B4)
 <= 1
 
 c_u_ZActive3(S7_S6_B1)_:
 +1 shipAssignment(S6_B1)
 +1 shipAssignment(S7_B1)
+-1 shipiUnloadBeforekInBerth(S6_S7_B1)
 -1 shipiUnloadBeforekInBerth(S7_S6_B1)
 <= 1
 
 c_u_ZActive3(S7_S6_B2)_:
 +1 shipAssignment(S6_B2)
 +1 shipAssignment(S7_B2)
+-1 shipiUnloadBeforekInBerth(S6_S7_B2)
 -1 shipiUnloadBeforekInBerth(S7_S6_B2)
 <= 1
 
 c_u_ZActive3(S7_S6_B3)_:
 +1 shipAssignment(S6_B3)
 +1 shipAssignment(S7_B3)
+-1 shipiUnloadBeforekInBerth(S6_S7_B3)
 -1 shipiUnloadBeforekInBerth(S7_S6_B3)
 <= 1
 
 c_u_ZActive3(S7_S6_B4)_:
 +1 shipAssignment(S6_B4)
 +1 shipAssignment(S7_B4)
+-1 shipiUnloadBeforekInBerth(S6_S7_B4)
 -1 shipiUnloadBeforekInBerth(S7_S6_B4)
 <= 1
 
@@ -6133,191 +4981,223 @@ c_u_ZActive3(S7_S8_B1)_:
 +1 shipAssignment(S7_B1)
 +1 shipAssignment(S8_B1)
 -1 shipiUnloadBeforekInBerth(S7_S8_B1)
+-1 shipiUnloadBeforekInBerth(S8_S7_B1)
 <= 1
 
 c_u_ZActive3(S7_S8_B2)_:
 +1 shipAssignment(S7_B2)
 +1 shipAssignment(S8_B2)
 -1 shipiUnloadBeforekInBerth(S7_S8_B2)
+-1 shipiUnloadBeforekInBerth(S8_S7_B2)
 <= 1
 
 c_u_ZActive3(S7_S8_B3)_:
 +1 shipAssignment(S7_B3)
 +1 shipAssignment(S8_B3)
 -1 shipiUnloadBeforekInBerth(S7_S8_B3)
+-1 shipiUnloadBeforekInBerth(S8_S7_B3)
 <= 1
 
 c_u_ZActive3(S7_S8_B4)_:
 +1 shipAssignment(S7_B4)
 +1 shipAssignment(S8_B4)
 -1 shipiUnloadBeforekInBerth(S7_S8_B4)
+-1 shipiUnloadBeforekInBerth(S8_S7_B4)
 <= 1
 
 c_u_ZActive3(S8_S1_B1)_:
 +1 shipAssignment(S1_B1)
 +1 shipAssignment(S8_B1)
+-1 shipiUnloadBeforekInBerth(S1_S8_B1)
 -1 shipiUnloadBeforekInBerth(S8_S1_B1)
 <= 1
 
 c_u_ZActive3(S8_S1_B2)_:
 +1 shipAssignment(S1_B2)
 +1 shipAssignment(S8_B2)
+-1 shipiUnloadBeforekInBerth(S1_S8_B2)
 -1 shipiUnloadBeforekInBerth(S8_S1_B2)
 <= 1
 
 c_u_ZActive3(S8_S1_B3)_:
 +1 shipAssignment(S1_B3)
 +1 shipAssignment(S8_B3)
+-1 shipiUnloadBeforekInBerth(S1_S8_B3)
 -1 shipiUnloadBeforekInBerth(S8_S1_B3)
 <= 1
 
 c_u_ZActive3(S8_S1_B4)_:
 +1 shipAssignment(S1_B4)
 +1 shipAssignment(S8_B4)
+-1 shipiUnloadBeforekInBerth(S1_S8_B4)
 -1 shipiUnloadBeforekInBerth(S8_S1_B4)
 <= 1
 
 c_u_ZActive3(S8_S2_B1)_:
 +1 shipAssignment(S2_B1)
 +1 shipAssignment(S8_B1)
+-1 shipiUnloadBeforekInBerth(S2_S8_B1)
 -1 shipiUnloadBeforekInBerth(S8_S2_B1)
 <= 1
 
 c_u_ZActive3(S8_S2_B2)_:
 +1 shipAssignment(S2_B2)
 +1 shipAssignment(S8_B2)
+-1 shipiUnloadBeforekInBerth(S2_S8_B2)
 -1 shipiUnloadBeforekInBerth(S8_S2_B2)
 <= 1
 
 c_u_ZActive3(S8_S2_B3)_:
 +1 shipAssignment(S2_B3)
 +1 shipAssignment(S8_B3)
+-1 shipiUnloadBeforekInBerth(S2_S8_B3)
 -1 shipiUnloadBeforekInBerth(S8_S2_B3)
 <= 1
 
 c_u_ZActive3(S8_S2_B4)_:
 +1 shipAssignment(S2_B4)
 +1 shipAssignment(S8_B4)
+-1 shipiUnloadBeforekInBerth(S2_S8_B4)
 -1 shipiUnloadBeforekInBerth(S8_S2_B4)
 <= 1
 
 c_u_ZActive3(S8_S3_B1)_:
 +1 shipAssignment(S3_B1)
 +1 shipAssignment(S8_B1)
+-1 shipiUnloadBeforekInBerth(S3_S8_B1)
 -1 shipiUnloadBeforekInBerth(S8_S3_B1)
 <= 1
 
 c_u_ZActive3(S8_S3_B2)_:
 +1 shipAssignment(S3_B2)
 +1 shipAssignment(S8_B2)
+-1 shipiUnloadBeforekInBerth(S3_S8_B2)
 -1 shipiUnloadBeforekInBerth(S8_S3_B2)
 <= 1
 
 c_u_ZActive3(S8_S3_B3)_:
 +1 shipAssignment(S3_B3)
 +1 shipAssignment(S8_B3)
+-1 shipiUnloadBeforekInBerth(S3_S8_B3)
 -1 shipiUnloadBeforekInBerth(S8_S3_B3)
 <= 1
 
 c_u_ZActive3(S8_S3_B4)_:
 +1 shipAssignment(S3_B4)
 +1 shipAssignment(S8_B4)
+-1 shipiUnloadBeforekInBerth(S3_S8_B4)
 -1 shipiUnloadBeforekInBerth(S8_S3_B4)
 <= 1
 
 c_u_ZActive3(S8_S4_B1)_:
 +1 shipAssignment(S4_B1)
 +1 shipAssignment(S8_B1)
+-1 shipiUnloadBeforekInBerth(S4_S8_B1)
 -1 shipiUnloadBeforekInBerth(S8_S4_B1)
 <= 1
 
 c_u_ZActive3(S8_S4_B2)_:
 +1 shipAssignment(S4_B2)
 +1 shipAssignment(S8_B2)
+-1 shipiUnloadBeforekInBerth(S4_S8_B2)
 -1 shipiUnloadBeforekInBerth(S8_S4_B2)
 <= 1
 
 c_u_ZActive3(S8_S4_B3)_:
 +1 shipAssignment(S4_B3)
 +1 shipAssignment(S8_B3)
+-1 shipiUnloadBeforekInBerth(S4_S8_B3)
 -1 shipiUnloadBeforekInBerth(S8_S4_B3)
 <= 1
 
 c_u_ZActive3(S8_S4_B4)_:
 +1 shipAssignment(S4_B4)
 +1 shipAssignment(S8_B4)
+-1 shipiUnloadBeforekInBerth(S4_S8_B4)
 -1 shipiUnloadBeforekInBerth(S8_S4_B4)
 <= 1
 
 c_u_ZActive3(S8_S5_B1)_:
 +1 shipAssignment(S5_B1)
 +1 shipAssignment(S8_B1)
+-1 shipiUnloadBeforekInBerth(S5_S8_B1)
 -1 shipiUnloadBeforekInBerth(S8_S5_B1)
 <= 1
 
 c_u_ZActive3(S8_S5_B2)_:
 +1 shipAssignment(S5_B2)
 +1 shipAssignment(S8_B2)
+-1 shipiUnloadBeforekInBerth(S5_S8_B2)
 -1 shipiUnloadBeforekInBerth(S8_S5_B2)
 <= 1
 
 c_u_ZActive3(S8_S5_B3)_:
 +1 shipAssignment(S5_B3)
 +1 shipAssignment(S8_B3)
+-1 shipiUnloadBeforekInBerth(S5_S8_B3)
 -1 shipiUnloadBeforekInBerth(S8_S5_B3)
 <= 1
 
 c_u_ZActive3(S8_S5_B4)_:
 +1 shipAssignment(S5_B4)
 +1 shipAssignment(S8_B4)
+-1 shipiUnloadBeforekInBerth(S5_S8_B4)
 -1 shipiUnloadBeforekInBerth(S8_S5_B4)
 <= 1
 
 c_u_ZActive3(S8_S6_B1)_:
 +1 shipAssignment(S6_B1)
 +1 shipAssignment(S8_B1)
+-1 shipiUnloadBeforekInBerth(S6_S8_B1)
 -1 shipiUnloadBeforekInBerth(S8_S6_B1)
 <= 1
 
 c_u_ZActive3(S8_S6_B2)_:
 +1 shipAssignment(S6_B2)
 +1 shipAssignment(S8_B2)
+-1 shipiUnloadBeforekInBerth(S6_S8_B2)
 -1 shipiUnloadBeforekInBerth(S8_S6_B2)
 <= 1
 
 c_u_ZActive3(S8_S6_B3)_:
 +1 shipAssignment(S6_B3)
 +1 shipAssignment(S8_B3)
+-1 shipiUnloadBeforekInBerth(S6_S8_B3)
 -1 shipiUnloadBeforekInBerth(S8_S6_B3)
 <= 1
 
 c_u_ZActive3(S8_S6_B4)_:
 +1 shipAssignment(S6_B4)
 +1 shipAssignment(S8_B4)
+-1 shipiUnloadBeforekInBerth(S6_S8_B4)
 -1 shipiUnloadBeforekInBerth(S8_S6_B4)
 <= 1
 
 c_u_ZActive3(S8_S7_B1)_:
 +1 shipAssignment(S7_B1)
 +1 shipAssignment(S8_B1)
+-1 shipiUnloadBeforekInBerth(S7_S8_B1)
 -1 shipiUnloadBeforekInBerth(S8_S7_B1)
 <= 1
 
 c_u_ZActive3(S8_S7_B2)_:
 +1 shipAssignment(S7_B2)
 +1 shipAssignment(S8_B2)
+-1 shipiUnloadBeforekInBerth(S7_S8_B2)
 -1 shipiUnloadBeforekInBerth(S8_S7_B2)
 <= 1
 
 c_u_ZActive3(S8_S7_B3)_:
 +1 shipAssignment(S7_B3)
 +1 shipAssignment(S8_B3)
+-1 shipiUnloadBeforekInBerth(S7_S8_B3)
 -1 shipiUnloadBeforekInBerth(S8_S7_B3)
 <= 1
 
 c_u_ZActive3(S8_S7_B4)_:
 +1 shipAssignment(S7_B4)
 +1 shipAssignment(S8_B4)
+-1 shipiUnloadBeforekInBerth(S7_S8_B4)
 -1 shipiUnloadBeforekInBerth(S8_S7_B4)
 <= 1
 
@@ -6881,901 +5761,1349 @@ c_u_ZSymmetry(S7_S8_B4)_:
 +1 shipiUnloadBeforekInBerth(S8_S7_B4)
 <= 1
 
-c_l_PrioritySequencing(S1_S2_B1)_:
-+1 shipiUnloadBeforekInBerth(S1_S2_B1)
->= 1
-
-c_l_PrioritySequencing(S1_S2_B2)_:
-+1 shipiUnloadBeforekInBerth(S1_S2_B2)
->= 1
-
-c_l_PrioritySequencing(S1_S2_B3)_:
-+1 shipiUnloadBeforekInBerth(S1_S2_B3)
->= 1
-
-c_l_PrioritySequencing(S1_S2_B4)_:
-+1 shipiUnloadBeforekInBerth(S1_S2_B4)
->= 1
-
-c_l_PrioritySequencing(S1_S3_B1)_:
-+1 shipiUnloadBeforekInBerth(S1_S3_B1)
->= 1
-
-c_l_PrioritySequencing(S1_S3_B2)_:
-+1 shipiUnloadBeforekInBerth(S1_S3_B2)
->= 1
-
-c_l_PrioritySequencing(S1_S3_B3)_:
-+1 shipiUnloadBeforekInBerth(S1_S3_B3)
->= 1
-
-c_l_PrioritySequencing(S1_S3_B4)_:
-+1 shipiUnloadBeforekInBerth(S1_S3_B4)
->= 1
-
-c_l_PrioritySequencing(S1_S4_B1)_:
-+1 shipiUnloadBeforekInBerth(S1_S4_B1)
->= 0
-
-c_l_PrioritySequencing(S1_S4_B2)_:
-+1 shipiUnloadBeforekInBerth(S1_S4_B2)
->= 0
-
-c_l_PrioritySequencing(S1_S4_B3)_:
-+1 shipiUnloadBeforekInBerth(S1_S4_B3)
->= 0
-
-c_l_PrioritySequencing(S1_S4_B4)_:
-+1 shipiUnloadBeforekInBerth(S1_S4_B4)
->= 0
-
-c_l_PrioritySequencing(S1_S5_B1)_:
-+1 shipiUnloadBeforekInBerth(S1_S5_B1)
->= 1
-
-c_l_PrioritySequencing(S1_S5_B2)_:
-+1 shipiUnloadBeforekInBerth(S1_S5_B2)
->= 1
-
-c_l_PrioritySequencing(S1_S5_B3)_:
-+1 shipiUnloadBeforekInBerth(S1_S5_B3)
->= 1
-
-c_l_PrioritySequencing(S1_S5_B4)_:
-+1 shipiUnloadBeforekInBerth(S1_S5_B4)
->= 1
-
-c_l_PrioritySequencing(S1_S6_B1)_:
-+1 shipiUnloadBeforekInBerth(S1_S6_B1)
->= 1
-
-c_l_PrioritySequencing(S1_S6_B2)_:
-+1 shipiUnloadBeforekInBerth(S1_S6_B2)
->= 1
-
-c_l_PrioritySequencing(S1_S6_B3)_:
-+1 shipiUnloadBeforekInBerth(S1_S6_B3)
->= 1
-
-c_l_PrioritySequencing(S1_S6_B4)_:
-+1 shipiUnloadBeforekInBerth(S1_S6_B4)
->= 1
-
-c_l_PrioritySequencing(S1_S7_B1)_:
-+1 shipiUnloadBeforekInBerth(S1_S7_B1)
->= 0
-
-c_l_PrioritySequencing(S1_S7_B2)_:
-+1 shipiUnloadBeforekInBerth(S1_S7_B2)
->= 0
-
-c_l_PrioritySequencing(S1_S7_B3)_:
-+1 shipiUnloadBeforekInBerth(S1_S7_B3)
->= 0
-
-c_l_PrioritySequencing(S1_S7_B4)_:
-+1 shipiUnloadBeforekInBerth(S1_S7_B4)
->= 0
-
-c_l_PrioritySequencing(S1_S8_B1)_:
-+1 shipiUnloadBeforekInBerth(S1_S8_B1)
->= 1
-
-c_l_PrioritySequencing(S1_S8_B2)_:
-+1 shipiUnloadBeforekInBerth(S1_S8_B2)
->= 1
-
-c_l_PrioritySequencing(S1_S8_B3)_:
-+1 shipiUnloadBeforekInBerth(S1_S8_B3)
->= 1
-
-c_l_PrioritySequencing(S1_S8_B4)_:
-+1 shipiUnloadBeforekInBerth(S1_S8_B4)
->= 1
-
-c_l_PrioritySequencing(S2_S1_B1)_:
-+1 shipiUnloadBeforekInBerth(S2_S1_B1)
->= 0
-
-c_l_PrioritySequencing(S2_S1_B2)_:
-+1 shipiUnloadBeforekInBerth(S2_S1_B2)
->= 0
-
-c_l_PrioritySequencing(S2_S1_B3)_:
-+1 shipiUnloadBeforekInBerth(S2_S1_B3)
->= 0
-
-c_l_PrioritySequencing(S2_S1_B4)_:
-+1 shipiUnloadBeforekInBerth(S2_S1_B4)
->= 0
-
-c_l_PrioritySequencing(S2_S3_B1)_:
-+1 shipiUnloadBeforekInBerth(S2_S3_B1)
->= 1
-
-c_l_PrioritySequencing(S2_S3_B2)_:
-+1 shipiUnloadBeforekInBerth(S2_S3_B2)
->= 1
-
-c_l_PrioritySequencing(S2_S3_B3)_:
-+1 shipiUnloadBeforekInBerth(S2_S3_B3)
->= 1
-
-c_l_PrioritySequencing(S2_S3_B4)_:
-+1 shipiUnloadBeforekInBerth(S2_S3_B4)
->= 1
-
-c_l_PrioritySequencing(S2_S4_B1)_:
-+1 shipiUnloadBeforekInBerth(S2_S4_B1)
->= 0
-
-c_l_PrioritySequencing(S2_S4_B2)_:
-+1 shipiUnloadBeforekInBerth(S2_S4_B2)
->= 0
-
-c_l_PrioritySequencing(S2_S4_B3)_:
-+1 shipiUnloadBeforekInBerth(S2_S4_B3)
->= 0
-
-c_l_PrioritySequencing(S2_S4_B4)_:
-+1 shipiUnloadBeforekInBerth(S2_S4_B4)
->= 0
-
-c_l_PrioritySequencing(S2_S5_B1)_:
-+1 shipiUnloadBeforekInBerth(S2_S5_B1)
->= 1
-
-c_l_PrioritySequencing(S2_S5_B2)_:
-+1 shipiUnloadBeforekInBerth(S2_S5_B2)
->= 1
-
-c_l_PrioritySequencing(S2_S5_B3)_:
-+1 shipiUnloadBeforekInBerth(S2_S5_B3)
->= 1
-
-c_l_PrioritySequencing(S2_S5_B4)_:
-+1 shipiUnloadBeforekInBerth(S2_S5_B4)
->= 1
-
-c_l_PrioritySequencing(S2_S6_B1)_:
-+1 shipiUnloadBeforekInBerth(S2_S6_B1)
->= 1
-
-c_l_PrioritySequencing(S2_S6_B2)_:
-+1 shipiUnloadBeforekInBerth(S2_S6_B2)
->= 1
-
-c_l_PrioritySequencing(S2_S6_B3)_:
-+1 shipiUnloadBeforekInBerth(S2_S6_B3)
->= 1
-
-c_l_PrioritySequencing(S2_S6_B4)_:
-+1 shipiUnloadBeforekInBerth(S2_S6_B4)
->= 1
-
-c_l_PrioritySequencing(S2_S7_B1)_:
-+1 shipiUnloadBeforekInBerth(S2_S7_B1)
->= 0
-
-c_l_PrioritySequencing(S2_S7_B2)_:
-+1 shipiUnloadBeforekInBerth(S2_S7_B2)
->= 0
-
-c_l_PrioritySequencing(S2_S7_B3)_:
-+1 shipiUnloadBeforekInBerth(S2_S7_B3)
->= 0
-
-c_l_PrioritySequencing(S2_S7_B4)_:
-+1 shipiUnloadBeforekInBerth(S2_S7_B4)
->= 0
-
-c_l_PrioritySequencing(S2_S8_B1)_:
-+1 shipiUnloadBeforekInBerth(S2_S8_B1)
->= 1
-
-c_l_PrioritySequencing(S2_S8_B2)_:
-+1 shipiUnloadBeforekInBerth(S2_S8_B2)
->= 1
-
-c_l_PrioritySequencing(S2_S8_B3)_:
-+1 shipiUnloadBeforekInBerth(S2_S8_B3)
->= 1
-
-c_l_PrioritySequencing(S2_S8_B4)_:
-+1 shipiUnloadBeforekInBerth(S2_S8_B4)
->= 1
-
-c_l_PrioritySequencing(S3_S1_B1)_:
-+1 shipiUnloadBeforekInBerth(S3_S1_B1)
->= 0
-
-c_l_PrioritySequencing(S3_S1_B2)_:
-+1 shipiUnloadBeforekInBerth(S3_S1_B2)
->= 0
-
-c_l_PrioritySequencing(S3_S1_B3)_:
-+1 shipiUnloadBeforekInBerth(S3_S1_B3)
->= 0
-
-c_l_PrioritySequencing(S3_S1_B4)_:
-+1 shipiUnloadBeforekInBerth(S3_S1_B4)
->= 0
-
-c_l_PrioritySequencing(S3_S2_B1)_:
-+1 shipiUnloadBeforekInBerth(S3_S2_B1)
->= 0
-
-c_l_PrioritySequencing(S3_S2_B2)_:
-+1 shipiUnloadBeforekInBerth(S3_S2_B2)
->= 0
-
-c_l_PrioritySequencing(S3_S2_B3)_:
-+1 shipiUnloadBeforekInBerth(S3_S2_B3)
->= 0
-
-c_l_PrioritySequencing(S3_S2_B4)_:
-+1 shipiUnloadBeforekInBerth(S3_S2_B4)
->= 0
-
-c_l_PrioritySequencing(S3_S4_B1)_:
-+1 shipiUnloadBeforekInBerth(S3_S4_B1)
->= 0
-
-c_l_PrioritySequencing(S3_S4_B2)_:
-+1 shipiUnloadBeforekInBerth(S3_S4_B2)
->= 0
-
-c_l_PrioritySequencing(S3_S4_B3)_:
-+1 shipiUnloadBeforekInBerth(S3_S4_B3)
->= 0
-
-c_l_PrioritySequencing(S3_S4_B4)_:
-+1 shipiUnloadBeforekInBerth(S3_S4_B4)
->= 0
-
-c_l_PrioritySequencing(S3_S5_B1)_:
-+1 shipiUnloadBeforekInBerth(S3_S5_B1)
->= 1
-
-c_l_PrioritySequencing(S3_S5_B2)_:
-+1 shipiUnloadBeforekInBerth(S3_S5_B2)
->= 1
-
-c_l_PrioritySequencing(S3_S5_B3)_:
-+1 shipiUnloadBeforekInBerth(S3_S5_B3)
->= 1
-
-c_l_PrioritySequencing(S3_S5_B4)_:
-+1 shipiUnloadBeforekInBerth(S3_S5_B4)
->= 1
-
-c_l_PrioritySequencing(S3_S6_B1)_:
-+1 shipiUnloadBeforekInBerth(S3_S6_B1)
->= 1
-
-c_l_PrioritySequencing(S3_S6_B2)_:
-+1 shipiUnloadBeforekInBerth(S3_S6_B2)
->= 1
-
-c_l_PrioritySequencing(S3_S6_B3)_:
-+1 shipiUnloadBeforekInBerth(S3_S6_B3)
->= 1
-
-c_l_PrioritySequencing(S3_S6_B4)_:
-+1 shipiUnloadBeforekInBerth(S3_S6_B4)
->= 1
-
-c_l_PrioritySequencing(S3_S7_B1)_:
-+1 shipiUnloadBeforekInBerth(S3_S7_B1)
->= 0
-
-c_l_PrioritySequencing(S3_S7_B2)_:
-+1 shipiUnloadBeforekInBerth(S3_S7_B2)
->= 0
-
-c_l_PrioritySequencing(S3_S7_B3)_:
-+1 shipiUnloadBeforekInBerth(S3_S7_B3)
->= 0
-
-c_l_PrioritySequencing(S3_S7_B4)_:
-+1 shipiUnloadBeforekInBerth(S3_S7_B4)
->= 0
-
-c_l_PrioritySequencing(S3_S8_B1)_:
-+1 shipiUnloadBeforekInBerth(S3_S8_B1)
->= 0
-
-c_l_PrioritySequencing(S3_S8_B2)_:
-+1 shipiUnloadBeforekInBerth(S3_S8_B2)
->= 0
-
-c_l_PrioritySequencing(S3_S8_B3)_:
-+1 shipiUnloadBeforekInBerth(S3_S8_B3)
->= 0
-
-c_l_PrioritySequencing(S3_S8_B4)_:
-+1 shipiUnloadBeforekInBerth(S3_S8_B4)
->= 0
-
-c_l_PrioritySequencing(S4_S1_B1)_:
-+1 shipiUnloadBeforekInBerth(S4_S1_B1)
->= 1
-
-c_l_PrioritySequencing(S4_S1_B2)_:
-+1 shipiUnloadBeforekInBerth(S4_S1_B2)
->= 1
-
-c_l_PrioritySequencing(S4_S1_B3)_:
-+1 shipiUnloadBeforekInBerth(S4_S1_B3)
->= 1
-
-c_l_PrioritySequencing(S4_S1_B4)_:
-+1 shipiUnloadBeforekInBerth(S4_S1_B4)
->= 1
-
-c_l_PrioritySequencing(S4_S2_B1)_:
-+1 shipiUnloadBeforekInBerth(S4_S2_B1)
->= 1
-
-c_l_PrioritySequencing(S4_S2_B2)_:
-+1 shipiUnloadBeforekInBerth(S4_S2_B2)
->= 1
-
-c_l_PrioritySequencing(S4_S2_B3)_:
-+1 shipiUnloadBeforekInBerth(S4_S2_B3)
->= 1
-
-c_l_PrioritySequencing(S4_S2_B4)_:
-+1 shipiUnloadBeforekInBerth(S4_S2_B4)
->= 1
-
-c_l_PrioritySequencing(S4_S3_B1)_:
-+1 shipiUnloadBeforekInBerth(S4_S3_B1)
->= 1
-
-c_l_PrioritySequencing(S4_S3_B2)_:
-+1 shipiUnloadBeforekInBerth(S4_S3_B2)
->= 1
-
-c_l_PrioritySequencing(S4_S3_B3)_:
-+1 shipiUnloadBeforekInBerth(S4_S3_B3)
->= 1
-
-c_l_PrioritySequencing(S4_S3_B4)_:
-+1 shipiUnloadBeforekInBerth(S4_S3_B4)
->= 1
-
-c_l_PrioritySequencing(S4_S5_B1)_:
-+1 shipiUnloadBeforekInBerth(S4_S5_B1)
->= 1
-
-c_l_PrioritySequencing(S4_S5_B2)_:
-+1 shipiUnloadBeforekInBerth(S4_S5_B2)
->= 1
-
-c_l_PrioritySequencing(S4_S5_B3)_:
-+1 shipiUnloadBeforekInBerth(S4_S5_B3)
->= 1
-
-c_l_PrioritySequencing(S4_S5_B4)_:
-+1 shipiUnloadBeforekInBerth(S4_S5_B4)
->= 1
-
-c_l_PrioritySequencing(S4_S6_B1)_:
-+1 shipiUnloadBeforekInBerth(S4_S6_B1)
->= 1
-
-c_l_PrioritySequencing(S4_S6_B2)_:
-+1 shipiUnloadBeforekInBerth(S4_S6_B2)
->= 1
-
-c_l_PrioritySequencing(S4_S6_B3)_:
-+1 shipiUnloadBeforekInBerth(S4_S6_B3)
->= 1
-
-c_l_PrioritySequencing(S4_S6_B4)_:
-+1 shipiUnloadBeforekInBerth(S4_S6_B4)
->= 1
-
-c_l_PrioritySequencing(S4_S7_B1)_:
-+1 shipiUnloadBeforekInBerth(S4_S7_B1)
->= 1
-
-c_l_PrioritySequencing(S4_S7_B2)_:
-+1 shipiUnloadBeforekInBerth(S4_S7_B2)
->= 1
-
-c_l_PrioritySequencing(S4_S7_B3)_:
-+1 shipiUnloadBeforekInBerth(S4_S7_B3)
->= 1
-
-c_l_PrioritySequencing(S4_S7_B4)_:
-+1 shipiUnloadBeforekInBerth(S4_S7_B4)
->= 1
-
-c_l_PrioritySequencing(S4_S8_B1)_:
-+1 shipiUnloadBeforekInBerth(S4_S8_B1)
->= 1
-
-c_l_PrioritySequencing(S4_S8_B2)_:
-+1 shipiUnloadBeforekInBerth(S4_S8_B2)
->= 1
-
-c_l_PrioritySequencing(S4_S8_B3)_:
-+1 shipiUnloadBeforekInBerth(S4_S8_B3)
->= 1
-
-c_l_PrioritySequencing(S4_S8_B4)_:
-+1 shipiUnloadBeforekInBerth(S4_S8_B4)
->= 1
-
-c_l_PrioritySequencing(S5_S1_B1)_:
-+1 shipiUnloadBeforekInBerth(S5_S1_B1)
->= 0
-
-c_l_PrioritySequencing(S5_S1_B2)_:
-+1 shipiUnloadBeforekInBerth(S5_S1_B2)
->= 0
-
-c_l_PrioritySequencing(S5_S1_B3)_:
-+1 shipiUnloadBeforekInBerth(S5_S1_B3)
->= 0
-
-c_l_PrioritySequencing(S5_S1_B4)_:
-+1 shipiUnloadBeforekInBerth(S5_S1_B4)
->= 0
-
-c_l_PrioritySequencing(S5_S2_B1)_:
-+1 shipiUnloadBeforekInBerth(S5_S2_B1)
->= 0
-
-c_l_PrioritySequencing(S5_S2_B2)_:
-+1 shipiUnloadBeforekInBerth(S5_S2_B2)
->= 0
-
-c_l_PrioritySequencing(S5_S2_B3)_:
-+1 shipiUnloadBeforekInBerth(S5_S2_B3)
->= 0
-
-c_l_PrioritySequencing(S5_S2_B4)_:
-+1 shipiUnloadBeforekInBerth(S5_S2_B4)
->= 0
-
-c_l_PrioritySequencing(S5_S3_B1)_:
-+1 shipiUnloadBeforekInBerth(S5_S3_B1)
->= 0
-
-c_l_PrioritySequencing(S5_S3_B2)_:
-+1 shipiUnloadBeforekInBerth(S5_S3_B2)
->= 0
-
-c_l_PrioritySequencing(S5_S3_B3)_:
-+1 shipiUnloadBeforekInBerth(S5_S3_B3)
->= 0
-
-c_l_PrioritySequencing(S5_S3_B4)_:
-+1 shipiUnloadBeforekInBerth(S5_S3_B4)
->= 0
-
-c_l_PrioritySequencing(S5_S4_B1)_:
-+1 shipiUnloadBeforekInBerth(S5_S4_B1)
->= 0
-
-c_l_PrioritySequencing(S5_S4_B2)_:
-+1 shipiUnloadBeforekInBerth(S5_S4_B2)
->= 0
-
-c_l_PrioritySequencing(S5_S4_B3)_:
-+1 shipiUnloadBeforekInBerth(S5_S4_B3)
->= 0
-
-c_l_PrioritySequencing(S5_S4_B4)_:
-+1 shipiUnloadBeforekInBerth(S5_S4_B4)
->= 0
-
-c_l_PrioritySequencing(S5_S6_B1)_:
-+1 shipiUnloadBeforekInBerth(S5_S6_B1)
->= 0
-
-c_l_PrioritySequencing(S5_S6_B2)_:
-+1 shipiUnloadBeforekInBerth(S5_S6_B2)
->= 0
-
-c_l_PrioritySequencing(S5_S6_B3)_:
-+1 shipiUnloadBeforekInBerth(S5_S6_B3)
->= 0
-
-c_l_PrioritySequencing(S5_S6_B4)_:
-+1 shipiUnloadBeforekInBerth(S5_S6_B4)
->= 0
-
-c_l_PrioritySequencing(S5_S7_B1)_:
-+1 shipiUnloadBeforekInBerth(S5_S7_B1)
->= 0
-
-c_l_PrioritySequencing(S5_S7_B2)_:
-+1 shipiUnloadBeforekInBerth(S5_S7_B2)
->= 0
-
-c_l_PrioritySequencing(S5_S7_B3)_:
-+1 shipiUnloadBeforekInBerth(S5_S7_B3)
->= 0
-
-c_l_PrioritySequencing(S5_S7_B4)_:
-+1 shipiUnloadBeforekInBerth(S5_S7_B4)
->= 0
-
-c_l_PrioritySequencing(S5_S8_B1)_:
-+1 shipiUnloadBeforekInBerth(S5_S8_B1)
->= 0
-
-c_l_PrioritySequencing(S5_S8_B2)_:
-+1 shipiUnloadBeforekInBerth(S5_S8_B2)
->= 0
-
-c_l_PrioritySequencing(S5_S8_B3)_:
-+1 shipiUnloadBeforekInBerth(S5_S8_B3)
->= 0
-
-c_l_PrioritySequencing(S5_S8_B4)_:
-+1 shipiUnloadBeforekInBerth(S5_S8_B4)
->= 0
-
-c_l_PrioritySequencing(S6_S1_B1)_:
-+1 shipiUnloadBeforekInBerth(S6_S1_B1)
->= 0
-
-c_l_PrioritySequencing(S6_S1_B2)_:
-+1 shipiUnloadBeforekInBerth(S6_S1_B2)
->= 0
-
-c_l_PrioritySequencing(S6_S1_B3)_:
-+1 shipiUnloadBeforekInBerth(S6_S1_B3)
->= 0
-
-c_l_PrioritySequencing(S6_S1_B4)_:
-+1 shipiUnloadBeforekInBerth(S6_S1_B4)
->= 0
-
-c_l_PrioritySequencing(S6_S2_B1)_:
-+1 shipiUnloadBeforekInBerth(S6_S2_B1)
->= 0
-
-c_l_PrioritySequencing(S6_S2_B2)_:
-+1 shipiUnloadBeforekInBerth(S6_S2_B2)
->= 0
-
-c_l_PrioritySequencing(S6_S2_B3)_:
-+1 shipiUnloadBeforekInBerth(S6_S2_B3)
->= 0
-
-c_l_PrioritySequencing(S6_S2_B4)_:
-+1 shipiUnloadBeforekInBerth(S6_S2_B4)
->= 0
-
-c_l_PrioritySequencing(S6_S3_B1)_:
-+1 shipiUnloadBeforekInBerth(S6_S3_B1)
->= 0
-
-c_l_PrioritySequencing(S6_S3_B2)_:
-+1 shipiUnloadBeforekInBerth(S6_S3_B2)
->= 0
-
-c_l_PrioritySequencing(S6_S3_B3)_:
-+1 shipiUnloadBeforekInBerth(S6_S3_B3)
->= 0
-
-c_l_PrioritySequencing(S6_S3_B4)_:
-+1 shipiUnloadBeforekInBerth(S6_S3_B4)
->= 0
-
-c_l_PrioritySequencing(S6_S4_B1)_:
-+1 shipiUnloadBeforekInBerth(S6_S4_B1)
->= 0
-
-c_l_PrioritySequencing(S6_S4_B2)_:
-+1 shipiUnloadBeforekInBerth(S6_S4_B2)
->= 0
-
-c_l_PrioritySequencing(S6_S4_B3)_:
-+1 shipiUnloadBeforekInBerth(S6_S4_B3)
->= 0
-
-c_l_PrioritySequencing(S6_S4_B4)_:
-+1 shipiUnloadBeforekInBerth(S6_S4_B4)
->= 0
-
-c_l_PrioritySequencing(S6_S5_B1)_:
-+1 shipiUnloadBeforekInBerth(S6_S5_B1)
->= 1
-
-c_l_PrioritySequencing(S6_S5_B2)_:
-+1 shipiUnloadBeforekInBerth(S6_S5_B2)
->= 1
-
-c_l_PrioritySequencing(S6_S5_B3)_:
-+1 shipiUnloadBeforekInBerth(S6_S5_B3)
->= 1
-
-c_l_PrioritySequencing(S6_S5_B4)_:
-+1 shipiUnloadBeforekInBerth(S6_S5_B4)
->= 1
-
-c_l_PrioritySequencing(S6_S7_B1)_:
-+1 shipiUnloadBeforekInBerth(S6_S7_B1)
->= 0
-
-c_l_PrioritySequencing(S6_S7_B2)_:
-+1 shipiUnloadBeforekInBerth(S6_S7_B2)
->= 0
-
-c_l_PrioritySequencing(S6_S7_B3)_:
-+1 shipiUnloadBeforekInBerth(S6_S7_B3)
->= 0
-
-c_l_PrioritySequencing(S6_S7_B4)_:
-+1 shipiUnloadBeforekInBerth(S6_S7_B4)
->= 0
-
-c_l_PrioritySequencing(S6_S8_B1)_:
-+1 shipiUnloadBeforekInBerth(S6_S8_B1)
->= 0
-
-c_l_PrioritySequencing(S6_S8_B2)_:
-+1 shipiUnloadBeforekInBerth(S6_S8_B2)
->= 0
-
-c_l_PrioritySequencing(S6_S8_B3)_:
-+1 shipiUnloadBeforekInBerth(S6_S8_B3)
->= 0
-
-c_l_PrioritySequencing(S6_S8_B4)_:
-+1 shipiUnloadBeforekInBerth(S6_S8_B4)
->= 0
-
-c_l_PrioritySequencing(S7_S1_B1)_:
-+1 shipiUnloadBeforekInBerth(S7_S1_B1)
->= 1
-
-c_l_PrioritySequencing(S7_S1_B2)_:
-+1 shipiUnloadBeforekInBerth(S7_S1_B2)
->= 1
-
-c_l_PrioritySequencing(S7_S1_B3)_:
-+1 shipiUnloadBeforekInBerth(S7_S1_B3)
->= 1
-
-c_l_PrioritySequencing(S7_S1_B4)_:
-+1 shipiUnloadBeforekInBerth(S7_S1_B4)
->= 1
-
-c_l_PrioritySequencing(S7_S2_B1)_:
-+1 shipiUnloadBeforekInBerth(S7_S2_B1)
->= 1
-
-c_l_PrioritySequencing(S7_S2_B2)_:
-+1 shipiUnloadBeforekInBerth(S7_S2_B2)
->= 1
-
-c_l_PrioritySequencing(S7_S2_B3)_:
-+1 shipiUnloadBeforekInBerth(S7_S2_B3)
->= 1
-
-c_l_PrioritySequencing(S7_S2_B4)_:
-+1 shipiUnloadBeforekInBerth(S7_S2_B4)
->= 1
-
-c_l_PrioritySequencing(S7_S3_B1)_:
-+1 shipiUnloadBeforekInBerth(S7_S3_B1)
->= 1
-
-c_l_PrioritySequencing(S7_S3_B2)_:
-+1 shipiUnloadBeforekInBerth(S7_S3_B2)
->= 1
-
-c_l_PrioritySequencing(S7_S3_B3)_:
-+1 shipiUnloadBeforekInBerth(S7_S3_B3)
->= 1
-
-c_l_PrioritySequencing(S7_S3_B4)_:
-+1 shipiUnloadBeforekInBerth(S7_S3_B4)
->= 1
-
-c_l_PrioritySequencing(S7_S4_B1)_:
-+1 shipiUnloadBeforekInBerth(S7_S4_B1)
->= 0
-
-c_l_PrioritySequencing(S7_S4_B2)_:
-+1 shipiUnloadBeforekInBerth(S7_S4_B2)
->= 0
-
-c_l_PrioritySequencing(S7_S4_B3)_:
-+1 shipiUnloadBeforekInBerth(S7_S4_B3)
->= 0
-
-c_l_PrioritySequencing(S7_S4_B4)_:
-+1 shipiUnloadBeforekInBerth(S7_S4_B4)
->= 0
-
-c_l_PrioritySequencing(S7_S5_B1)_:
-+1 shipiUnloadBeforekInBerth(S7_S5_B1)
->= 1
-
-c_l_PrioritySequencing(S7_S5_B2)_:
-+1 shipiUnloadBeforekInBerth(S7_S5_B2)
->= 1
-
-c_l_PrioritySequencing(S7_S5_B3)_:
-+1 shipiUnloadBeforekInBerth(S7_S5_B3)
->= 1
-
-c_l_PrioritySequencing(S7_S5_B4)_:
-+1 shipiUnloadBeforekInBerth(S7_S5_B4)
->= 1
-
-c_l_PrioritySequencing(S7_S6_B1)_:
-+1 shipiUnloadBeforekInBerth(S7_S6_B1)
->= 1
-
-c_l_PrioritySequencing(S7_S6_B2)_:
-+1 shipiUnloadBeforekInBerth(S7_S6_B2)
->= 1
-
-c_l_PrioritySequencing(S7_S6_B3)_:
-+1 shipiUnloadBeforekInBerth(S7_S6_B3)
->= 1
-
-c_l_PrioritySequencing(S7_S6_B4)_:
-+1 shipiUnloadBeforekInBerth(S7_S6_B4)
->= 1
-
-c_l_PrioritySequencing(S7_S8_B1)_:
-+1 shipiUnloadBeforekInBerth(S7_S8_B1)
->= 1
-
-c_l_PrioritySequencing(S7_S8_B2)_:
-+1 shipiUnloadBeforekInBerth(S7_S8_B2)
->= 1
-
-c_l_PrioritySequencing(S7_S8_B3)_:
-+1 shipiUnloadBeforekInBerth(S7_S8_B3)
->= 1
-
-c_l_PrioritySequencing(S7_S8_B4)_:
-+1 shipiUnloadBeforekInBerth(S7_S8_B4)
->= 1
-
-c_l_PrioritySequencing(S8_S1_B1)_:
-+1 shipiUnloadBeforekInBerth(S8_S1_B1)
->= 0
-
-c_l_PrioritySequencing(S8_S1_B2)_:
-+1 shipiUnloadBeforekInBerth(S8_S1_B2)
->= 0
-
-c_l_PrioritySequencing(S8_S1_B3)_:
-+1 shipiUnloadBeforekInBerth(S8_S1_B3)
->= 0
-
-c_l_PrioritySequencing(S8_S1_B4)_:
-+1 shipiUnloadBeforekInBerth(S8_S1_B4)
->= 0
-
-c_l_PrioritySequencing(S8_S2_B1)_:
-+1 shipiUnloadBeforekInBerth(S8_S2_B1)
->= 0
-
-c_l_PrioritySequencing(S8_S2_B2)_:
-+1 shipiUnloadBeforekInBerth(S8_S2_B2)
->= 0
-
-c_l_PrioritySequencing(S8_S2_B3)_:
-+1 shipiUnloadBeforekInBerth(S8_S2_B3)
->= 0
-
-c_l_PrioritySequencing(S8_S2_B4)_:
-+1 shipiUnloadBeforekInBerth(S8_S2_B4)
->= 0
-
-c_l_PrioritySequencing(S8_S3_B1)_:
-+1 shipiUnloadBeforekInBerth(S8_S3_B1)
->= 1
-
-c_l_PrioritySequencing(S8_S3_B2)_:
-+1 shipiUnloadBeforekInBerth(S8_S3_B2)
->= 1
-
-c_l_PrioritySequencing(S8_S3_B3)_:
-+1 shipiUnloadBeforekInBerth(S8_S3_B3)
->= 1
-
-c_l_PrioritySequencing(S8_S3_B4)_:
-+1 shipiUnloadBeforekInBerth(S8_S3_B4)
->= 1
-
-c_l_PrioritySequencing(S8_S4_B1)_:
-+1 shipiUnloadBeforekInBerth(S8_S4_B1)
->= 0
-
-c_l_PrioritySequencing(S8_S4_B2)_:
-+1 shipiUnloadBeforekInBerth(S8_S4_B2)
->= 0
-
-c_l_PrioritySequencing(S8_S4_B3)_:
-+1 shipiUnloadBeforekInBerth(S8_S4_B3)
->= 0
-
-c_l_PrioritySequencing(S8_S4_B4)_:
-+1 shipiUnloadBeforekInBerth(S8_S4_B4)
->= 0
-
-c_l_PrioritySequencing(S8_S5_B1)_:
-+1 shipiUnloadBeforekInBerth(S8_S5_B1)
->= 1
-
-c_l_PrioritySequencing(S8_S5_B2)_:
-+1 shipiUnloadBeforekInBerth(S8_S5_B2)
->= 1
-
-c_l_PrioritySequencing(S8_S5_B3)_:
-+1 shipiUnloadBeforekInBerth(S8_S5_B3)
->= 1
-
-c_l_PrioritySequencing(S8_S5_B4)_:
-+1 shipiUnloadBeforekInBerth(S8_S5_B4)
->= 1
-
-c_l_PrioritySequencing(S8_S6_B1)_:
-+1 shipiUnloadBeforekInBerth(S8_S6_B1)
->= 1
-
-c_l_PrioritySequencing(S8_S6_B2)_:
-+1 shipiUnloadBeforekInBerth(S8_S6_B2)
->= 1
-
-c_l_PrioritySequencing(S8_S6_B3)_:
-+1 shipiUnloadBeforekInBerth(S8_S6_B3)
->= 1
-
-c_l_PrioritySequencing(S8_S6_B4)_:
-+1 shipiUnloadBeforekInBerth(S8_S6_B4)
->= 1
-
-c_l_PrioritySequencing(S8_S7_B1)_:
-+1 shipiUnloadBeforekInBerth(S8_S7_B1)
->= 0
-
-c_l_PrioritySequencing(S8_S7_B2)_:
-+1 shipiUnloadBeforekInBerth(S8_S7_B2)
->= 0
-
-c_l_PrioritySequencing(S8_S7_B3)_:
-+1 shipiUnloadBeforekInBerth(S8_S7_B3)
->= 0
-
-c_l_PrioritySequencing(S8_S7_B4)_:
-+1 shipiUnloadBeforekInBerth(S8_S7_B4)
->= 0
+c_u_PrioritySequencing(S1_S2_B1)_:
++1 shipAssignment(S1_B1)
++1 shipAssignment(S2_B1)
+-1 shipiUnloadBeforekInBerth(S1_S2_B1)
+<= 1
+
+c_u_PrioritySequencing(S1_S2_B2)_:
++1 shipAssignment(S1_B2)
++1 shipAssignment(S2_B2)
+-1 shipiUnloadBeforekInBerth(S1_S2_B2)
+<= 1
+
+c_u_PrioritySequencing(S1_S2_B3)_:
++1 shipAssignment(S1_B3)
++1 shipAssignment(S2_B3)
+-1 shipiUnloadBeforekInBerth(S1_S2_B3)
+<= 1
+
+c_u_PrioritySequencing(S1_S2_B4)_:
++1 shipAssignment(S1_B4)
++1 shipAssignment(S2_B4)
+-1 shipiUnloadBeforekInBerth(S1_S2_B4)
+<= 1
+
+c_u_PrioritySequencing(S1_S3_B1)_:
++1 shipAssignment(S1_B1)
++1 shipAssignment(S3_B1)
+-1 shipiUnloadBeforekInBerth(S1_S3_B1)
+<= 1
+
+c_u_PrioritySequencing(S1_S3_B2)_:
++1 shipAssignment(S1_B2)
++1 shipAssignment(S3_B2)
+-1 shipiUnloadBeforekInBerth(S1_S3_B2)
+<= 1
+
+c_u_PrioritySequencing(S1_S3_B3)_:
++1 shipAssignment(S1_B3)
++1 shipAssignment(S3_B3)
+-1 shipiUnloadBeforekInBerth(S1_S3_B3)
+<= 1
+
+c_u_PrioritySequencing(S1_S3_B4)_:
++1 shipAssignment(S1_B4)
++1 shipAssignment(S3_B4)
+-1 shipiUnloadBeforekInBerth(S1_S3_B4)
+<= 1
+
+c_u_PrioritySequencing(S1_S4_B1)_:
++1 shipAssignment(S1_B1)
++1 shipAssignment(S4_B1)
+-1 shipiUnloadBeforekInBerth(S1_S4_B1)
+<= 2
+
+c_u_PrioritySequencing(S1_S4_B2)_:
++1 shipAssignment(S1_B2)
++1 shipAssignment(S4_B2)
+-1 shipiUnloadBeforekInBerth(S1_S4_B2)
+<= 2
+
+c_u_PrioritySequencing(S1_S4_B3)_:
++1 shipAssignment(S1_B3)
++1 shipAssignment(S4_B3)
+-1 shipiUnloadBeforekInBerth(S1_S4_B3)
+<= 2
+
+c_u_PrioritySequencing(S1_S4_B4)_:
++1 shipAssignment(S1_B4)
++1 shipAssignment(S4_B4)
+-1 shipiUnloadBeforekInBerth(S1_S4_B4)
+<= 2
+
+c_u_PrioritySequencing(S1_S5_B1)_:
++1 shipAssignment(S1_B1)
++1 shipAssignment(S5_B1)
+-1 shipiUnloadBeforekInBerth(S1_S5_B1)
+<= 1
+
+c_u_PrioritySequencing(S1_S5_B2)_:
++1 shipAssignment(S1_B2)
++1 shipAssignment(S5_B2)
+-1 shipiUnloadBeforekInBerth(S1_S5_B2)
+<= 1
+
+c_u_PrioritySequencing(S1_S5_B3)_:
++1 shipAssignment(S1_B3)
++1 shipAssignment(S5_B3)
+-1 shipiUnloadBeforekInBerth(S1_S5_B3)
+<= 1
+
+c_u_PrioritySequencing(S1_S5_B4)_:
++1 shipAssignment(S1_B4)
++1 shipAssignment(S5_B4)
+-1 shipiUnloadBeforekInBerth(S1_S5_B4)
+<= 1
+
+c_u_PrioritySequencing(S1_S6_B1)_:
++1 shipAssignment(S1_B1)
++1 shipAssignment(S6_B1)
+-1 shipiUnloadBeforekInBerth(S1_S6_B1)
+<= 1
+
+c_u_PrioritySequencing(S1_S6_B2)_:
++1 shipAssignment(S1_B2)
++1 shipAssignment(S6_B2)
+-1 shipiUnloadBeforekInBerth(S1_S6_B2)
+<= 1
+
+c_u_PrioritySequencing(S1_S6_B3)_:
++1 shipAssignment(S1_B3)
++1 shipAssignment(S6_B3)
+-1 shipiUnloadBeforekInBerth(S1_S6_B3)
+<= 1
+
+c_u_PrioritySequencing(S1_S6_B4)_:
++1 shipAssignment(S1_B4)
++1 shipAssignment(S6_B4)
+-1 shipiUnloadBeforekInBerth(S1_S6_B4)
+<= 1
+
+c_u_PrioritySequencing(S1_S7_B1)_:
++1 shipAssignment(S1_B1)
++1 shipAssignment(S7_B1)
+-1 shipiUnloadBeforekInBerth(S1_S7_B1)
+<= 2
+
+c_u_PrioritySequencing(S1_S7_B2)_:
++1 shipAssignment(S1_B2)
++1 shipAssignment(S7_B2)
+-1 shipiUnloadBeforekInBerth(S1_S7_B2)
+<= 2
+
+c_u_PrioritySequencing(S1_S7_B3)_:
++1 shipAssignment(S1_B3)
++1 shipAssignment(S7_B3)
+-1 shipiUnloadBeforekInBerth(S1_S7_B3)
+<= 2
+
+c_u_PrioritySequencing(S1_S7_B4)_:
++1 shipAssignment(S1_B4)
++1 shipAssignment(S7_B4)
+-1 shipiUnloadBeforekInBerth(S1_S7_B4)
+<= 2
+
+c_u_PrioritySequencing(S1_S8_B1)_:
++1 shipAssignment(S1_B1)
++1 shipAssignment(S8_B1)
+-1 shipiUnloadBeforekInBerth(S1_S8_B1)
+<= 1
+
+c_u_PrioritySequencing(S1_S8_B2)_:
++1 shipAssignment(S1_B2)
++1 shipAssignment(S8_B2)
+-1 shipiUnloadBeforekInBerth(S1_S8_B2)
+<= 1
+
+c_u_PrioritySequencing(S1_S8_B3)_:
++1 shipAssignment(S1_B3)
++1 shipAssignment(S8_B3)
+-1 shipiUnloadBeforekInBerth(S1_S8_B3)
+<= 1
+
+c_u_PrioritySequencing(S1_S8_B4)_:
++1 shipAssignment(S1_B4)
++1 shipAssignment(S8_B4)
+-1 shipiUnloadBeforekInBerth(S1_S8_B4)
+<= 1
+
+c_u_PrioritySequencing(S2_S1_B1)_:
++1 shipAssignment(S1_B1)
++1 shipAssignment(S2_B1)
+-1 shipiUnloadBeforekInBerth(S2_S1_B1)
+<= 2
+
+c_u_PrioritySequencing(S2_S1_B2)_:
++1 shipAssignment(S1_B2)
++1 shipAssignment(S2_B2)
+-1 shipiUnloadBeforekInBerth(S2_S1_B2)
+<= 2
+
+c_u_PrioritySequencing(S2_S1_B3)_:
++1 shipAssignment(S1_B3)
++1 shipAssignment(S2_B3)
+-1 shipiUnloadBeforekInBerth(S2_S1_B3)
+<= 2
+
+c_u_PrioritySequencing(S2_S1_B4)_:
++1 shipAssignment(S1_B4)
++1 shipAssignment(S2_B4)
+-1 shipiUnloadBeforekInBerth(S2_S1_B4)
+<= 2
+
+c_u_PrioritySequencing(S2_S3_B1)_:
++1 shipAssignment(S2_B1)
++1 shipAssignment(S3_B1)
+-1 shipiUnloadBeforekInBerth(S2_S3_B1)
+<= 1
+
+c_u_PrioritySequencing(S2_S3_B2)_:
++1 shipAssignment(S2_B2)
++1 shipAssignment(S3_B2)
+-1 shipiUnloadBeforekInBerth(S2_S3_B2)
+<= 1
+
+c_u_PrioritySequencing(S2_S3_B3)_:
++1 shipAssignment(S2_B3)
++1 shipAssignment(S3_B3)
+-1 shipiUnloadBeforekInBerth(S2_S3_B3)
+<= 1
+
+c_u_PrioritySequencing(S2_S3_B4)_:
++1 shipAssignment(S2_B4)
++1 shipAssignment(S3_B4)
+-1 shipiUnloadBeforekInBerth(S2_S3_B4)
+<= 1
+
+c_u_PrioritySequencing(S2_S4_B1)_:
++1 shipAssignment(S2_B1)
++1 shipAssignment(S4_B1)
+-1 shipiUnloadBeforekInBerth(S2_S4_B1)
+<= 2
+
+c_u_PrioritySequencing(S2_S4_B2)_:
++1 shipAssignment(S2_B2)
++1 shipAssignment(S4_B2)
+-1 shipiUnloadBeforekInBerth(S2_S4_B2)
+<= 2
+
+c_u_PrioritySequencing(S2_S4_B3)_:
++1 shipAssignment(S2_B3)
++1 shipAssignment(S4_B3)
+-1 shipiUnloadBeforekInBerth(S2_S4_B3)
+<= 2
+
+c_u_PrioritySequencing(S2_S4_B4)_:
++1 shipAssignment(S2_B4)
++1 shipAssignment(S4_B4)
+-1 shipiUnloadBeforekInBerth(S2_S4_B4)
+<= 2
+
+c_u_PrioritySequencing(S2_S5_B1)_:
++1 shipAssignment(S2_B1)
++1 shipAssignment(S5_B1)
+-1 shipiUnloadBeforekInBerth(S2_S5_B1)
+<= 1
+
+c_u_PrioritySequencing(S2_S5_B2)_:
++1 shipAssignment(S2_B2)
++1 shipAssignment(S5_B2)
+-1 shipiUnloadBeforekInBerth(S2_S5_B2)
+<= 1
+
+c_u_PrioritySequencing(S2_S5_B3)_:
++1 shipAssignment(S2_B3)
++1 shipAssignment(S5_B3)
+-1 shipiUnloadBeforekInBerth(S2_S5_B3)
+<= 1
+
+c_u_PrioritySequencing(S2_S5_B4)_:
++1 shipAssignment(S2_B4)
++1 shipAssignment(S5_B4)
+-1 shipiUnloadBeforekInBerth(S2_S5_B4)
+<= 1
+
+c_u_PrioritySequencing(S2_S6_B1)_:
++1 shipAssignment(S2_B1)
++1 shipAssignment(S6_B1)
+-1 shipiUnloadBeforekInBerth(S2_S6_B1)
+<= 1
+
+c_u_PrioritySequencing(S2_S6_B2)_:
++1 shipAssignment(S2_B2)
++1 shipAssignment(S6_B2)
+-1 shipiUnloadBeforekInBerth(S2_S6_B2)
+<= 1
+
+c_u_PrioritySequencing(S2_S6_B3)_:
++1 shipAssignment(S2_B3)
++1 shipAssignment(S6_B3)
+-1 shipiUnloadBeforekInBerth(S2_S6_B3)
+<= 1
+
+c_u_PrioritySequencing(S2_S6_B4)_:
++1 shipAssignment(S2_B4)
++1 shipAssignment(S6_B4)
+-1 shipiUnloadBeforekInBerth(S2_S6_B4)
+<= 1
+
+c_u_PrioritySequencing(S2_S7_B1)_:
++1 shipAssignment(S2_B1)
++1 shipAssignment(S7_B1)
+-1 shipiUnloadBeforekInBerth(S2_S7_B1)
+<= 2
+
+c_u_PrioritySequencing(S2_S7_B2)_:
++1 shipAssignment(S2_B2)
++1 shipAssignment(S7_B2)
+-1 shipiUnloadBeforekInBerth(S2_S7_B2)
+<= 2
+
+c_u_PrioritySequencing(S2_S7_B3)_:
++1 shipAssignment(S2_B3)
++1 shipAssignment(S7_B3)
+-1 shipiUnloadBeforekInBerth(S2_S7_B3)
+<= 2
+
+c_u_PrioritySequencing(S2_S7_B4)_:
++1 shipAssignment(S2_B4)
++1 shipAssignment(S7_B4)
+-1 shipiUnloadBeforekInBerth(S2_S7_B4)
+<= 2
+
+c_u_PrioritySequencing(S2_S8_B1)_:
++1 shipAssignment(S2_B1)
++1 shipAssignment(S8_B1)
+-1 shipiUnloadBeforekInBerth(S2_S8_B1)
+<= 1
+
+c_u_PrioritySequencing(S2_S8_B2)_:
++1 shipAssignment(S2_B2)
++1 shipAssignment(S8_B2)
+-1 shipiUnloadBeforekInBerth(S2_S8_B2)
+<= 1
+
+c_u_PrioritySequencing(S2_S8_B3)_:
++1 shipAssignment(S2_B3)
++1 shipAssignment(S8_B3)
+-1 shipiUnloadBeforekInBerth(S2_S8_B3)
+<= 1
+
+c_u_PrioritySequencing(S2_S8_B4)_:
++1 shipAssignment(S2_B4)
++1 shipAssignment(S8_B4)
+-1 shipiUnloadBeforekInBerth(S2_S8_B4)
+<= 1
+
+c_u_PrioritySequencing(S3_S1_B1)_:
++1 shipAssignment(S1_B1)
++1 shipAssignment(S3_B1)
+-1 shipiUnloadBeforekInBerth(S3_S1_B1)
+<= 2
+
+c_u_PrioritySequencing(S3_S1_B2)_:
++1 shipAssignment(S1_B2)
++1 shipAssignment(S3_B2)
+-1 shipiUnloadBeforekInBerth(S3_S1_B2)
+<= 2
+
+c_u_PrioritySequencing(S3_S1_B3)_:
++1 shipAssignment(S1_B3)
++1 shipAssignment(S3_B3)
+-1 shipiUnloadBeforekInBerth(S3_S1_B3)
+<= 2
+
+c_u_PrioritySequencing(S3_S1_B4)_:
++1 shipAssignment(S1_B4)
++1 shipAssignment(S3_B4)
+-1 shipiUnloadBeforekInBerth(S3_S1_B4)
+<= 2
+
+c_u_PrioritySequencing(S3_S2_B1)_:
++1 shipAssignment(S2_B1)
++1 shipAssignment(S3_B1)
+-1 shipiUnloadBeforekInBerth(S3_S2_B1)
+<= 2
+
+c_u_PrioritySequencing(S3_S2_B2)_:
++1 shipAssignment(S2_B2)
++1 shipAssignment(S3_B2)
+-1 shipiUnloadBeforekInBerth(S3_S2_B2)
+<= 2
+
+c_u_PrioritySequencing(S3_S2_B3)_:
++1 shipAssignment(S2_B3)
++1 shipAssignment(S3_B3)
+-1 shipiUnloadBeforekInBerth(S3_S2_B3)
+<= 2
+
+c_u_PrioritySequencing(S3_S2_B4)_:
++1 shipAssignment(S2_B4)
++1 shipAssignment(S3_B4)
+-1 shipiUnloadBeforekInBerth(S3_S2_B4)
+<= 2
+
+c_u_PrioritySequencing(S3_S4_B1)_:
++1 shipAssignment(S3_B1)
++1 shipAssignment(S4_B1)
+-1 shipiUnloadBeforekInBerth(S3_S4_B1)
+<= 2
+
+c_u_PrioritySequencing(S3_S4_B2)_:
++1 shipAssignment(S3_B2)
++1 shipAssignment(S4_B2)
+-1 shipiUnloadBeforekInBerth(S3_S4_B2)
+<= 2
+
+c_u_PrioritySequencing(S3_S4_B3)_:
++1 shipAssignment(S3_B3)
++1 shipAssignment(S4_B3)
+-1 shipiUnloadBeforekInBerth(S3_S4_B3)
+<= 2
+
+c_u_PrioritySequencing(S3_S4_B4)_:
++1 shipAssignment(S3_B4)
++1 shipAssignment(S4_B4)
+-1 shipiUnloadBeforekInBerth(S3_S4_B4)
+<= 2
+
+c_u_PrioritySequencing(S3_S5_B1)_:
++1 shipAssignment(S3_B1)
++1 shipAssignment(S5_B1)
+-1 shipiUnloadBeforekInBerth(S3_S5_B1)
+<= 1
+
+c_u_PrioritySequencing(S3_S5_B2)_:
++1 shipAssignment(S3_B2)
++1 shipAssignment(S5_B2)
+-1 shipiUnloadBeforekInBerth(S3_S5_B2)
+<= 1
+
+c_u_PrioritySequencing(S3_S5_B3)_:
++1 shipAssignment(S3_B3)
++1 shipAssignment(S5_B3)
+-1 shipiUnloadBeforekInBerth(S3_S5_B3)
+<= 1
+
+c_u_PrioritySequencing(S3_S5_B4)_:
++1 shipAssignment(S3_B4)
++1 shipAssignment(S5_B4)
+-1 shipiUnloadBeforekInBerth(S3_S5_B4)
+<= 1
+
+c_u_PrioritySequencing(S3_S6_B1)_:
++1 shipAssignment(S3_B1)
++1 shipAssignment(S6_B1)
+-1 shipiUnloadBeforekInBerth(S3_S6_B1)
+<= 1
+
+c_u_PrioritySequencing(S3_S6_B2)_:
++1 shipAssignment(S3_B2)
++1 shipAssignment(S6_B2)
+-1 shipiUnloadBeforekInBerth(S3_S6_B2)
+<= 1
+
+c_u_PrioritySequencing(S3_S6_B3)_:
++1 shipAssignment(S3_B3)
++1 shipAssignment(S6_B3)
+-1 shipiUnloadBeforekInBerth(S3_S6_B3)
+<= 1
+
+c_u_PrioritySequencing(S3_S6_B4)_:
++1 shipAssignment(S3_B4)
++1 shipAssignment(S6_B4)
+-1 shipiUnloadBeforekInBerth(S3_S6_B4)
+<= 1
+
+c_u_PrioritySequencing(S3_S7_B1)_:
++1 shipAssignment(S3_B1)
++1 shipAssignment(S7_B1)
+-1 shipiUnloadBeforekInBerth(S3_S7_B1)
+<= 2
+
+c_u_PrioritySequencing(S3_S7_B2)_:
++1 shipAssignment(S3_B2)
++1 shipAssignment(S7_B2)
+-1 shipiUnloadBeforekInBerth(S3_S7_B2)
+<= 2
+
+c_u_PrioritySequencing(S3_S7_B3)_:
++1 shipAssignment(S3_B3)
++1 shipAssignment(S7_B3)
+-1 shipiUnloadBeforekInBerth(S3_S7_B3)
+<= 2
+
+c_u_PrioritySequencing(S3_S7_B4)_:
++1 shipAssignment(S3_B4)
++1 shipAssignment(S7_B4)
+-1 shipiUnloadBeforekInBerth(S3_S7_B4)
+<= 2
+
+c_u_PrioritySequencing(S3_S8_B1)_:
++1 shipAssignment(S3_B1)
++1 shipAssignment(S8_B1)
+-1 shipiUnloadBeforekInBerth(S3_S8_B1)
+<= 2
+
+c_u_PrioritySequencing(S3_S8_B2)_:
++1 shipAssignment(S3_B2)
++1 shipAssignment(S8_B2)
+-1 shipiUnloadBeforekInBerth(S3_S8_B2)
+<= 2
+
+c_u_PrioritySequencing(S3_S8_B3)_:
++1 shipAssignment(S3_B3)
++1 shipAssignment(S8_B3)
+-1 shipiUnloadBeforekInBerth(S3_S8_B3)
+<= 2
+
+c_u_PrioritySequencing(S3_S8_B4)_:
++1 shipAssignment(S3_B4)
++1 shipAssignment(S8_B4)
+-1 shipiUnloadBeforekInBerth(S3_S8_B4)
+<= 2
+
+c_u_PrioritySequencing(S4_S1_B1)_:
++1 shipAssignment(S1_B1)
++1 shipAssignment(S4_B1)
+-1 shipiUnloadBeforekInBerth(S4_S1_B1)
+<= 1
+
+c_u_PrioritySequencing(S4_S1_B2)_:
++1 shipAssignment(S1_B2)
++1 shipAssignment(S4_B2)
+-1 shipiUnloadBeforekInBerth(S4_S1_B2)
+<= 1
+
+c_u_PrioritySequencing(S4_S1_B3)_:
++1 shipAssignment(S1_B3)
++1 shipAssignment(S4_B3)
+-1 shipiUnloadBeforekInBerth(S4_S1_B3)
+<= 1
+
+c_u_PrioritySequencing(S4_S1_B4)_:
++1 shipAssignment(S1_B4)
++1 shipAssignment(S4_B4)
+-1 shipiUnloadBeforekInBerth(S4_S1_B4)
+<= 1
+
+c_u_PrioritySequencing(S4_S2_B1)_:
++1 shipAssignment(S2_B1)
++1 shipAssignment(S4_B1)
+-1 shipiUnloadBeforekInBerth(S4_S2_B1)
+<= 1
+
+c_u_PrioritySequencing(S4_S2_B2)_:
++1 shipAssignment(S2_B2)
++1 shipAssignment(S4_B2)
+-1 shipiUnloadBeforekInBerth(S4_S2_B2)
+<= 1
+
+c_u_PrioritySequencing(S4_S2_B3)_:
++1 shipAssignment(S2_B3)
++1 shipAssignment(S4_B3)
+-1 shipiUnloadBeforekInBerth(S4_S2_B3)
+<= 1
+
+c_u_PrioritySequencing(S4_S2_B4)_:
++1 shipAssignment(S2_B4)
++1 shipAssignment(S4_B4)
+-1 shipiUnloadBeforekInBerth(S4_S2_B4)
+<= 1
+
+c_u_PrioritySequencing(S4_S3_B1)_:
++1 shipAssignment(S3_B1)
++1 shipAssignment(S4_B1)
+-1 shipiUnloadBeforekInBerth(S4_S3_B1)
+<= 1
+
+c_u_PrioritySequencing(S4_S3_B2)_:
++1 shipAssignment(S3_B2)
++1 shipAssignment(S4_B2)
+-1 shipiUnloadBeforekInBerth(S4_S3_B2)
+<= 1
+
+c_u_PrioritySequencing(S4_S3_B3)_:
++1 shipAssignment(S3_B3)
++1 shipAssignment(S4_B3)
+-1 shipiUnloadBeforekInBerth(S4_S3_B3)
+<= 1
+
+c_u_PrioritySequencing(S4_S3_B4)_:
++1 shipAssignment(S3_B4)
++1 shipAssignment(S4_B4)
+-1 shipiUnloadBeforekInBerth(S4_S3_B4)
+<= 1
+
+c_u_PrioritySequencing(S4_S5_B1)_:
++1 shipAssignment(S4_B1)
++1 shipAssignment(S5_B1)
+-1 shipiUnloadBeforekInBerth(S4_S5_B1)
+<= 1
+
+c_u_PrioritySequencing(S4_S5_B2)_:
++1 shipAssignment(S4_B2)
++1 shipAssignment(S5_B2)
+-1 shipiUnloadBeforekInBerth(S4_S5_B2)
+<= 1
+
+c_u_PrioritySequencing(S4_S5_B3)_:
++1 shipAssignment(S4_B3)
++1 shipAssignment(S5_B3)
+-1 shipiUnloadBeforekInBerth(S4_S5_B3)
+<= 1
+
+c_u_PrioritySequencing(S4_S5_B4)_:
++1 shipAssignment(S4_B4)
++1 shipAssignment(S5_B4)
+-1 shipiUnloadBeforekInBerth(S4_S5_B4)
+<= 1
+
+c_u_PrioritySequencing(S4_S6_B1)_:
++1 shipAssignment(S4_B1)
++1 shipAssignment(S6_B1)
+-1 shipiUnloadBeforekInBerth(S4_S6_B1)
+<= 1
+
+c_u_PrioritySequencing(S4_S6_B2)_:
++1 shipAssignment(S4_B2)
++1 shipAssignment(S6_B2)
+-1 shipiUnloadBeforekInBerth(S4_S6_B2)
+<= 1
+
+c_u_PrioritySequencing(S4_S6_B3)_:
++1 shipAssignment(S4_B3)
++1 shipAssignment(S6_B3)
+-1 shipiUnloadBeforekInBerth(S4_S6_B3)
+<= 1
+
+c_u_PrioritySequencing(S4_S6_B4)_:
++1 shipAssignment(S4_B4)
++1 shipAssignment(S6_B4)
+-1 shipiUnloadBeforekInBerth(S4_S6_B4)
+<= 1
+
+c_u_PrioritySequencing(S4_S7_B1)_:
++1 shipAssignment(S4_B1)
++1 shipAssignment(S7_B1)
+-1 shipiUnloadBeforekInBerth(S4_S7_B1)
+<= 1
+
+c_u_PrioritySequencing(S4_S7_B2)_:
++1 shipAssignment(S4_B2)
++1 shipAssignment(S7_B2)
+-1 shipiUnloadBeforekInBerth(S4_S7_B2)
+<= 1
+
+c_u_PrioritySequencing(S4_S7_B3)_:
++1 shipAssignment(S4_B3)
++1 shipAssignment(S7_B3)
+-1 shipiUnloadBeforekInBerth(S4_S7_B3)
+<= 1
+
+c_u_PrioritySequencing(S4_S7_B4)_:
++1 shipAssignment(S4_B4)
++1 shipAssignment(S7_B4)
+-1 shipiUnloadBeforekInBerth(S4_S7_B4)
+<= 1
+
+c_u_PrioritySequencing(S4_S8_B1)_:
++1 shipAssignment(S4_B1)
++1 shipAssignment(S8_B1)
+-1 shipiUnloadBeforekInBerth(S4_S8_B1)
+<= 1
+
+c_u_PrioritySequencing(S4_S8_B2)_:
++1 shipAssignment(S4_B2)
++1 shipAssignment(S8_B2)
+-1 shipiUnloadBeforekInBerth(S4_S8_B2)
+<= 1
+
+c_u_PrioritySequencing(S4_S8_B3)_:
++1 shipAssignment(S4_B3)
++1 shipAssignment(S8_B3)
+-1 shipiUnloadBeforekInBerth(S4_S8_B3)
+<= 1
+
+c_u_PrioritySequencing(S4_S8_B4)_:
++1 shipAssignment(S4_B4)
++1 shipAssignment(S8_B4)
+-1 shipiUnloadBeforekInBerth(S4_S8_B4)
+<= 1
+
+c_u_PrioritySequencing(S5_S1_B1)_:
++1 shipAssignment(S1_B1)
++1 shipAssignment(S5_B1)
+-1 shipiUnloadBeforekInBerth(S5_S1_B1)
+<= 2
+
+c_u_PrioritySequencing(S5_S1_B2)_:
++1 shipAssignment(S1_B2)
++1 shipAssignment(S5_B2)
+-1 shipiUnloadBeforekInBerth(S5_S1_B2)
+<= 2
+
+c_u_PrioritySequencing(S5_S1_B3)_:
++1 shipAssignment(S1_B3)
++1 shipAssignment(S5_B3)
+-1 shipiUnloadBeforekInBerth(S5_S1_B3)
+<= 2
+
+c_u_PrioritySequencing(S5_S1_B4)_:
++1 shipAssignment(S1_B4)
++1 shipAssignment(S5_B4)
+-1 shipiUnloadBeforekInBerth(S5_S1_B4)
+<= 2
+
+c_u_PrioritySequencing(S5_S2_B1)_:
++1 shipAssignment(S2_B1)
++1 shipAssignment(S5_B1)
+-1 shipiUnloadBeforekInBerth(S5_S2_B1)
+<= 2
+
+c_u_PrioritySequencing(S5_S2_B2)_:
++1 shipAssignment(S2_B2)
++1 shipAssignment(S5_B2)
+-1 shipiUnloadBeforekInBerth(S5_S2_B2)
+<= 2
+
+c_u_PrioritySequencing(S5_S2_B3)_:
++1 shipAssignment(S2_B3)
++1 shipAssignment(S5_B3)
+-1 shipiUnloadBeforekInBerth(S5_S2_B3)
+<= 2
+
+c_u_PrioritySequencing(S5_S2_B4)_:
++1 shipAssignment(S2_B4)
++1 shipAssignment(S5_B4)
+-1 shipiUnloadBeforekInBerth(S5_S2_B4)
+<= 2
+
+c_u_PrioritySequencing(S5_S3_B1)_:
++1 shipAssignment(S3_B1)
++1 shipAssignment(S5_B1)
+-1 shipiUnloadBeforekInBerth(S5_S3_B1)
+<= 2
+
+c_u_PrioritySequencing(S5_S3_B2)_:
++1 shipAssignment(S3_B2)
++1 shipAssignment(S5_B2)
+-1 shipiUnloadBeforekInBerth(S5_S3_B2)
+<= 2
+
+c_u_PrioritySequencing(S5_S3_B3)_:
++1 shipAssignment(S3_B3)
++1 shipAssignment(S5_B3)
+-1 shipiUnloadBeforekInBerth(S5_S3_B3)
+<= 2
+
+c_u_PrioritySequencing(S5_S3_B4)_:
++1 shipAssignment(S3_B4)
++1 shipAssignment(S5_B4)
+-1 shipiUnloadBeforekInBerth(S5_S3_B4)
+<= 2
+
+c_u_PrioritySequencing(S5_S4_B1)_:
++1 shipAssignment(S4_B1)
++1 shipAssignment(S5_B1)
+-1 shipiUnloadBeforekInBerth(S5_S4_B1)
+<= 2
+
+c_u_PrioritySequencing(S5_S4_B2)_:
++1 shipAssignment(S4_B2)
++1 shipAssignment(S5_B2)
+-1 shipiUnloadBeforekInBerth(S5_S4_B2)
+<= 2
+
+c_u_PrioritySequencing(S5_S4_B3)_:
++1 shipAssignment(S4_B3)
++1 shipAssignment(S5_B3)
+-1 shipiUnloadBeforekInBerth(S5_S4_B3)
+<= 2
+
+c_u_PrioritySequencing(S5_S4_B4)_:
++1 shipAssignment(S4_B4)
++1 shipAssignment(S5_B4)
+-1 shipiUnloadBeforekInBerth(S5_S4_B4)
+<= 2
+
+c_u_PrioritySequencing(S5_S6_B1)_:
++1 shipAssignment(S5_B1)
++1 shipAssignment(S6_B1)
+-1 shipiUnloadBeforekInBerth(S5_S6_B1)
+<= 2
+
+c_u_PrioritySequencing(S5_S6_B2)_:
++1 shipAssignment(S5_B2)
++1 shipAssignment(S6_B2)
+-1 shipiUnloadBeforekInBerth(S5_S6_B2)
+<= 2
+
+c_u_PrioritySequencing(S5_S6_B3)_:
++1 shipAssignment(S5_B3)
++1 shipAssignment(S6_B3)
+-1 shipiUnloadBeforekInBerth(S5_S6_B3)
+<= 2
+
+c_u_PrioritySequencing(S5_S6_B4)_:
++1 shipAssignment(S5_B4)
++1 shipAssignment(S6_B4)
+-1 shipiUnloadBeforekInBerth(S5_S6_B4)
+<= 2
+
+c_u_PrioritySequencing(S5_S7_B1)_:
++1 shipAssignment(S5_B1)
++1 shipAssignment(S7_B1)
+-1 shipiUnloadBeforekInBerth(S5_S7_B1)
+<= 2
+
+c_u_PrioritySequencing(S5_S7_B2)_:
++1 shipAssignment(S5_B2)
++1 shipAssignment(S7_B2)
+-1 shipiUnloadBeforekInBerth(S5_S7_B2)
+<= 2
+
+c_u_PrioritySequencing(S5_S7_B3)_:
++1 shipAssignment(S5_B3)
++1 shipAssignment(S7_B3)
+-1 shipiUnloadBeforekInBerth(S5_S7_B3)
+<= 2
+
+c_u_PrioritySequencing(S5_S7_B4)_:
++1 shipAssignment(S5_B4)
++1 shipAssignment(S7_B4)
+-1 shipiUnloadBeforekInBerth(S5_S7_B4)
+<= 2
+
+c_u_PrioritySequencing(S5_S8_B1)_:
++1 shipAssignment(S5_B1)
++1 shipAssignment(S8_B1)
+-1 shipiUnloadBeforekInBerth(S5_S8_B1)
+<= 2
+
+c_u_PrioritySequencing(S5_S8_B2)_:
++1 shipAssignment(S5_B2)
++1 shipAssignment(S8_B2)
+-1 shipiUnloadBeforekInBerth(S5_S8_B2)
+<= 2
+
+c_u_PrioritySequencing(S5_S8_B3)_:
++1 shipAssignment(S5_B3)
++1 shipAssignment(S8_B3)
+-1 shipiUnloadBeforekInBerth(S5_S8_B3)
+<= 2
+
+c_u_PrioritySequencing(S5_S8_B4)_:
++1 shipAssignment(S5_B4)
++1 shipAssignment(S8_B4)
+-1 shipiUnloadBeforekInBerth(S5_S8_B4)
+<= 2
+
+c_u_PrioritySequencing(S6_S1_B1)_:
++1 shipAssignment(S1_B1)
++1 shipAssignment(S6_B1)
+-1 shipiUnloadBeforekInBerth(S6_S1_B1)
+<= 2
+
+c_u_PrioritySequencing(S6_S1_B2)_:
++1 shipAssignment(S1_B2)
++1 shipAssignment(S6_B2)
+-1 shipiUnloadBeforekInBerth(S6_S1_B2)
+<= 2
+
+c_u_PrioritySequencing(S6_S1_B3)_:
++1 shipAssignment(S1_B3)
++1 shipAssignment(S6_B3)
+-1 shipiUnloadBeforekInBerth(S6_S1_B3)
+<= 2
+
+c_u_PrioritySequencing(S6_S1_B4)_:
++1 shipAssignment(S1_B4)
++1 shipAssignment(S6_B4)
+-1 shipiUnloadBeforekInBerth(S6_S1_B4)
+<= 2
+
+c_u_PrioritySequencing(S6_S2_B1)_:
++1 shipAssignment(S2_B1)
++1 shipAssignment(S6_B1)
+-1 shipiUnloadBeforekInBerth(S6_S2_B1)
+<= 2
+
+c_u_PrioritySequencing(S6_S2_B2)_:
++1 shipAssignment(S2_B2)
++1 shipAssignment(S6_B2)
+-1 shipiUnloadBeforekInBerth(S6_S2_B2)
+<= 2
+
+c_u_PrioritySequencing(S6_S2_B3)_:
++1 shipAssignment(S2_B3)
++1 shipAssignment(S6_B3)
+-1 shipiUnloadBeforekInBerth(S6_S2_B3)
+<= 2
+
+c_u_PrioritySequencing(S6_S2_B4)_:
++1 shipAssignment(S2_B4)
++1 shipAssignment(S6_B4)
+-1 shipiUnloadBeforekInBerth(S6_S2_B4)
+<= 2
+
+c_u_PrioritySequencing(S6_S3_B1)_:
++1 shipAssignment(S3_B1)
++1 shipAssignment(S6_B1)
+-1 shipiUnloadBeforekInBerth(S6_S3_B1)
+<= 2
+
+c_u_PrioritySequencing(S6_S3_B2)_:
++1 shipAssignment(S3_B2)
++1 shipAssignment(S6_B2)
+-1 shipiUnloadBeforekInBerth(S6_S3_B2)
+<= 2
+
+c_u_PrioritySequencing(S6_S3_B3)_:
++1 shipAssignment(S3_B3)
++1 shipAssignment(S6_B3)
+-1 shipiUnloadBeforekInBerth(S6_S3_B3)
+<= 2
+
+c_u_PrioritySequencing(S6_S3_B4)_:
++1 shipAssignment(S3_B4)
++1 shipAssignment(S6_B4)
+-1 shipiUnloadBeforekInBerth(S6_S3_B4)
+<= 2
+
+c_u_PrioritySequencing(S6_S4_B1)_:
++1 shipAssignment(S4_B1)
++1 shipAssignment(S6_B1)
+-1 shipiUnloadBeforekInBerth(S6_S4_B1)
+<= 2
+
+c_u_PrioritySequencing(S6_S4_B2)_:
++1 shipAssignment(S4_B2)
++1 shipAssignment(S6_B2)
+-1 shipiUnloadBeforekInBerth(S6_S4_B2)
+<= 2
+
+c_u_PrioritySequencing(S6_S4_B3)_:
++1 shipAssignment(S4_B3)
++1 shipAssignment(S6_B3)
+-1 shipiUnloadBeforekInBerth(S6_S4_B3)
+<= 2
+
+c_u_PrioritySequencing(S6_S4_B4)_:
++1 shipAssignment(S4_B4)
++1 shipAssignment(S6_B4)
+-1 shipiUnloadBeforekInBerth(S6_S4_B4)
+<= 2
+
+c_u_PrioritySequencing(S6_S5_B1)_:
++1 shipAssignment(S5_B1)
++1 shipAssignment(S6_B1)
+-1 shipiUnloadBeforekInBerth(S6_S5_B1)
+<= 1
+
+c_u_PrioritySequencing(S6_S5_B2)_:
++1 shipAssignment(S5_B2)
++1 shipAssignment(S6_B2)
+-1 shipiUnloadBeforekInBerth(S6_S5_B2)
+<= 1
+
+c_u_PrioritySequencing(S6_S5_B3)_:
++1 shipAssignment(S5_B3)
++1 shipAssignment(S6_B3)
+-1 shipiUnloadBeforekInBerth(S6_S5_B3)
+<= 1
+
+c_u_PrioritySequencing(S6_S5_B4)_:
++1 shipAssignment(S5_B4)
++1 shipAssignment(S6_B4)
+-1 shipiUnloadBeforekInBerth(S6_S5_B4)
+<= 1
+
+c_u_PrioritySequencing(S6_S7_B1)_:
++1 shipAssignment(S6_B1)
++1 shipAssignment(S7_B1)
+-1 shipiUnloadBeforekInBerth(S6_S7_B1)
+<= 2
+
+c_u_PrioritySequencing(S6_S7_B2)_:
++1 shipAssignment(S6_B2)
++1 shipAssignment(S7_B2)
+-1 shipiUnloadBeforekInBerth(S6_S7_B2)
+<= 2
+
+c_u_PrioritySequencing(S6_S7_B3)_:
++1 shipAssignment(S6_B3)
++1 shipAssignment(S7_B3)
+-1 shipiUnloadBeforekInBerth(S6_S7_B3)
+<= 2
+
+c_u_PrioritySequencing(S6_S7_B4)_:
++1 shipAssignment(S6_B4)
++1 shipAssignment(S7_B4)
+-1 shipiUnloadBeforekInBerth(S6_S7_B4)
+<= 2
+
+c_u_PrioritySequencing(S6_S8_B1)_:
++1 shipAssignment(S6_B1)
++1 shipAssignment(S8_B1)
+-1 shipiUnloadBeforekInBerth(S6_S8_B1)
+<= 2
+
+c_u_PrioritySequencing(S6_S8_B2)_:
++1 shipAssignment(S6_B2)
++1 shipAssignment(S8_B2)
+-1 shipiUnloadBeforekInBerth(S6_S8_B2)
+<= 2
+
+c_u_PrioritySequencing(S6_S8_B3)_:
++1 shipAssignment(S6_B3)
++1 shipAssignment(S8_B3)
+-1 shipiUnloadBeforekInBerth(S6_S8_B3)
+<= 2
+
+c_u_PrioritySequencing(S6_S8_B4)_:
++1 shipAssignment(S6_B4)
++1 shipAssignment(S8_B4)
+-1 shipiUnloadBeforekInBerth(S6_S8_B4)
+<= 2
+
+c_u_PrioritySequencing(S7_S1_B1)_:
++1 shipAssignment(S1_B1)
++1 shipAssignment(S7_B1)
+-1 shipiUnloadBeforekInBerth(S7_S1_B1)
+<= 1
+
+c_u_PrioritySequencing(S7_S1_B2)_:
++1 shipAssignment(S1_B2)
++1 shipAssignment(S7_B2)
+-1 shipiUnloadBeforekInBerth(S7_S1_B2)
+<= 1
+
+c_u_PrioritySequencing(S7_S1_B3)_:
++1 shipAssignment(S1_B3)
++1 shipAssignment(S7_B3)
+-1 shipiUnloadBeforekInBerth(S7_S1_B3)
+<= 1
+
+c_u_PrioritySequencing(S7_S1_B4)_:
++1 shipAssignment(S1_B4)
++1 shipAssignment(S7_B4)
+-1 shipiUnloadBeforekInBerth(S7_S1_B4)
+<= 1
+
+c_u_PrioritySequencing(S7_S2_B1)_:
++1 shipAssignment(S2_B1)
++1 shipAssignment(S7_B1)
+-1 shipiUnloadBeforekInBerth(S7_S2_B1)
+<= 1
+
+c_u_PrioritySequencing(S7_S2_B2)_:
++1 shipAssignment(S2_B2)
++1 shipAssignment(S7_B2)
+-1 shipiUnloadBeforekInBerth(S7_S2_B2)
+<= 1
+
+c_u_PrioritySequencing(S7_S2_B3)_:
++1 shipAssignment(S2_B3)
++1 shipAssignment(S7_B3)
+-1 shipiUnloadBeforekInBerth(S7_S2_B3)
+<= 1
+
+c_u_PrioritySequencing(S7_S2_B4)_:
++1 shipAssignment(S2_B4)
++1 shipAssignment(S7_B4)
+-1 shipiUnloadBeforekInBerth(S7_S2_B4)
+<= 1
+
+c_u_PrioritySequencing(S7_S3_B1)_:
++1 shipAssignment(S3_B1)
++1 shipAssignment(S7_B1)
+-1 shipiUnloadBeforekInBerth(S7_S3_B1)
+<= 1
+
+c_u_PrioritySequencing(S7_S3_B2)_:
++1 shipAssignment(S3_B2)
++1 shipAssignment(S7_B2)
+-1 shipiUnloadBeforekInBerth(S7_S3_B2)
+<= 1
+
+c_u_PrioritySequencing(S7_S3_B3)_:
++1 shipAssignment(S3_B3)
++1 shipAssignment(S7_B3)
+-1 shipiUnloadBeforekInBerth(S7_S3_B3)
+<= 1
+
+c_u_PrioritySequencing(S7_S3_B4)_:
++1 shipAssignment(S3_B4)
++1 shipAssignment(S7_B4)
+-1 shipiUnloadBeforekInBerth(S7_S3_B4)
+<= 1
+
+c_u_PrioritySequencing(S7_S4_B1)_:
++1 shipAssignment(S4_B1)
++1 shipAssignment(S7_B1)
+-1 shipiUnloadBeforekInBerth(S7_S4_B1)
+<= 2
+
+c_u_PrioritySequencing(S7_S4_B2)_:
++1 shipAssignment(S4_B2)
++1 shipAssignment(S7_B2)
+-1 shipiUnloadBeforekInBerth(S7_S4_B2)
+<= 2
+
+c_u_PrioritySequencing(S7_S4_B3)_:
++1 shipAssignment(S4_B3)
++1 shipAssignment(S7_B3)
+-1 shipiUnloadBeforekInBerth(S7_S4_B3)
+<= 2
+
+c_u_PrioritySequencing(S7_S4_B4)_:
++1 shipAssignment(S4_B4)
++1 shipAssignment(S7_B4)
+-1 shipiUnloadBeforekInBerth(S7_S4_B4)
+<= 2
+
+c_u_PrioritySequencing(S7_S5_B1)_:
++1 shipAssignment(S5_B1)
++1 shipAssignment(S7_B1)
+-1 shipiUnloadBeforekInBerth(S7_S5_B1)
+<= 1
+
+c_u_PrioritySequencing(S7_S5_B2)_:
++1 shipAssignment(S5_B2)
++1 shipAssignment(S7_B2)
+-1 shipiUnloadBeforekInBerth(S7_S5_B2)
+<= 1
+
+c_u_PrioritySequencing(S7_S5_B3)_:
++1 shipAssignment(S5_B3)
++1 shipAssignment(S7_B3)
+-1 shipiUnloadBeforekInBerth(S7_S5_B3)
+<= 1
+
+c_u_PrioritySequencing(S7_S5_B4)_:
++1 shipAssignment(S5_B4)
++1 shipAssignment(S7_B4)
+-1 shipiUnloadBeforekInBerth(S7_S5_B4)
+<= 1
+
+c_u_PrioritySequencing(S7_S6_B1)_:
++1 shipAssignment(S6_B1)
++1 shipAssignment(S7_B1)
+-1 shipiUnloadBeforekInBerth(S7_S6_B1)
+<= 1
+
+c_u_PrioritySequencing(S7_S6_B2)_:
++1 shipAssignment(S6_B2)
++1 shipAssignment(S7_B2)
+-1 shipiUnloadBeforekInBerth(S7_S6_B2)
+<= 1
+
+c_u_PrioritySequencing(S7_S6_B3)_:
++1 shipAssignment(S6_B3)
++1 shipAssignment(S7_B3)
+-1 shipiUnloadBeforekInBerth(S7_S6_B3)
+<= 1
+
+c_u_PrioritySequencing(S7_S6_B4)_:
++1 shipAssignment(S6_B4)
++1 shipAssignment(S7_B4)
+-1 shipiUnloadBeforekInBerth(S7_S6_B4)
+<= 1
+
+c_u_PrioritySequencing(S7_S8_B1)_:
++1 shipAssignment(S7_B1)
++1 shipAssignment(S8_B1)
+-1 shipiUnloadBeforekInBerth(S7_S8_B1)
+<= 1
+
+c_u_PrioritySequencing(S7_S8_B2)_:
++1 shipAssignment(S7_B2)
++1 shipAssignment(S8_B2)
+-1 shipiUnloadBeforekInBerth(S7_S8_B2)
+<= 1
+
+c_u_PrioritySequencing(S7_S8_B3)_:
++1 shipAssignment(S7_B3)
++1 shipAssignment(S8_B3)
+-1 shipiUnloadBeforekInBerth(S7_S8_B3)
+<= 1
+
+c_u_PrioritySequencing(S7_S8_B4)_:
++1 shipAssignment(S7_B4)
++1 shipAssignment(S8_B4)
+-1 shipiUnloadBeforekInBerth(S7_S8_B4)
+<= 1
+
+c_u_PrioritySequencing(S8_S1_B1)_:
++1 shipAssignment(S1_B1)
++1 shipAssignment(S8_B1)
+-1 shipiUnloadBeforekInBerth(S8_S1_B1)
+<= 2
+
+c_u_PrioritySequencing(S8_S1_B2)_:
++1 shipAssignment(S1_B2)
++1 shipAssignment(S8_B2)
+-1 shipiUnloadBeforekInBerth(S8_S1_B2)
+<= 2
+
+c_u_PrioritySequencing(S8_S1_B3)_:
++1 shipAssignment(S1_B3)
++1 shipAssignment(S8_B3)
+-1 shipiUnloadBeforekInBerth(S8_S1_B3)
+<= 2
+
+c_u_PrioritySequencing(S8_S1_B4)_:
++1 shipAssignment(S1_B4)
++1 shipAssignment(S8_B4)
+-1 shipiUnloadBeforekInBerth(S8_S1_B4)
+<= 2
+
+c_u_PrioritySequencing(S8_S2_B1)_:
++1 shipAssignment(S2_B1)
++1 shipAssignment(S8_B1)
+-1 shipiUnloadBeforekInBerth(S8_S2_B1)
+<= 2
+
+c_u_PrioritySequencing(S8_S2_B2)_:
++1 shipAssignment(S2_B2)
++1 shipAssignment(S8_B2)
+-1 shipiUnloadBeforekInBerth(S8_S2_B2)
+<= 2
+
+c_u_PrioritySequencing(S8_S2_B3)_:
++1 shipAssignment(S2_B3)
++1 shipAssignment(S8_B3)
+-1 shipiUnloadBeforekInBerth(S8_S2_B3)
+<= 2
+
+c_u_PrioritySequencing(S8_S2_B4)_:
++1 shipAssignment(S2_B4)
++1 shipAssignment(S8_B4)
+-1 shipiUnloadBeforekInBerth(S8_S2_B4)
+<= 2
+
+c_u_PrioritySequencing(S8_S3_B1)_:
++1 shipAssignment(S3_B1)
++1 shipAssignment(S8_B1)
+-1 shipiUnloadBeforekInBerth(S8_S3_B1)
+<= 1
+
+c_u_PrioritySequencing(S8_S3_B2)_:
++1 shipAssignment(S3_B2)
++1 shipAssignment(S8_B2)
+-1 shipiUnloadBeforekInBerth(S8_S3_B2)
+<= 1
+
+c_u_PrioritySequencing(S8_S3_B3)_:
++1 shipAssignment(S3_B3)
++1 shipAssignment(S8_B3)
+-1 shipiUnloadBeforekInBerth(S8_S3_B3)
+<= 1
+
+c_u_PrioritySequencing(S8_S3_B4)_:
++1 shipAssignment(S3_B4)
++1 shipAssignment(S8_B4)
+-1 shipiUnloadBeforekInBerth(S8_S3_B4)
+<= 1
+
+c_u_PrioritySequencing(S8_S4_B1)_:
++1 shipAssignment(S4_B1)
++1 shipAssignment(S8_B1)
+-1 shipiUnloadBeforekInBerth(S8_S4_B1)
+<= 2
+
+c_u_PrioritySequencing(S8_S4_B2)_:
++1 shipAssignment(S4_B2)
++1 shipAssignment(S8_B2)
+-1 shipiUnloadBeforekInBerth(S8_S4_B2)
+<= 2
+
+c_u_PrioritySequencing(S8_S4_B3)_:
++1 shipAssignment(S4_B3)
++1 shipAssignment(S8_B3)
+-1 shipiUnloadBeforekInBerth(S8_S4_B3)
+<= 2
+
+c_u_PrioritySequencing(S8_S4_B4)_:
++1 shipAssignment(S4_B4)
++1 shipAssignment(S8_B4)
+-1 shipiUnloadBeforekInBerth(S8_S4_B4)
+<= 2
+
+c_u_PrioritySequencing(S8_S5_B1)_:
++1 shipAssignment(S5_B1)
++1 shipAssignment(S8_B1)
+-1 shipiUnloadBeforekInBerth(S8_S5_B1)
+<= 1
+
+c_u_PrioritySequencing(S8_S5_B2)_:
++1 shipAssignment(S5_B2)
++1 shipAssignment(S8_B2)
+-1 shipiUnloadBeforekInBerth(S8_S5_B2)
+<= 1
+
+c_u_PrioritySequencing(S8_S5_B3)_:
++1 shipAssignment(S5_B3)
++1 shipAssignment(S8_B3)
+-1 shipiUnloadBeforekInBerth(S8_S5_B3)
+<= 1
+
+c_u_PrioritySequencing(S8_S5_B4)_:
++1 shipAssignment(S5_B4)
++1 shipAssignment(S8_B4)
+-1 shipiUnloadBeforekInBerth(S8_S5_B4)
+<= 1
+
+c_u_PrioritySequencing(S8_S6_B1)_:
++1 shipAssignment(S6_B1)
++1 shipAssignment(S8_B1)
+-1 shipiUnloadBeforekInBerth(S8_S6_B1)
+<= 1
+
+c_u_PrioritySequencing(S8_S6_B2)_:
++1 shipAssignment(S6_B2)
++1 shipAssignment(S8_B2)
+-1 shipiUnloadBeforekInBerth(S8_S6_B2)
+<= 1
+
+c_u_PrioritySequencing(S8_S6_B3)_:
++1 shipAssignment(S6_B3)
++1 shipAssignment(S8_B3)
+-1 shipiUnloadBeforekInBerth(S8_S6_B3)
+<= 1
+
+c_u_PrioritySequencing(S8_S6_B4)_:
++1 shipAssignment(S6_B4)
++1 shipAssignment(S8_B4)
+-1 shipiUnloadBeforekInBerth(S8_S6_B4)
+<= 1
+
+c_u_PrioritySequencing(S8_S7_B1)_:
++1 shipAssignment(S7_B1)
++1 shipAssignment(S8_B1)
+-1 shipiUnloadBeforekInBerth(S8_S7_B1)
+<= 2
+
+c_u_PrioritySequencing(S8_S7_B2)_:
++1 shipAssignment(S7_B2)
++1 shipAssignment(S8_B2)
+-1 shipiUnloadBeforekInBerth(S8_S7_B2)
+<= 2
+
+c_u_PrioritySequencing(S8_S7_B3)_:
++1 shipAssignment(S7_B3)
++1 shipAssignment(S8_B3)
+-1 shipiUnloadBeforekInBerth(S8_S7_B3)
+<= 2
+
+c_u_PrioritySequencing(S8_S7_B4)_:
++1 shipAssignment(S7_B4)
++1 shipAssignment(S8_B4)
+-1 shipiUnloadBeforekInBerth(S8_S7_B4)
+<= 2
 
 c_u_ship_assignment_limit_top(S1)_:
 +1 shipAssignment(S1_B1)
