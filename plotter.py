@@ -1,6 +1,5 @@
 from pyomo.environ import value
 import matplotlib.pyplot as plt
-import matplotlib.patches as mpatches
 from pyomo.environ import value
 
 def plotter(instance):
