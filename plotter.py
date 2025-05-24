@@ -2,7 +2,7 @@ from pyomo.environ import value
 import matplotlib.pyplot as plt
 from pyomo.environ import value
 
-def plotter(instance):
+def graphical_plotter(instance):
     assignments = []
     for (i, d) in instance.shipAssignment:
         if value(instance.shipAssignment[i, d]) == 1:
@@ -65,5 +65,16 @@ def plotter(instance):
     ax.set_xlabel("Time")
     ax.set_title("Ship Berthing Schedule with Arrival and Waiting Time")
     ax.grid(True, axis='x', linestyle='--', alpha=0.5)
+    plt.tight_layout()
+    plt.show()
+
+
+def plot_sensitivity(x_vals, y_vals, x_label='X', y_label='Objective Value', title='Sensitivity Analysis'):
+    plt.figure(figsize=(8, 5))
+    plt.plot(x_vals, y_vals, marker='o', linestyle='-', color='navy')
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
+    plt.title(title)
+    plt.grid(True, linestyle='--', alpha=0.5)
     plt.tight_layout()
     plt.show()
