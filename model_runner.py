@@ -18,7 +18,7 @@ import sys
 try:
     problem_number = sys.argv[1]
 except:
-    problem_number = '-b'
+    problem_number = '-a'
 
 
 data = DataPortal()
@@ -55,16 +55,16 @@ elif problem_number == '-c':
 elif problem_number == '-d':
     durs = []
     objs = []
-    for dur in [5 + 0.5 * k for k in range(21)]:
+    for dur in [5 + 0.125 * k for k in range(81)]:
         instance.unloadShipInAnchTime['S7', 'B3'] = dur
         results = solver.solve(instance)
         durs.append(dur)
         objs.append(instance.cost())
-        print(f"Unload Time Ship 7 @ B3 = {dur}, Objective = {instance.cost()}")
+        #print(f"Unload Time Ship 7 @ B3 = {dur}, Objective = {instance.cost()}")
     plot_sensitivity(durs, objs,
                      x_label="Unload Time Ship 7 @ B3",
                      y_label="Total Cost",
-                     title="Impact of Setup Time on Objective")
+                     title="Impact of unload time on Objective")
     
 elif problem_number == '-g':
     arrs = []
@@ -78,13 +78,10 @@ elif problem_number == '-g':
     plot_sensitivity(arrs, objs,
                      x_label="Arrival Time Ship 6",
                      y_label="Total Cost",
-                     title="Impact of Setup Time on Objective")
-
-else:
-    print('Invalid argument')
+                     title="Impact of arrival time on Objective")
 
 
-""" 
+
 elif problem_number == '-e':
     caps = []
     objs = []
@@ -93,11 +90,13 @@ elif problem_number == '-e':
         results = solver.solve(instance)
         caps.append(cap)
         objs.append(instance.cost())
-        print(f"Berth B2 Capacity = {cap}, Objective = {instance.cost()}")
+        print(f"Berth B2 Capacity = {cap}, cap inc: {instance.berthCapIncrease['B2']()}, Objective = {instance.cost()}")
+        if cap in (6,9,15):
+            textplot(instance,problem_number+str(cap))
     plot_sensitivity(caps, objs,
                      x_label="Berth B2 Capacity",
                      y_label="Total Cost",
-                     title="Impact of Setup Time on Objective")
+                     title="Impact of berth cap on Objective")
 
 
 elif problem_number == '-f':
@@ -106,10 +105,14 @@ elif problem_number == '-f':
     for cap in range(5, 41):
         instance.berthCapacity['B3'] = cap
         results = solver.solve(instance)
-        print(f"Berth B3 Capacity = {cap}, Objective = {instance.cost()}")
+        caps.append(cap)
+        objs.append(instance.cost())
+        print(f"Berth B3 Capacity = {cap}, cap inc: {instance.berthCapIncrease['B3']()}, Objective = {instance.cost()}")
+    textplot(instance,problem_number)   
     plot_sensitivity(caps, objs,
                      x_label="Berth B3 Capacity",
                      y_label="Total Cost",
-                     title="Impact of Setup Time on Objective") 
-"""
+                     title="Impact of berth cap on Objective") 
 
+else:
+    print('Invalid argument')
