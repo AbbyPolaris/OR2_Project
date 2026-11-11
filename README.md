@@ -53,59 +53,9 @@ The allocation problem is subject to several operational restrictions. Ships can
 
 Priority relationships are also incorporated into the sequencing decisions.
 
-## Mathematical Formulation
-
-The problem is formulated as a Mixed-Integer Linear Programming model.
-
-### Decision Variables
-
-The primary decision variables include:
-
-| Variable | Description |
-|---|---|
-| \(x_{ij}\) | 1 if ship \(i\) is assigned to berth \(j\), 0 otherwise. |
-| \(S_i\) | Unloading start time of ship \(i\). |
-| \(W_i\) | Waiting time of ship \(i\). |
-| \(z_{ikj}\) | 1 if ship \(i\) precedes ship \(k\) at berth \(j\). |
-| \(\Delta C_j\) | Additional capacity acquired for berth \(j\). |
-
 Additional continuous and binary variables are introduced to model the piecewise waiting-cost function.
 
-### Objective Function
 
-The objective minimizes the total cost:
-
-\[
-\min Z = C_{\text{expansion}}+
-C_{\text{waiting}}+
-C_{\text{unloading}}
-\]
-
-Where:
-
-**1. Capacity Expansion Cost**
-
-\[
-C_{\text{expansion}}=
-\sum_{j\in B}c_j^{C}\Delta C_j
-\]
-
-**2. Ship Waiting Cost**
-
-\[
-C_{\text{waiting}}=
-\sum_{i\in S}C_i^{W}
-\]
-
-Waiting costs are modeled using a piecewise-linear function with three marginal cost segments.
-
-**3. Unloading Cost**
-
-\[
-C_{\text{unloading}}=
-5\sum_{i\in S}\sum_{j\in B}
-x_{ij}t_{ij}
-\]
 
 ### Main Constraints
 
